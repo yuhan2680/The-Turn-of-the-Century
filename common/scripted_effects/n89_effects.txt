@@ -1,0 +1,53 @@
+n89_initialize = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = n89_initialized
+			}
+		}
+		set_country_flag = n89_initialized
+		set_country_flag = n89_zhao_authorized
+		set_variable = {
+			var = n89_r
+			value = 45
+		}
+		set_variable = {
+			var = n89_h
+			value = 55
+		}
+		set_variable = {
+			var = n89_trust
+			value = 40
+		}
+		load_focus_tree = {
+			tree = N89_PRC_opening_tree
+		}
+	}
+}
+n89_clamp = {
+	clamp_variable = {
+		var = n89_r
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = n89_h
+		min = 0
+		max = 100
+	}
+	clamp_variable = {
+		var = n89_trust
+		min = 0
+		max = 100
+	}
+	if = {
+		limit = {
+			has_country_flag = ctc_zhao_removed
+		}
+		clamp_variable = {
+			var = n89_r
+			min = 0
+			max = 20
+		}
+	}
+}

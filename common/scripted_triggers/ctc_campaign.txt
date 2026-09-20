@@ -1,0 +1,6 @@
+ctc_cp_can_administer = { num_of_controlled_states > 0 has_capitulated = no }
+ctc_cp_event_slot = { NOT = { has_country_flag = ctc_cp_event_open }
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 7 } }
+ NOT = { has_country_flag = ctc_april_event_pending } NOT = { has_country_flag = ctc_may_event_pending }
+ NOT = { has_country_flag = ctc_outcome_pending } NOT = { has_country_flag = ctc_postwar_pending }
+}

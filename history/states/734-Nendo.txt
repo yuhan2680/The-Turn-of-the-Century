@@ -1,0 +1,21 @@
+state = {
+	id = 734
+	name = "STATE_734"
+	manpower = 5167
+	state_category = small_island
+	buildings_max_level_factor = 1.000
+	provinces = {
+		7390
+	}
+	local_supplies = 0.0
+	history = {
+		buildings = {
+			infrastructure = 2
+			7390 = {
+				naval_base = 1
+			}
+		}
+		owner = SOL
+		add_core_of = SOL
+	}
+}

@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_ctc_logo"
+        texturefile = "gfx/interface/ctc/ctc_logo.tga"
+        noOfFrames = 1
+    }
+}

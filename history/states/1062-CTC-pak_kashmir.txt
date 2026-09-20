@@ -1,0 +1,18 @@
+state = {
+	id = 1062
+	name = "STATE_1062"
+	manpower = 1800000
+	state_category = town
+	history = {
+		owner = PAK
+		add_core_of = PAK
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		13402
+		13403
+	}
+}

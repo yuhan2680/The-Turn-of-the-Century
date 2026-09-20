@@ -1,0 +1,6 @@
+*.log
+*.sav
+*.hoi4
+__pycache__/
+.DS_Store
+Thumbs.db

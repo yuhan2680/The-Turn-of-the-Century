@@ -1,0 +1,28 @@
+state = {
+	id = 952
+	name = "STATE_952"
+	manpower = 283605
+	state_category = town
+	provinces = {
+		5192
+		5228
+		11000
+		12914
+	}
+	local_supplies = 0.0
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			5228 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			5228
+			2
+		}
+	}
+}

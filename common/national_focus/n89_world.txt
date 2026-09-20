@@ -1,0 +1,5 @@
+focus_tree = {
+ id = N89_WORLD default = yes country = { factor = 0 }
+ continuous_focus_position = { x = 50 y = 500 }
+ focus = { id = N89_world_administration icon = GFX_goal_generic_political_pressure x = 0 y = 0 cost = 1 available = { always = no } completion_reward = { } }
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 497
+	name = "STATE_497"
+	manpower = 575050
+	state_category = pastoral
+	resources = {
+		rubber = 13
+	}
+	provinces = {
+		2150
+		5220
+		12913
+		12933
+		12947
+	}
+	local_supplies = 0.0
+	history = {
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		victory_points = {
+			12933
+			2
+		}
+	}
+}

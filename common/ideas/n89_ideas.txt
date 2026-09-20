@@ -1,0 +1,10 @@
+ideas = {
+    country = {
+        n89_credit_restraint = {
+            picture = generic_production_bonus
+            allowed = { original_tag = PRC }
+            removal_cost = -1
+            modifier = { production_speed_buildings_factor = -0.05 }
+        }
+    }
+}

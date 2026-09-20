@@ -1,0 +1,41 @@
+state = {
+	id = 155
+	name = "STATE_155"
+	manpower = 1465070
+	state_category = large_town
+	resources = {
+		aluminium = 40
+		coal = 1
+	}
+	provinces = {
+		686
+		701
+		3670
+		3683
+		6703
+		6720
+		9676
+		11627
+		11663
+		13125
+	}
+	local_supplies = 0.0
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		victory_points = {
+			6720
+			10
+		}
+		victory_points = {
+			686
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+		}
+	}
+}

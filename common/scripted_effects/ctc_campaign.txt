@@ -1,0 +1,729 @@
+ctc_cp_cost_administration = { add_timed_idea = { idea = ctc_cp_administration days = 90 } }
+ctc_cp_cost_industry = { add_timed_idea = { idea = ctc_cp_industry days = 90 } }
+ctc_cp_cost_transport = { add_timed_idea = { idea = ctc_cp_transport days = 90 } }
+ctc_cp_cost_science = { add_timed_idea = { idea = ctc_cp_science days = 180 } }
+ctc_cp_cost_public = { add_timed_idea = { idea = ctc_cp_public days = 180 } }
+ctc_cp_cost_army = { add_timed_idea = { idea = ctc_cp_army days = 60 } }
+ctc_cp_cost_security = { add_timed_idea = { idea = ctc_cp_security days = 60 } }
+ctc_cp_cost_diplomacy = { add_timed_idea = { idea = ctc_cp_diplomacy days = 90 } }
+ctc_cp_cost_unmet = { add_timed_idea = { idea = ctc_cp_unmet days = 90 } }
+ctc_cp_refresh = {
+set_variable = { ctc_cp_mod_air_mission_efficiency = 0 }
+set_variable = { ctc_cp_mod_army_org_factor = 0 }
+set_variable = { ctc_cp_mod_conscription = 0 }
+set_variable = { ctc_cp_mod_consumer_goods_factor = 0 }
+set_variable = { ctc_cp_mod_industrial_capacity_dockyard = 0 }
+set_variable = { ctc_cp_mod_industrial_capacity_factory = 0 }
+set_variable = { ctc_cp_mod_line_change_production_efficiency_factor = 0 }
+set_variable = { ctc_cp_mod_local_resources_factor = 0 }
+set_variable = { ctc_cp_mod_navy_org_factor = 0 }
+set_variable = { ctc_cp_mod_political_power_factor = 0 }
+set_variable = { ctc_cp_mod_political_power_gain = 0 }
+set_variable = { ctc_cp_mod_production_factory_efficiency_gain_factor = 0 }
+set_variable = { ctc_cp_mod_production_speed_industrial_complex_factor = 0 }
+set_variable = { ctc_cp_mod_research_speed_factor = 0 }
+set_variable = { ctc_cp_mod_stability_factor = 0 }
+set_variable = { ctc_cp_mod_trade_opinion_factor = 0 }
+set_variable = { ctc_cp_cap_construction = 0 }
+set_variable = { ctc_cp_cap_output = 0 }
+set_variable = { ctc_cp_cap_military_output = 0 }
+set_variable = { ctc_cp_cap_research = 0 }
+set_variable = { ctc_cp_cap_organization = 0 }
+set_variable = { ctc_cp_cap_stability = 0 }
+set_variable = { ctc_cp_cap_pp_daily = 0 }
+set_variable = { ctc_cp_cap_resources = 0 }
+set_variable = { ctc_cp_cap_dockyard = 0 }
+set_variable = { ctc_cp_cap_air_mission = 0 }
+set_variable = { ctc_cp_cap_naval_organization = 0 }
+set_variable = { ctc_cp_cap_trade = 0 }
+set_variable = { ctc_cp_cap_efficiency_retention = 0 }
+set_variable = { ctc_cp_cap_efficiency_growth = 0 }
+set_variable = { ctc_cp_cap_recruitable = 0 }
+set_variable = { ctc_cp_cap_consumer_relief = 0 }
+set_variable = { ctc_cp_cap_pp_factor = 0 }
+if = { limit = { has_country_flag = ctc_cp_ARG_market }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 8 }
+set_variable = { ctc_cp_cap_stability = 4 }
+}
+if = { limit = { has_country_flag = ctc_cp_ARG_labour }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_construction = 10 }
+}
+if = { limit = { has_country_flag = ctc_cp_AST_labour }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_stability = 5 }
+set_variable = { ctc_cp_cap_construction = 8 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_AST_coalition }
+set_variable = { ctc_cp_cap_resources = 15 }
+set_variable = { ctc_cp_cap_naval_organization = 8 }
+set_variable = { ctc_cp_cap_construction = 10 }
+}
+if = { limit = { has_country_flag = ctc_cp_BOS_reconstruction }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_stability = 8 }
+set_variable = { ctc_cp_cap_research = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_BRA_market }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_BRA_labour }
+set_variable = { ctc_cp_cap_stability = 8 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_CAN_liberal }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+set_variable = { ctc_cp_cap_stability = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_CAN_conservative }
+set_variable = { ctc_cp_cap_resources = 12 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_CAN_ndp }
+set_variable = { ctc_cp_cap_stability = 8 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_research = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_CRO_reconstruction }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 8 }
+set_variable = { ctc_cp_cap_stability = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_DDR_socialist }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_organization = 8 }
+set_variable = { ctc_cp_cap_stability = 10 }
+}
+if = { limit = { has_country_flag = ctc_cp_DDR_hardline }
+set_variable = { ctc_cp_cap_construction = 6 }
+set_variable = { ctc_cp_cap_output = 8 }
+set_variable = { ctc_cp_cap_research = 4 }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_stability = 3 }
+}
+if = { limit = { has_country_flag = ctc_cp_ENG_market }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_ENG_new_labour }
+set_variable = { ctc_cp_cap_stability = 7 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_construction = 8 }
+set_variable = { ctc_cp_cap_output = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_ENG_old_labour }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_construction = 10 }
+}
+if = { limit = { has_country_flag = ctc_cp_ENG_liberal }
+set_variable = { ctc_cp_cap_pp_daily = 0.1 }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_FRA_gaullist }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_dockyard = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+set_variable = { ctc_cp_cap_output = 10 }
+}
+if = { limit = { has_country_flag = ctc_cp_FRA_socialist }
+set_variable = { ctc_cp_cap_stability = 8 }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_output = 8 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_FRA_european }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_output = 10 }
+}
+if = { limit = { has_country_flag = ctc_cp_FRA_sovereign }
+set_variable = { ctc_cp_cap_military_output = 12 }
+set_variable = { ctc_cp_cap_resources = 8 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_GER_cdu }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_GER_spd_green }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_organization = 8 }
+set_variable = { ctc_cp_cap_stability = 10 }
+}
+if = { limit = { has_country_flag = ctc_cp_GER_neutral }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_stability = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_INS_order }
+set_variable = { ctc_cp_cap_resources = 12 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_INS_democratic }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_research = 6 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_IRQ_pragmatic }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_resources = 15 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_IRQ_hardline }
+set_variable = { ctc_cp_cap_military_output = 8 }
+set_variable = { ctc_cp_cap_construction = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_ISR_peace }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_construction = 8 }
+set_variable = { ctc_cp_cap_research = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_ISR_security }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_military_output = 8 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_ITA_judicial }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_research = 7 }
+set_variable = { ctc_cp_cap_pp_daily = 0.05 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_ITA_right }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_trade = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_ITA_left }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_JAP_ldp }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_JAP_reform }
+set_variable = { ctc_cp_cap_research = 12 }
+set_variable = { ctc_cp_cap_construction = 8 }
+set_variable = { ctc_cp_cap_stability = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_JAP_social }
+set_variable = { ctc_cp_cap_stability = 8 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_JAP_defence }
+set_variable = { ctc_cp_cap_dockyard = 12 }
+set_variable = { ctc_cp_cap_naval_organization = 10 }
+set_variable = { ctc_cp_cap_air_mission = 8 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_KOR_conservative }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 12 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_KOR_democratic }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_stability = 7 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_PAK_civilian }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+set_variable = { ctc_cp_cap_stability = 5 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_PAK_military }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_military_output = 8 }
+set_variable = { ctc_cp_cap_construction = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_PAL_negotiation }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_research = 4 }
+}
+if = { limit = { has_country_flag = ctc_cp_PAL_opposition }
+set_variable = { ctc_cp_cap_stability = 5 }
+set_variable = { ctc_cp_cap_construction = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_PER_pragmatic }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_PER_reform }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_PER_conservative }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_military_output = 12 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_POL_market }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_POL_social }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 8 }
+set_variable = { ctc_cp_cap_stability = 12 }
+}
+if = { limit = { has_country_flag = ctc_cp_POL_workers_party }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 7 }
+set_variable = { ctc_cp_cap_organization = 8 }
+set_variable = { ctc_cp_cap_stability = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_POL_conservative }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 5 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_resources = 8 }
+set_variable = { ctc_cp_cap_stability = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_PRC_stability }
+set_variable = { ctc_cp_cap_construction = 20 }
+set_variable = { ctc_cp_cap_output = 20 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_PRC_democracy }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 12 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 10 }
+set_variable = { ctc_cp_cap_pp_daily = 0.1 }
+}
+if = { limit = { has_country_flag = ctc_cp_PRC_labour }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 22 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 12 }
+}
+if = { limit = { has_country_flag = ctc_cp_PRC_social_democratic }
+set_variable = { ctc_cp_cap_construction = 20 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+set_variable = { ctc_cp_cap_organization = 15 }
+set_variable = { ctc_cp_cap_stability = 5 }
+set_variable = { ctc_cp_cap_efficiency_retention = 8 }
+set_variable = { ctc_cp_cap_consumer_relief = 0 }
+set_variable = { ctc_cp_cap_pp_factor = 0 }
+}
+if = { limit = { has_country_flag = ctc_cp_PRC_maoist }
+set_variable = { ctc_cp_cap_construction = 20 }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 8 }
+set_variable = { ctc_cp_cap_dockyard = 5 }
+set_variable = { ctc_cp_cap_efficiency_growth = 10 }
+set_variable = { ctc_cp_cap_recruitable = 0.5 }
+set_variable = { ctc_cp_cap_consumer_relief = 0 }
+}
+if = { limit = { has_country_flag = ctc_cp_PRK_closed }
+set_variable = { ctc_cp_cap_organization = 15 }
+set_variable = { ctc_cp_cap_military_output = 10 }
+set_variable = { ctc_cp_cap_output = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_PRK_opening }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 5 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_RAJ_congress }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_trade = 15 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_RAJ_bjp }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_military_output = 10 }
+set_variable = { ctc_cp_cap_organization = 8 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_RAJ_left }
+set_variable = { ctc_cp_cap_stability = 7 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_RUS_parliament }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_RUS_presidential }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_research = 6 }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_resources = 15 }
+}
+if = { limit = { has_country_flag = ctc_cp_RUS_left }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 20 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 12 }
+}
+if = { limit = { has_country_flag = ctc_cp_SAF_negotiated }
+set_variable = { ctc_cp_cap_stability = 10 }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_research = 6 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_SAF_market }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_SAF_refusal }
+set_variable = { ctc_cp_cap_construction = 6 }
+set_variable = { ctc_cp_cap_stability = 3 }
+}
+if = { limit = { has_country_flag = ctc_cp_SIA_parliament }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_SIA_military }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_stability = 3 }
+set_variable = { ctc_cp_cap_construction = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_SLO_reconstruction }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_stability = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_SOV_union }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_output = 18 }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_stability = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_SOV_central }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 18 }
+set_variable = { ctc_cp_cap_research = 4 }
+set_variable = { ctc_cp_cap_organization = 15 }
+set_variable = { ctc_cp_cap_stability = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_SOV_commonwealth }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 5 }
+set_variable = { ctc_cp_cap_organization = 8 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_SPR_socialist }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_research = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_SPR_popular }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_SRB_reconstruction }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_TUR_market }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_TUR_secular }
+set_variable = { ctc_cp_cap_organization = 10 }
+set_variable = { ctc_cp_cap_military_output = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_TUR_religious }
+set_variable = { ctc_cp_cap_stability = 5 }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_TWN_kmt }
+set_variable = { ctc_cp_cap_research = 12 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_TWN_dpp }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_stability = 5 }
+set_variable = { ctc_cp_cap_output = 10 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_USA_internationalist }
+set_variable = { ctc_cp_cap_organization = 12 }
+set_variable = { ctc_cp_cap_air_mission = 8 }
+set_variable = { ctc_cp_cap_military_output = 10 }
+set_variable = { ctc_cp_cap_construction = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_USA_centrist }
+set_variable = { ctc_cp_cap_research = 10 }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_output = 8 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_USA_labour }
+set_variable = { ctc_cp_cap_stability = 8 }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_research = 8 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_USA_inward }
+set_variable = { ctc_cp_cap_construction = 15 }
+set_variable = { ctc_cp_cap_resources = 12 }
+set_variable = { ctc_cp_cap_military_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_VIN_doi_moi }
+set_variable = { ctc_cp_cap_output = 15 }
+set_variable = { ctc_cp_cap_construction = 12 }
+set_variable = { ctc_cp_cap_research = 6 }
+}
+if = { limit = { has_country_flag = ctc_cp_VIN_planned }
+set_variable = { ctc_cp_cap_efficiency_retention = 12 }
+set_variable = { ctc_cp_cap_output = 12 }
+set_variable = { ctc_cp_cap_construction = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_YUG_federal }
+set_variable = { ctc_cp_cap_construction = 10 }
+set_variable = { ctc_cp_cap_stability = 6 }
+set_variable = { ctc_cp_cap_output = 8 }
+}
+if = { limit = { has_country_flag = ctc_cp_YUG_separation }
+set_variable = { ctc_cp_cap_construction = 8 }
+set_variable = { ctc_cp_cap_stability = 5 }
+}
+if = { limit = { has_country_flag = ctc_cp_YUG_conflict }
+set_variable = { ctc_cp_cap_construction = 6 }
+set_variable = { ctc_cp_cap_stability = 4 }
+}
+clamp_variable = { var = ctc_cp_done_transport min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_transport }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_construction }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_production_speed_industrial_complex_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_industry min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_industry }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_output }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_industrial_capacity_factory = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_industry min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_industry }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_military_output }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_industrial_capacity_factory = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_science min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_science }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_research }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_research_speed_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_army min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_army }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_organization }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_army_org_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_public min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_public }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_stability }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_stability_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_administration min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_administration }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_pp_daily }
+multiply_variable = { ctc_cp_work = 1 }
+add_to_variable = { ctc_cp_mod_political_power_gain = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_industry min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_industry }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_resources }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_local_resources_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_security min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_security }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_dockyard }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_industrial_capacity_dockyard = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_security min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_security }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_air_mission }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_air_mission_efficiency = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_security min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_security }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_naval_organization }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_navy_org_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_diplomacy min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_diplomacy }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_trade }
+multiply_variable = { ctc_cp_work = 1 }
+add_to_variable = { ctc_cp_mod_trade_opinion_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_industry min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_industry }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_efficiency_retention }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_line_change_production_efficiency_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_industry min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_industry }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_efficiency_growth }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_production_factory_efficiency_gain_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_army min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_army }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_recruitable }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_conscription = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_administration min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_administration }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_consumer_relief }
+multiply_variable = { ctc_cp_work = -0.01 }
+add_to_variable = { ctc_cp_mod_consumer_goods_factor = ctc_cp_work }
+clamp_variable = { var = ctc_cp_done_administration min = 0 max = 40 }
+set_variable = { ctc_cp_work = ctc_cp_done_administration }
+multiply_variable = { ctc_cp_work = 0.01 }
+set_variable = { ctc_cp_political_work = ctc_cp_done_politics }
+clamp_variable = { var = ctc_cp_political_work min = 0 max = 80 }
+multiply_variable = { ctc_cp_political_work = 0.0075 }
+add_to_variable = { ctc_cp_work = ctc_cp_political_work }
+multiply_variable = { ctc_cp_work = ctc_cp_cap_pp_factor }
+multiply_variable = { ctc_cp_work = 0.01 }
+add_to_variable = { ctc_cp_mod_political_power_factor = ctc_cp_work }
+if = { limit = { NOT = { has_dynamic_modifier = ctc_cp_policy } } add_dynamic_modifier = { modifier = ctc_cp_policy } }
+force_update_dynamic_modifier = yes
+}

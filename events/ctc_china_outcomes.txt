@@ -1,0 +1,135 @@
+add_namespace = ctc_china_outcome
+country_event = {
+	id = ctc_china_outcome.1
+	title = ctc_china_outcome.1.t
+	desc = ctc_china_outcome.1.d
+	picture = GFX_ctc_photo_tiananmen1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_completed_focus = CTC_PRC_crisis
+		has_country_flag = ctc_conservative_settlement_ready
+		has_country_flag = ctc_pending_conservative
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	option = {
+		name = ctc_china_outcome.1.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_outcome_1_a
+		ai_chance = {
+			factor = 1
+		}
+		ctc_confirm_conservative_ending = yes
+	}
+}
+country_event = {
+	id = ctc_china_outcome.2
+	title = ctc_china_outcome.2.t
+	desc = ctc_china_outcome.2.d
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_completed_focus = CTC_PRC_crisis
+		has_country_flag = ctc_reformist_settlement_ready
+		has_country_flag = ctc_pending_reformist
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	option = {
+		name = ctc_china_outcome.2.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_outcome_2_a
+		ai_chance = {
+			factor = 1
+		}
+		ctc_confirm_reformist_ending = yes
+	}
+}
+country_event = {
+	id = ctc_china_outcome.3
+	title = ctc_china_outcome.3.t
+	desc = ctc_china_outcome.3.d
+	picture = GFX_ctc_photo_factory1985
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_completed_focus = CTC_PRC_crisis
+		has_country_flag = ctc_labour_reform_settlement_ready
+		has_country_flag = ctc_pending_labour_reform
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	option = {
+		name = ctc_china_outcome.3.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_outcome_3_a
+		ai_chance = {
+			factor = 1
+		}
+		ctc_confirm_labour_reform_ending = yes
+	}
+}
+country_event = {
+	id = ctc_china_outcome.4
+	title = ctc_china_outcome.4.t
+	desc = ctc_china_outcome.4.d
+	picture = GFX_ctc_photo_factory1985
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_completed_focus = CTC_PRC_crisis
+		has_country_flag = ctc_revolution_settlement_ready
+		has_country_flag = ctc_pending_revolution
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	option = {
+		name = ctc_china_outcome.4.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_outcome_4_a
+		ai_chance = {
+			factor = 1
+		}
+		ctc_confirm_revolution_ending = yes
+	}
+}
+country_event = {
+	id = ctc_china_outcome.5
+	title = ctc_china_outcome.5.t
+	desc = ctc_china_outcome.5.d
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_completed_focus = CTC_PRC_second_revolution
+		has_country_flag = ctc_revolution_won
+		has_civil_war = no
+		has_country_flag = ctc_postwar_pending
+		NOT = {
+			has_country_flag = ctc_postwar_locked
+		}
+	}
+	option = {
+		name = ctc_china_outcome.5.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_outcome_5_a
+		ai_chance = {
+			factor = 1
+		}
+		ctc_confirm_social_democratic_settlement = yes
+	}
+	option = {
+		name = ctc_china_outcome.5.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_outcome_5_b
+		ai_chance = {
+			factor = 1
+		}
+		ctc_confirm_maoist_settlement = yes
+	}
+}

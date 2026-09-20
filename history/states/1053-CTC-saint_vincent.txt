@@ -1,0 +1,16 @@
+state = {
+	id = 1053
+	name = "STATE_1053"
+	manpower = 106000
+	state_category = town
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+		owner = SVG
+		add_core_of = SVG
+	}
+	provinces = {
+		379
+	}
+}

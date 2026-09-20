@@ -1,0 +1,4076 @@
+ctc_logistics_AFG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 38
+			producer = AFG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 350
+			producer = AFG
+		}
+	}
+}
+ctc_logistics_AHI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = AHI
+		}
+	}
+}
+ctc_logistics_AJA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = AJA
+		}
+	}
+}
+ctc_logistics_ALB = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 39
+			producer = ALB
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = ALB
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 49
+			producer = ALB
+		}
+	}
+}
+ctc_logistics_ALG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 76
+			producer = ALG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 950
+			producer = ALG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 62
+			producer = ALG
+		}
+	}
+}
+ctc_logistics_ANG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 43
+			producer = ANG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 475
+			producer = ANG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 57
+			producer = ANG
+		}
+	}
+}
+ctc_logistics_ARG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 144
+			producer = ARG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1025
+			producer = ARG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 152
+			producer = ARG
+		}
+	}
+}
+ctc_logistics_AST = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 167
+			producer = AST
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 825
+			producer = AST
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 177
+			producer = AST
+		}
+	}
+}
+ctc_logistics_ATG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 25
+			producer = ATG
+		}
+	}
+}
+ctc_logistics_AUS = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 88
+			producer = AUS
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 700
+			producer = AUS
+		}
+	}
+}
+ctc_logistics_BAH = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 38
+			producer = BAH
+		}
+	}
+}
+ctc_logistics_BAN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 44
+			producer = BAN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 400
+			producer = BAN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = BAN
+		}
+	}
+}
+ctc_logistics_BAR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = BAR
+		}
+	}
+}
+ctc_logistics_BCP = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = BCP
+		}
+	}
+}
+ctc_logistics_BEL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 70
+			producer = BEL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 775
+			producer = BEL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 57
+			producer = BEL
+		}
+	}
+}
+ctc_logistics_BHR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 75
+			producer = BHR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = BHR
+		}
+	}
+}
+ctc_logistics_BHU = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 275
+			producer = BHU
+		}
+	}
+}
+ctc_logistics_BLZ = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = BLZ
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = BLZ
+		}
+	}
+}
+ctc_logistics_BOL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 50
+			producer = BOL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = BOL
+		}
+	}
+}
+ctc_logistics_BOT = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = BOT
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = BOT
+		}
+	}
+}
+ctc_logistics_BRA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 189
+			producer = BRA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1925
+			producer = BRA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 308
+			producer = BRA
+		}
+	}
+}
+ctc_logistics_BRD = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 31
+			producer = BRD
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 75
+			producer = BRD
+		}
+	}
+}
+ctc_logistics_BRM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 79
+			producer = BRM
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 925
+			producer = BRM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 97
+			producer = BRM
+		}
+	}
+}
+ctc_logistics_BRN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = BRN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = BRN
+		}
+	}
+}
+ctc_logistics_BUL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 88
+			producer = BUL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1125
+			producer = BUL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 65
+			producer = BUL
+		}
+	}
+}
+ctc_logistics_CAM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 40
+			producer = CAM
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 325
+			producer = CAM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = CAM
+		}
+	}
+}
+ctc_logistics_CAN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 214
+			producer = CAN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 925
+			producer = CAN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 260
+			producer = CAN
+		}
+	}
+}
+ctc_logistics_CAR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = CAR
+		}
+	}
+}
+ctc_logistics_CBV = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = CBV
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = CBV
+		}
+	}
+}
+ctc_logistics_CHA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = CHA
+		}
+	}
+}
+ctc_logistics_CHI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 45
+			producer = CHI
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 900
+			producer = CHI
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = CHI
+		}
+	}
+}
+ctc_logistics_CHL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 79
+			producer = CHL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 625
+			producer = CHL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 119
+			producer = CHL
+		}
+	}
+}
+ctc_logistics_CMR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 38
+			producer = CMR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 275
+			producer = CMR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = CMR
+		}
+	}
+}
+ctc_logistics_COG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 53
+			producer = COG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = COG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 68
+			producer = COG
+		}
+	}
+}
+ctc_logistics_COL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 48
+			producer = COL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 500
+			producer = COL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 49
+			producer = COL
+		}
+	}
+}
+ctc_logistics_COM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = COM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = COM
+		}
+	}
+}
+ctc_logistics_COS = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = COS
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = COS
+		}
+	}
+}
+ctc_logistics_CUB = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 45
+			producer = CUB
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 700
+			producer = CUB
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = CUB
+		}
+	}
+}
+ctc_logistics_CYP = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 75
+			producer = CYP
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = CYP
+		}
+	}
+}
+ctc_logistics_CZE = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 122
+			producer = CZE
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1250
+			producer = CZE
+		}
+	}
+}
+ctc_logistics_DAH = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = DAH
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 100
+			producer = DAH
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = DAH
+		}
+	}
+}
+ctc_logistics_DDR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 93
+			producer = DDR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1100
+			producer = DDR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 60
+			producer = DDR
+		}
+	}
+}
+ctc_logistics_DEN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 62
+			producer = DEN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 425
+			producer = DEN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 111
+			producer = DEN
+		}
+	}
+}
+ctc_logistics_DJI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 35
+			producer = DJI
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = DJI
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = DJI
+		}
+	}
+}
+ctc_logistics_DMA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = DMA
+		}
+	}
+}
+ctc_logistics_DOM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = DOM
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = DOM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = DOM
+		}
+	}
+}
+ctc_logistics_ECU = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 42
+			producer = ECU
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = ECU
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 41
+			producer = ECU
+		}
+	}
+}
+ctc_logistics_EGY = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 103
+			producer = EGY
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2050
+			producer = EGY
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 94
+			producer = EGY
+		}
+	}
+}
+ctc_logistics_ELS = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = ELS
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = ELS
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = ELS
+		}
+	}
+}
+ctc_logistics_ENG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 216
+			producer = ENG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2300
+			producer = ENG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 395
+			producer = ENG
+		}
+	}
+}
+ctc_logistics_EPL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 35
+			producer = EPL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 325
+			producer = EPL
+		}
+	}
+}
+ctc_logistics_EQG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 31
+			producer = EQG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = EQG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = EQG
+		}
+	}
+}
+ctc_logistics_ETH = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 48
+			producer = ETH
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1250
+			producer = ETH
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 116
+			producer = ETH
+		}
+	}
+}
+ctc_logistics_FIJ = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = FIJ
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = FIJ
+		}
+	}
+}
+ctc_logistics_FIN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 135
+			producer = FIN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 775
+			producer = FIN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 115
+			producer = FIN
+		}
+	}
+}
+ctc_logistics_FRA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 334
+			producer = FRA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 3075
+			producer = FRA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 384
+			producer = FRA
+		}
+	}
+}
+ctc_logistics_FSM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 71
+			producer = FSM
+		}
+	}
+}
+ctc_logistics_GAB = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = GAB
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 75
+			producer = GAB
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = GAB
+		}
+	}
+}
+ctc_logistics_GAM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = GAM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = GAM
+		}
+	}
+}
+ctc_logistics_GHA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 37
+			producer = GHA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 375
+			producer = GHA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = GHA
+		}
+	}
+}
+ctc_logistics_GNA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 38
+			producer = GNA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = GNA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = GNA
+		}
+	}
+}
+ctc_logistics_GNB = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = GNB
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = GNB
+		}
+	}
+}
+ctc_logistics_GRD = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+	}
+}
+ctc_logistics_GRE = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 83
+			producer = GRE
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1075
+			producer = GRE
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 134
+			producer = GRE
+		}
+	}
+}
+ctc_logistics_GUA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 37
+			producer = GUA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 225
+			producer = GUA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = GUA
+		}
+	}
+}
+ctc_logistics_GYA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 35
+			producer = GYA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 275
+			producer = GYA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = GYA
+		}
+	}
+}
+ctc_logistics_HAI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = HAI
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 325
+			producer = HAI
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = HAI
+		}
+	}
+}
+ctc_logistics_HOL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 79
+			producer = HOL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 775
+			producer = HOL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 67
+			producer = HOL
+		}
+	}
+}
+ctc_logistics_HON = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = HON
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 225
+			producer = HON
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = HON
+		}
+	}
+}
+ctc_logistics_HUN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 75
+			producer = HUN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 600
+			producer = HUN
+		}
+	}
+}
+ctc_logistics_ICE = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = ICE
+		}
+	}
+}
+ctc_logistics_INS = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 72
+			producer = INS
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 825
+			producer = INS
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 200
+			producer = INS
+		}
+	}
+}
+ctc_logistics_IRE = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 57
+			producer = IRE
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = IRE
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 44
+			producer = IRE
+		}
+	}
+}
+ctc_logistics_IRQ = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 66
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 4275
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 60
+			producer = IRQ
+		}
+	}
+}
+ctc_logistics_ISR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 53
+			producer = ISR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 800
+			producer = ISR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 52
+			producer = ISR
+		}
+	}
+}
+ctc_logistics_ITA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 237
+			producer = ITA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2875
+			producer = ITA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 235
+			producer = ITA
+		}
+	}
+}
+ctc_logistics_IVO = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 37
+			producer = IVO
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = IVO
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = IVO
+		}
+	}
+}
+ctc_logistics_JAM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = JAM
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = JAM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = JAM
+		}
+	}
+}
+ctc_logistics_JAP = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 195
+			producer = JAP
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1950
+			producer = JAP
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 193
+			producer = JAP
+		}
+	}
+}
+ctc_logistics_JOR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 43
+			producer = JOR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 500
+			producer = JOR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = JOR
+		}
+	}
+}
+ctc_logistics_KEN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 46
+			producer = KEN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 375
+			producer = KEN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 52
+			producer = KEN
+		}
+	}
+}
+ctc_logistics_KHM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 225
+			producer = KHM
+		}
+	}
+}
+ctc_logistics_KIA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = KIA
+		}
+	}
+}
+ctc_logistics_KIR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 79
+			producer = KIR
+		}
+	}
+}
+ctc_logistics_KNU = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = KNU
+		}
+	}
+}
+ctc_logistics_KOR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 69
+			producer = KOR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2375
+			producer = KOR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 65
+			producer = KOR
+		}
+	}
+}
+ctc_logistics_KUW = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 31
+			producer = KUW
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 275
+			producer = KUW
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = KUW
+		}
+	}
+}
+ctc_logistics_LAO = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 35
+			producer = LAO
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 450
+			producer = LAO
+		}
+	}
+}
+ctc_logistics_LBA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 275
+			producer = LBA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 94
+			producer = LBA
+		}
+	}
+}
+ctc_logistics_LEB = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = LEB
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = LEB
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = LEB
+		}
+	}
+}
+ctc_logistics_LIB = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = LIB
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 325
+			producer = LIB
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = LIB
+		}
+	}
+}
+ctc_logistics_LSO = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 31
+			producer = LSO
+		}
+	}
+}
+ctc_logistics_LUX = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = LUX
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = LUX
+		}
+	}
+}
+ctc_logistics_MAD = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = MAD
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = MAD
+		}
+	}
+}
+ctc_logistics_MAL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 55
+			producer = MAL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 450
+			producer = MAL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 69
+			producer = MAL
+		}
+	}
+}
+ctc_logistics_MEX = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 180
+			producer = MEX
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1575
+			producer = MEX
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 164
+			producer = MEX
+		}
+	}
+}
+ctc_logistics_MLD = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = MLD
+		}
+	}
+}
+ctc_logistics_MLI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 43
+			producer = MLI
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 350
+			producer = MLI
+		}
+	}
+}
+ctc_logistics_MLT = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = MLT
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = MLT
+		}
+	}
+}
+ctc_logistics_MLW = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 32
+			producer = MLW
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 225
+			producer = MLW
+		}
+	}
+}
+ctc_logistics_MON = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 52
+			producer = MON
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 425
+			producer = MON
+		}
+	}
+}
+ctc_logistics_MOR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 54
+			producer = MOR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 725
+			producer = MOR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 70
+			producer = MOR
+		}
+	}
+}
+ctc_logistics_MRT = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 32
+			producer = MRT
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = MRT
+		}
+	}
+}
+ctc_logistics_MSH = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 58
+			producer = MSH
+		}
+	}
+}
+ctc_logistics_MTA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 100
+			producer = MTA
+		}
+	}
+}
+ctc_logistics_MUR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = MUR
+		}
+	}
+}
+ctc_logistics_MZB = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 42
+			producer = MZB
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = MZB
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 49
+			producer = MZB
+		}
+	}
+}
+ctc_logistics_NCY = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = NCY
+		}
+	}
+}
+ctc_logistics_NEP = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = NEP
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = NEP
+		}
+	}
+}
+ctc_logistics_NGA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 53
+			producer = NGA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 375
+			producer = NGA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 52
+			producer = NGA
+		}
+	}
+}
+ctc_logistics_NGR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 32
+			producer = NGR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = NGR
+		}
+	}
+}
+ctc_logistics_NIC = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 35
+			producer = NIC
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 375
+			producer = NIC
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = NIC
+		}
+	}
+}
+ctc_logistics_NOR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 123
+			producer = NOR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 825
+			producer = NOR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 148
+			producer = NOR
+		}
+	}
+}
+ctc_logistics_NRU = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = NRU
+		}
+	}
+}
+ctc_logistics_NZL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 78
+			producer = NZL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 450
+			producer = NZL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 46
+			producer = NZL
+		}
+	}
+}
+ctc_logistics_OMA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = OMA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 62
+			producer = OMA
+		}
+	}
+}
+ctc_logistics_PAK = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 93
+			producer = PAK
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2500
+			producer = PAK
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 108
+			producer = PAK
+		}
+	}
+}
+ctc_logistics_PAN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 39
+			producer = PAN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = PAN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 46
+			producer = PAN
+		}
+	}
+}
+ctc_logistics_PAR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 42
+			producer = PAR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 325
+			producer = PAR
+		}
+	}
+}
+ctc_logistics_PER = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 96
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1825
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 166
+			producer = PER
+		}
+	}
+}
+ctc_logistics_PHI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 54
+			producer = PHI
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 575
+			producer = PHI
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 135
+			producer = PHI
+		}
+	}
+}
+ctc_logistics_PNG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = PNG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 92
+			producer = PNG
+		}
+	}
+}
+ctc_logistics_POL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 205
+			producer = POL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2250
+			producer = POL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 163
+			producer = POL
+		}
+	}
+}
+ctc_logistics_POR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 79
+			producer = POR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 450
+			producer = POR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 109
+			producer = POR
+		}
+	}
+}
+ctc_logistics_PRC = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 611
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 12225
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 726
+			producer = PRC
+		}
+	}
+}
+ctc_logistics_PRK = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 62
+			producer = PRK
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 3225
+			producer = PRK
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 49
+			producer = PRK
+		}
+	}
+}
+ctc_logistics_PRU = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 56
+			producer = PRU
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 750
+			producer = PRU
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 78
+			producer = PRU
+		}
+	}
+}
+ctc_logistics_QAT = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = QAT
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = QAT
+		}
+	}
+}
+ctc_logistics_RAJ = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 337
+			producer = RAJ
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 5850
+			producer = RAJ
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 261
+			producer = RAJ
+		}
+	}
+}
+ctc_logistics_RCG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = RCG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = RCG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = RCG
+		}
+	}
+}
+ctc_logistics_REN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = REN
+		}
+	}
+}
+ctc_logistics_ROM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 125
+			producer = ROM
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1275
+			producer = ROM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 89
+			producer = ROM
+		}
+	}
+}
+ctc_logistics_RWA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 225
+			producer = RWA
+		}
+	}
+}
+ctc_logistics_SAF = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 103
+			producer = SAF
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 900
+			producer = SAF
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 86
+			producer = SAF
+		}
+	}
+}
+ctc_logistics_SAM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = SAM
+		}
+	}
+}
+ctc_logistics_SAU = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 42
+			producer = SAU
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 450
+			producer = SAU
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 97
+			producer = SAU
+		}
+	}
+}
+ctc_logistics_SEN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 38
+			producer = SEN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = SEN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = SEN
+		}
+	}
+}
+ctc_logistics_SEY = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = SEY
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = SEY
+		}
+	}
+}
+ctc_logistics_SIA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 76
+			producer = SIA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 675
+			producer = SIA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 57
+			producer = SIA
+		}
+	}
+}
+ctc_logistics_SIE = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = SIE
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 225
+			producer = SIE
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = SIE
+		}
+	}
+}
+ctc_logistics_SKN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+	}
+}
+ctc_logistics_SLU = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+	}
+}
+ctc_logistics_SNG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 35
+			producer = SNG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 325
+			producer = SNG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = SNG
+		}
+	}
+}
+ctc_logistics_SNM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = SNM
+		}
+	}
+}
+ctc_logistics_SOL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 41
+			producer = SOL
+		}
+	}
+}
+ctc_logistics_SOM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 350
+			producer = SOM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 54
+			producer = SOM
+		}
+	}
+}
+ctc_logistics_SOV = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 1910
+			producer = SOV
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 16300
+			producer = SOV
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 1620
+			producer = SOV
+		}
+	}
+}
+ctc_logistics_SPL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = SPL
+		}
+	}
+}
+ctc_logistics_SPR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 288
+			producer = SPR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2625
+			producer = SPR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 282
+			producer = SPR
+		}
+	}
+}
+ctc_logistics_SRL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 41
+			producer = SRL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 275
+			producer = SRL
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = SRL
+		}
+	}
+}
+ctc_logistics_STP = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = STP
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = STP
+		}
+	}
+}
+ctc_logistics_SUD = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 63
+			producer = SUD
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 600
+			producer = SUD
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 84
+			producer = SUD
+		}
+	}
+}
+ctc_logistics_SUR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = SUR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = SUR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = SUR
+		}
+	}
+}
+ctc_logistics_SVG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+	}
+}
+ctc_logistics_SWA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 32
+			producer = SWA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = SWA
+		}
+	}
+}
+ctc_logistics_SWE = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 191
+			producer = SWE
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1075
+			producer = SWE
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 159
+			producer = SWE
+		}
+	}
+}
+ctc_logistics_SWI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 67
+			producer = SWI
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 525
+			producer = SWI
+		}
+	}
+}
+ctc_logistics_SYR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 53
+			producer = SYR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1375
+			producer = SYR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 44
+			producer = SYR
+		}
+	}
+}
+ctc_logistics_TOG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = TOG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = TOG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = TOG
+		}
+	}
+}
+ctc_logistics_TRI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 50
+			producer = TRI
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = TRI
+		}
+	}
+}
+ctc_logistics_TUN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 57
+			producer = TUN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 475
+			producer = TUN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 36
+			producer = TUN
+		}
+	}
+}
+ctc_logistics_TUR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 223
+			producer = TUR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 3800
+			producer = TUR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 236
+			producer = TUR
+		}
+	}
+}
+ctc_logistics_TUV = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = TUV
+		}
+	}
+}
+ctc_logistics_TZN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 47
+			producer = TZN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = TZN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = TZN
+		}
+	}
+}
+ctc_logistics_UAE = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = UAE
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = UAE
+		}
+	}
+}
+ctc_logistics_UGA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 37
+			producer = UGA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = UGA
+		}
+	}
+}
+ctc_logistics_UNA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 275
+			producer = UNA
+		}
+	}
+}
+ctc_logistics_URG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 51
+			producer = URG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 350
+			producer = URG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 44
+			producer = URG
+		}
+	}
+}
+ctc_logistics_USA = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 881
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 7400
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 619
+			producer = USA
+		}
+	}
+}
+ctc_logistics_VAN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 33
+			producer = VAN
+		}
+	}
+}
+ctc_logistics_VEN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 36
+			producer = VEN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = VEN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 54
+			producer = VEN
+		}
+	}
+}
+ctc_logistics_VIN = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 70
+			producer = VIN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 3625
+			producer = VIN
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 49
+			producer = VIN
+		}
+	}
+}
+ctc_logistics_VOL = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 37
+			producer = VOL
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 325
+			producer = VOL
+		}
+	}
+}
+ctc_logistics_WBI = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 35
+			producer = WBI
+		}
+	}
+}
+ctc_logistics_WES = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 150
+			producer = WES
+		}
+	}
+}
+ctc_logistics_WGR = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 220
+			producer = WGR
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 2700
+			producer = WGR
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 139
+			producer = WGR
+		}
+	}
+}
+ctc_logistics_YEM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 200
+			producer = YEM
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 28
+			producer = YEM
+		}
+	}
+}
+ctc_logistics_YMD = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 125
+			producer = YMD
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 49
+			producer = YMD
+		}
+	}
+}
+ctc_logistics_YUG = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 172
+			producer = YUG
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 1650
+			producer = YUG
+		}
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 189
+			producer = YUG
+		}
+	}
+}
+ctc_logistics_ZAM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 40
+			producer = ZAM
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 175
+			producer = ZAM
+		}
+	}
+}
+ctc_logistics_ZIM = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_opening_logistics_assigned
+			}
+		}
+		set_country_flag = ctc_opening_logistics_assigned
+		set_fuel_ratio = 0.75
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 38
+			producer = ZIM
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 250
+			producer = ZIM
+		}
+	}
+}

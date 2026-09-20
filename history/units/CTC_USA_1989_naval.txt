@@ -1,0 +1,3924 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 6732
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 6732
+			ship = {
+				name = "航空母舰1号 / Aircraft Carrier 1"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰2号 / Aircraft Carrier 2"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰3号 / Aircraft Carrier 3"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰4号 / Aircraft Carrier 4"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰5号 / Aircraft Carrier 5"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰6号 / Aircraft Carrier 6"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰7号 / Aircraft Carrier 7"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰8号 / Aircraft Carrier 8"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰9号 / Aircraft Carrier 9"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰10号 / Aircraft Carrier 10"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰11号 / Aircraft Carrier 11"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰12号 / Aircraft Carrier 12"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰13号 / Aircraft Carrier 13"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰14号 / Aircraft Carrier 14"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰1号 / Cruiser 1"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰2号 / Cruiser 2"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队2 / Fleet 2"
+		naval_base = 9832
+		task_force = {
+			name = "编队2 / Task Force 2"
+			location = 9832
+			ship = {
+				name = "巡洋舰3号 / Cruiser 3"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰4号 / Cruiser 4"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰5号 / Cruiser 5"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰6号 / Cruiser 6"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰7号 / Cruiser 7"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰8号 / Cruiser 8"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰9号 / Cruiser 9"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰10号 / Cruiser 10"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰11号 / Cruiser 11"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰12号 / Cruiser 12"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰13号 / Cruiser 13"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰14号 / Cruiser 14"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰15号 / Cruiser 15"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰16号 / Cruiser 16"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰17号 / Cruiser 17"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰18号 / Cruiser 18"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队3 / Fleet 3"
+		naval_base = 3878
+		task_force = {
+			name = "编队3 / Task Force 3"
+			location = 3878
+			ship = {
+				name = "巡洋舰19号 / Cruiser 19"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰20号 / Cruiser 20"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰21号 / Cruiser 21"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰22号 / Cruiser 22"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰23号 / Cruiser 23"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰24号 / Cruiser 24"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰25号 / Cruiser 25"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰26号 / Cruiser 26"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰27号 / Cruiser 27"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰28号 / Cruiser 28"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰29号 / Cruiser 29"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰30号 / Cruiser 30"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰31号 / Cruiser 31"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰32号 / Cruiser 32"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰33号 / Cruiser 33"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰34号 / Cruiser 34"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队4 / Fleet 4"
+		naval_base = 6845
+		task_force = {
+			name = "编队4 / Task Force 4"
+			location = 6845
+			ship = {
+				name = "巡洋舰35号 / Cruiser 35"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰36号 / Cruiser 36"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰37号 / Cruiser 37"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "巡洋舰38号 / Cruiser 38"
+				definition = heavy_cruiser
+				equipment = {
+					ctc_cruiser = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰1号 / Destroyer 1"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰2号 / Destroyer 2"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰3号 / Destroyer 3"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰4号 / Destroyer 4"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰5号 / Destroyer 5"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰6号 / Destroyer 6"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰7号 / Destroyer 7"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰8号 / Destroyer 8"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰9号 / Destroyer 9"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰10号 / Destroyer 10"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰11号 / Destroyer 11"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰12号 / Destroyer 12"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队5 / Fleet 5"
+		naval_base = 6984
+		task_force = {
+			name = "编队5 / Task Force 5"
+			location = 6984
+			ship = {
+				name = "驱逐舰13号 / Destroyer 13"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰14号 / Destroyer 14"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰15号 / Destroyer 15"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰16号 / Destroyer 16"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰17号 / Destroyer 17"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰18号 / Destroyer 18"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰19号 / Destroyer 19"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰20号 / Destroyer 20"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰21号 / Destroyer 21"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰22号 / Destroyer 22"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰23号 / Destroyer 23"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰24号 / Destroyer 24"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰25号 / Destroyer 25"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰26号 / Destroyer 26"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰27号 / Destroyer 27"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰28号 / Destroyer 28"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队6 / Fleet 6"
+		naval_base = 3957
+		task_force = {
+			name = "编队6 / Task Force 6"
+			location = 3957
+			ship = {
+				name = "驱逐舰29号 / Destroyer 29"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰30号 / Destroyer 30"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰31号 / Destroyer 31"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰32号 / Destroyer 32"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰33号 / Destroyer 33"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰34号 / Destroyer 34"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰35号 / Destroyer 35"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰36号 / Destroyer 36"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰37号 / Destroyer 37"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰38号 / Destroyer 38"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰39号 / Destroyer 39"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰40号 / Destroyer 40"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰41号 / Destroyer 41"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰42号 / Destroyer 42"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰43号 / Destroyer 43"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰44号 / Destroyer 44"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队7 / Fleet 7"
+		naval_base = 788
+		task_force = {
+			name = "编队7 / Task Force 7"
+			location = 788
+			ship = {
+				name = "驱逐舰45号 / Destroyer 45"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰46号 / Destroyer 46"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰47号 / Destroyer 47"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰48号 / Destroyer 48"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰49号 / Destroyer 49"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰50号 / Destroyer 50"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰51号 / Destroyer 51"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰52号 / Destroyer 52"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰53号 / Destroyer 53"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰54号 / Destroyer 54"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰55号 / Destroyer 55"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰56号 / Destroyer 56"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰57号 / Destroyer 57"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰58号 / Destroyer 58"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰59号 / Destroyer 59"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰60号 / Destroyer 60"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队8 / Fleet 8"
+		naval_base = 1132
+		task_force = {
+			name = "编队8 / Task Force 8"
+			location = 1132
+			ship = {
+				name = "驱逐舰61号 / Destroyer 61"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰62号 / Destroyer 62"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰63号 / Destroyer 63"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰64号 / Destroyer 64"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰65号 / Destroyer 65"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰66号 / Destroyer 66"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰67号 / Destroyer 67"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰68号 / Destroyer 68"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰69号 / Destroyer 69"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰1号 / Frigate 1"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰2号 / Frigate 2"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰3号 / Frigate 3"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰4号 / Frigate 4"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰5号 / Frigate 5"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰6号 / Frigate 6"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰7号 / Frigate 7"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队9 / Fleet 9"
+		naval_base = 7202
+		task_force = {
+			name = "编队9 / Task Force 9"
+			location = 7202
+			ship = {
+				name = "护卫舰8号 / Frigate 8"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰9号 / Frigate 9"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰10号 / Frigate 10"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰11号 / Frigate 11"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰12号 / Frigate 12"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰13号 / Frigate 13"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰14号 / Frigate 14"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰15号 / Frigate 15"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰16号 / Frigate 16"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰17号 / Frigate 17"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰18号 / Frigate 18"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰19号 / Frigate 19"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰20号 / Frigate 20"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰21号 / Frigate 21"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰22号 / Frigate 22"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰23号 / Frigate 23"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队10 / Fleet 10"
+		naval_base = 11975
+		task_force = {
+			name = "编队10 / Task Force 10"
+			location = 11975
+			ship = {
+				name = "护卫舰24号 / Frigate 24"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰25号 / Frigate 25"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰26号 / Frigate 26"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰27号 / Frigate 27"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰28号 / Frigate 28"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰29号 / Frigate 29"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰30号 / Frigate 30"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰31号 / Frigate 31"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰32号 / Frigate 32"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰33号 / Frigate 33"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰34号 / Frigate 34"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰35号 / Frigate 35"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰36号 / Frigate 36"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰37号 / Frigate 37"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰38号 / Frigate 38"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰39号 / Frigate 39"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队11 / Fleet 11"
+		naval_base = 1572
+		task_force = {
+			name = "编队11 / Task Force 11"
+			location = 1572
+			ship = {
+				name = "护卫舰40号 / Frigate 40"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰41号 / Frigate 41"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰42号 / Frigate 42"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰43号 / Frigate 43"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰44号 / Frigate 44"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰45号 / Frigate 45"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰46号 / Frigate 46"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰47号 / Frigate 47"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰48号 / Frigate 48"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰49号 / Frigate 49"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰50号 / Frigate 50"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰51号 / Frigate 51"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰52号 / Frigate 52"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰53号 / Frigate 53"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰54号 / Frigate 54"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰55号 / Frigate 55"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队12 / Fleet 12"
+		naval_base = 1843
+		task_force = {
+			name = "编队12 / Task Force 12"
+			location = 1843
+			ship = {
+				name = "护卫舰56号 / Frigate 56"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰57号 / Frigate 57"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰58号 / Frigate 58"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰59号 / Frigate 59"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰60号 / Frigate 60"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰61号 / Frigate 61"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰62号 / Frigate 62"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰63号 / Frigate 63"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰64号 / Frigate 64"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰65号 / Frigate 65"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰66号 / Frigate 66"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰67号 / Frigate 67"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰68号 / Frigate 68"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰69号 / Frigate 69"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰70号 / Frigate 70"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰71号 / Frigate 71"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队13 / Fleet 13"
+		naval_base = 7388
+		task_force = {
+			name = "编队13 / Task Force 13"
+			location = 7388
+			ship = {
+				name = "护卫舰72号 / Frigate 72"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰73号 / Frigate 73"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰74号 / Frigate 74"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰75号 / Frigate 75"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰76号 / Frigate 76"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰77号 / Frigate 77"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰78号 / Frigate 78"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰79号 / Frigate 79"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰80号 / Frigate 80"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰81号 / Frigate 81"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰82号 / Frigate 82"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰83号 / Frigate 83"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰84号 / Frigate 84"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰85号 / Frigate 85"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰86号 / Frigate 86"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰87号 / Frigate 87"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队14 / Fleet 14"
+		naval_base = 10352
+		task_force = {
+			name = "编队14 / Task Force 14"
+			location = 10352
+			ship = {
+				name = "护卫舰88号 / Frigate 88"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰89号 / Frigate 89"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰90号 / Frigate 90"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰91号 / Frigate 91"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰92号 / Frigate 92"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰93号 / Frigate 93"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰94号 / Frigate 94"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰95号 / Frigate 95"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰96号 / Frigate 96"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰97号 / Frigate 97"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰98号 / Frigate 98"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰99号 / Frigate 99"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰100号 / Frigate 100"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰101号 / Frigate 101"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰102号 / Frigate 102"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰103号 / Frigate 103"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队15 / Fleet 15"
+		naval_base = 7480
+		task_force = {
+			name = "编队15 / Task Force 15"
+			location = 7480
+			ship = {
+				name = "护卫舰104号 / Frigate 104"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰105号 / Frigate 105"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰106号 / Frigate 106"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰107号 / Frigate 107"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰108号 / Frigate 108"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰109号 / Frigate 109"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰110号 / Frigate 110"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰111号 / Frigate 111"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰112号 / Frigate 112"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰113号 / Frigate 113"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰114号 / Frigate 114"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰115号 / Frigate 115"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇1号 / Submarine 1"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇2号 / Submarine 2"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇3号 / Submarine 3"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇4号 / Submarine 4"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队16 / Fleet 16"
+		naval_base = 4464
+		task_force = {
+			name = "编队16 / Task Force 16"
+			location = 4464
+			ship = {
+				name = "潜艇5号 / Submarine 5"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇6号 / Submarine 6"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇7号 / Submarine 7"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇8号 / Submarine 8"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇9号 / Submarine 9"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇10号 / Submarine 10"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇11号 / Submarine 11"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇12号 / Submarine 12"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇13号 / Submarine 13"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇14号 / Submarine 14"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇15号 / Submarine 15"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇16号 / Submarine 16"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇17号 / Submarine 17"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇18号 / Submarine 18"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇19号 / Submarine 19"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇20号 / Submarine 20"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队17 / Fleet 17"
+		naval_base = 7552
+		task_force = {
+			name = "编队17 / Task Force 17"
+			location = 7552
+			ship = {
+				name = "潜艇21号 / Submarine 21"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇22号 / Submarine 22"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇23号 / Submarine 23"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇24号 / Submarine 24"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇25号 / Submarine 25"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇26号 / Submarine 26"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇27号 / Submarine 27"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇28号 / Submarine 28"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇29号 / Submarine 29"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇30号 / Submarine 30"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇31号 / Submarine 31"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇32号 / Submarine 32"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇33号 / Submarine 33"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇34号 / Submarine 34"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇35号 / Submarine 35"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇36号 / Submarine 36"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队18 / Fleet 18"
+		naval_base = 10337
+		task_force = {
+			name = "编队18 / Task Force 18"
+			location = 10337
+			ship = {
+				name = "潜艇37号 / Submarine 37"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇38号 / Submarine 38"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇39号 / Submarine 39"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇40号 / Submarine 40"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇41号 / Submarine 41"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇42号 / Submarine 42"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇43号 / Submarine 43"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇44号 / Submarine 44"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇45号 / Submarine 45"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇46号 / Submarine 46"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇47号 / Submarine 47"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇48号 / Submarine 48"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇49号 / Submarine 49"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇50号 / Submarine 50"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇51号 / Submarine 51"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇52号 / Submarine 52"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队19 / Fleet 19"
+		naval_base = 6785
+		task_force = {
+			name = "编队19 / Task Force 19"
+			location = 6785
+			ship = {
+				name = "潜艇53号 / Submarine 53"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇54号 / Submarine 54"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇55号 / Submarine 55"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇56号 / Submarine 56"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇57号 / Submarine 57"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇58号 / Submarine 58"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇59号 / Submarine 59"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇60号 / Submarine 60"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇61号 / Submarine 61"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇62号 / Submarine 62"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇63号 / Submarine 63"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇64号 / Submarine 64"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇65号 / Submarine 65"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇66号 / Submarine 66"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇67号 / Submarine 67"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇68号 / Submarine 68"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队20 / Fleet 20"
+		naval_base = 1562
+		task_force = {
+			name = "编队20 / Task Force 20"
+			location = 1562
+			ship = {
+				name = "潜艇69号 / Submarine 69"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇70号 / Submarine 70"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇71号 / Submarine 71"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇72号 / Submarine 72"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇73号 / Submarine 73"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇74号 / Submarine 74"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇75号 / Submarine 75"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇76号 / Submarine 76"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇77号 / Submarine 77"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇78号 / Submarine 78"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇79号 / Submarine 79"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇80号 / Submarine 80"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇81号 / Submarine 81"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇82号 / Submarine 82"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇83号 / Submarine 83"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇84号 / Submarine 84"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队21 / Fleet 21"
+		naval_base = 9671
+		task_force = {
+			name = "编队21 / Task Force 21"
+			location = 9671
+			ship = {
+				name = "潜艇85号 / Submarine 85"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇86号 / Submarine 86"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇87号 / Submarine 87"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇88号 / Submarine 88"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇89号 / Submarine 89"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇90号 / Submarine 90"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇91号 / Submarine 91"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇92号 / Submarine 92"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇93号 / Submarine 93"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇94号 / Submarine 94"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇95号 / Submarine 95"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇96号 / Submarine 96"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇97号 / Submarine 97"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇98号 / Submarine 98"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇99号 / Submarine 99"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇100号 / Submarine 100"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队22 / Fleet 22"
+		naval_base = 9814
+		task_force = {
+			name = "编队22 / Task Force 22"
+			location = 9814
+			ship = {
+				name = "潜艇101号 / Submarine 101"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇102号 / Submarine 102"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇103号 / Submarine 103"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇104号 / Submarine 104"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇105号 / Submarine 105"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇106号 / Submarine 106"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇107号 / Submarine 107"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇108号 / Submarine 108"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇109号 / Submarine 109"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇110号 / Submarine 110"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇111号 / Submarine 111"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇112号 / Submarine 112"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇113号 / Submarine 113"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇114号 / Submarine 114"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇115号 / Submarine 115"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇116号 / Submarine 116"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队23 / Fleet 23"
+		naval_base = 610
+		task_force = {
+			name = "编队23 / Task Force 23"
+			location = 610
+			ship = {
+				name = "潜艇117号 / Submarine 117"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇118号 / Submarine 118"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇119号 / Submarine 119"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇120号 / Submarine 120"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇121号 / Submarine 121"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇122号 / Submarine 122"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇123号 / Submarine 123"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇124号 / Submarine 124"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇125号 / Submarine 125"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇126号 / Submarine 126"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇127号 / Submarine 127"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇128号 / Submarine 128"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇129号 / Submarine 129"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇130号 / Submarine 130"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇131号 / Submarine 131"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇132号 / Submarine 132"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队24 / Fleet 24"
+		naval_base = 12211
+		task_force = {
+			name = "编队24 / Task Force 24"
+			location = 12211
+			ship = {
+				name = "潜艇133号 / Submarine 133"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇134号 / Submarine 134"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇135号 / Submarine 135"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇136号 / Submarine 136"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "潜艇137号 / Submarine 137"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+}

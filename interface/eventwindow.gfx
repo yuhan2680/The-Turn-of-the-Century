@@ -1,0 +1,142 @@
+# N89 native skin; base engine declarations retained.
+spriteTypes = {
+	spriteType = {
+		name = "GFX_event_news_pic_overlay"
+		texturefile = "gfx/interface/n89/native/GFX_event_news_pic_overlay.tga"
+	}
+	spriteType = {
+		name = "GFX_event_news_bg"
+		texturefile = "gfx/interface/n89/native/GFX_event_news_bg.tga"
+	}
+	spriteType = {
+		name = "GFX_event_pic_clip"
+		texturefile = "gfx/interface/n89/native/GFX_event_pic_clip.tga"
+	}
+	spriteType = {
+		name = "GFX_event_option_entry"
+		texturefile = "gfx/interface/n89/native/GFX_event_option_entry.tga"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_event_report_tileable_midsection"
+		size = {
+			x = 580
+			y = 66
+		}
+		textureFile = "gfx/interface/n89/native/GFX_event_report_tileable_midsection.tga"
+		borderSize = {
+			x = 290
+			y = 16
+		}
+		alwaystransparent = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_event_report_tileable_bottom_section"
+		size = {
+			x = 580
+			y = 66
+		}
+		textureFile = "gfx/interface/n89/native/GFX_event_report_tileable_bottom_section.tga"
+		borderSize = {
+			x = 290
+			y = 16
+		}
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_event_report_top_win"
+		texturefile = "gfx/interface/n89/native/GFX_event_report_top_win.tga"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_event_report_bottom_win"
+		texturefile = "gfx/interface/n89/native/GFX_event_report_bottom_win.tga"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_event_report_bottom_win_end"
+		texturefile = "gfx/interface/n89/native/GFX_event_report_bottom_win_end.tga"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_event_button_minimize"
+		texturefile = "gfx/interface/n89/native/GFX_event_button_minimize.tga"
+	}
+	spriteType = {
+		name = "GFX_paper_clip_event"
+		texturefile = "gfx/interface/n89/native/GFX_paper_clip_event.tga"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_event_operative_background"
+		texturefile = "gfx/interface/n89/native/GFX_event_operative_background.tga"
+		noOfFrames = 24
+		animation_rate_fps = 80
+		looping = no
+		play_on_show = no
+		pause_on_loop = 0.0
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_red"
+		texturefile = "gfx/interface/events/war_escalation_level_red.dds"
+		noOfFrames = 10
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_white"
+		texturefile = "gfx/interface/events/war_escalation_level_white.dds"
+		noOfFrames = 10
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_green"
+		texturefile = "gfx/interface/events/war_escalation_level_green.dds"
+		noOfFrames = 10
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_1"
+		texturefile = "gfx/interface/events/war_escalation_level_1.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_2"
+		texturefile = "gfx/interface/events/war_escalation_level_2.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_3"
+		texturefile = "gfx/interface/events/war_escalation_level_3.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_4"
+		texturefile = "gfx/interface/events/war_escalation_level_4.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_5"
+		texturefile = "gfx/interface/events/war_escalation_level_5.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_6"
+		texturefile = "gfx/interface/events/war_escalation_level_6.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_7"
+		texturefile = "gfx/interface/events/war_escalation_level_7.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_8"
+		texturefile = "gfx/interface/events/war_escalation_level_8.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_9"
+		texturefile = "gfx/interface/events/war_escalation_level_9.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_war_escalation_level_10"
+		texturefile = "gfx/interface/events/war_escalation_level_10.dds"
+		noOfFrames = 3
+	}
+}

@@ -1,0 +1,1 @@
+spriteTypes = { spriteType = { name = "GFX_ctc_link_button" texturefile = "gfx/interface/n89/tab.tga" noOfFrames = 3 } }

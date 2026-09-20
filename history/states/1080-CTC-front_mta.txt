@@ -1,0 +1,21 @@
+state = {
+	id = 1080
+	name = "STATE_1080"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = MTA
+		add_core_of = MTA
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4175
+			3
+		}
+	}
+	provinces = {
+		4175
+	}
+}

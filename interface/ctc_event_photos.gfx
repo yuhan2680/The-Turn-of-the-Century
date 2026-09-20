@@ -1,0 +1,24 @@
+spriteTypes = {
+spriteType = { name = "GFX_ctc_photo_newspapers1982" texturefile = "gfx/event_pictures/ctc/newspapers1982.dds" }
+spriteType = { name = "GFX_ctc_photo_market1982" texturefile = "gfx/event_pictures/ctc/market1982.dds" }
+spriteType = { name = "GFX_ctc_photo_demonstrators1989" texturefile = "gfx/event_pictures/ctc/demonstrators1989.dds" }
+spriteType = { name = "GFX_ctc_photo_zhao1984" texturefile = "gfx/event_pictures/ctc/zhao1984.dds" }
+spriteType = { name = "GFX_ctc_photo_soviet_withdrawal1989" texturefile = "gfx/event_pictures/ctc/soviet_withdrawal1989.dds" }
+spriteType = { name = "GFX_ctc_photo_great_hall1988" texturefile = "gfx/event_pictures/ctc/great_hall1988.dds" }
+spriteType = { name = "GFX_ctc_photo_beijing_market1988" texturefile = "gfx/event_pictures/ctc/beijing_market1988.dds" }
+spriteType = { name = "GFX_ctc_photo_beijing_street1988" texturefile = "gfx/event_pictures/ctc/beijing_street1988.dds" }
+spriteType = { name = "GFX_ctc_photo_beijing_station1988" texturefile = "gfx/event_pictures/ctc/beijing_station1988.dds" }
+spriteType = { name = "GFX_ctc_photo_beijing_bicycles1988" texturefile = "gfx/event_pictures/ctc/beijing_bicycles1988.dds" }
+spriteType = { name = "GFX_ctc_photo_tiananmen1988" texturefile = "gfx/event_pictures/ctc/tiananmen1988.dds" }
+spriteType = { name = "GFX_ctc_photo_hu1986" texturefile = "gfx/event_pictures/ctc/hu1986.dds" }
+spriteType = { name = "GFX_ctc_photo_aftermath1989" texturefile = "gfx/event_pictures/ctc/aftermath1989.dds" }
+spriteType = { name = "GFX_ctc_photo_tanks1989" texturefile = "gfx/event_pictures/ctc/tanks1989.dds" }
+spriteType = { name = "GFX_ctc_photo_macau1999" texturefile = "gfx/event_pictures/ctc/macau1999.dds" }
+spriteType = { name = "GFX_ctc_photo_press_card1989" texturefile = "gfx/event_pictures/ctc/press_card1989.dds" }
+spriteType = { name = "GFX_ctc_photo_factory1985" texturefile = "gfx/event_pictures/ctc/factory1985.dds" }
+spriteType = { name = "GFX_ctc_photo_herald1989" texturefile = "gfx/event_pictures/ctc/herald1989.dds" }
+spriteType = { name = "GFX_ctc_photo_bush1989" texturefile = "gfx/event_pictures/ctc/bush1989.dds" }
+spriteType = { name = "GFX_ctc_photo_gorbachev1988" texturefile = "gfx/event_pictures/ctc/gorbachev1988.dds" }
+spriteType = { name = "GFX_ctc_photo_hongkong1997" texturefile = "gfx/event_pictures/ctc/hongkong1997.dds" }
+spriteType = { name = "GFX_ctc_photo_shevardnadze1988" texturefile = "gfx/event_pictures/ctc/shevardnadze1988.dds" }
+}

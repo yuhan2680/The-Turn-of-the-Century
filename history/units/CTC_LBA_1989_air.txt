@@ -1,0 +1,28 @@
+air_wings = {
+	448 = {
+		ctc_combat_aircraft = {
+			owner = "LBA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "LBA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "LBA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "LBA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "LBA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "LBA"
+			amount = 9
+		}
+	}
+}

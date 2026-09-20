@@ -1,0 +1,24 @@
+state = {
+	id = 163
+	name = "STATE_163"
+	manpower = 18000
+	state_category = enclave
+	provinces = {
+		3943
+	}
+	local_supplies = 0.0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		victory_points = {
+			3943
+			5
+		}
+		buildings = {
+			infrastructure = 3
+			3943 = {
+				naval_base = 1
+			}
+		}
+	}
+}

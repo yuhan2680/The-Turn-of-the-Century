@@ -1,0 +1,76 @@
+on_actions = {
+	on_daily_USA = {
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						date < 1989.1.20
+					}
+					NOT = {
+						has_country_flag = n89_bush_inaugurated
+					}
+					has_government = democratic
+				}
+				set_country_flag = n89_bush_inaugurated
+				retire_country_leader = yes
+				create_country_leader = {
+					name = N89_BUSH
+					picture = "gfx/leaders/ctc/N89_BUSH.dds"
+					expire = "2000.1.2"
+					ideology = liberalism
+					traits = {
+
+					}
+				}
+				log = "N89_WORLD_BUSH_INAUGURATED"
+			}
+		}
+	}
+	on_daily_PRC = {
+		effect = {
+			ctc_china_may_daily = yes
+			if = {
+				limit = {
+					NOT = {
+						date < 1997.7.1
+					}
+					date < 1997.7.2
+					NOT = {
+						has_country_flag = n89_hong_kong_handover
+					}
+					NOT = {
+						has_war_with = ENG
+					}
+					326 = {
+						is_owned_by = ENG
+						is_controlled_by = ENG
+					}
+				}
+				country_event = {
+					id = n89_handover.1
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						date < 1999.12.20
+					}
+					date < 1999.12.21
+					NOT = {
+						has_country_flag = n89_macau_handover
+					}
+					NOT = {
+						has_war_with = POR
+					}
+					729 = {
+						is_owned_by = POR
+						is_controlled_by = POR
+					}
+				}
+				country_event = {
+					id = n89_handover.2
+				}
+			}
+		}
+	}
+}

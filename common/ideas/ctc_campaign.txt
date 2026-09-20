@@ -1,0 +1,11 @@
+ideas = { country = {
+ctc_cp_administration = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { political_power_gain = -0.03 } }
+ctc_cp_industry = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { industrial_capacity_factory = -0.02 } }
+ctc_cp_transport = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { political_power_gain = -0.03 } }
+ctc_cp_science = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { consumer_goods_factor = 0.01 } }
+ctc_cp_public = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { consumer_goods_factor = 0.01 } }
+ctc_cp_army = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { army_org_factor = -0.02 } }
+ctc_cp_security = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { air_mission_efficiency = -0.02 } }
+ctc_cp_diplomacy = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { political_power_gain = -0.02 } }
+ctc_cp_unmet = { picture = ctc_cp_policy allowed = { always = yes } removal_cost = -1 modifier = { political_power_gain = -0.02 } }
+} }

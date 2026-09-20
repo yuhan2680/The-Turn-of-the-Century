@@ -1,0 +1,4 @@
+defined_text = { name = CTCAprilReturnContext
+    text = { trigger = { has_country_flag = n89_zhao_departed } localization_key = CTC_APRIL_ZHAO_RETURNED }
+    text = { localization_key = CTC_APRIL_ZHAO_STAYED }
+}

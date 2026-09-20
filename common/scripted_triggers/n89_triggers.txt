@@ -1,0 +1,15 @@
+# All triggers are COUNTRY scope. R and H are independent, NOT complementary.
+n89_dialogue_space = {
+    check_variable = { n89_r > 39 }
+    check_variable = { n89_h < 75 }
+}
+n89_hardline_space = {
+    check_variable = { n89_h > 39 }
+    check_variable = { n89_r < 75 }
+}
+n89_opening_active = {
+    tag = PRC
+    has_country_flag = n89_initialized
+    NOT = { has_country_flag = n89_prototype_complete }
+    date < 1989.5.1
+}

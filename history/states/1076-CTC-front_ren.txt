@@ -1,0 +1,22 @@
+state = {
+	id = 1076
+	name = "STATE_1076"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = REN
+		add_core_of = REN
+		add_core_of = MZB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13417
+			3
+		}
+	}
+	provinces = {
+		13417
+		13418
+	}
+}

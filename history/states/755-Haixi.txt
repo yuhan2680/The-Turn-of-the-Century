@@ -1,0 +1,34 @@
+state = {
+	id = 755
+	name = "STATE_755"
+	provinces = {
+		2053
+		2099
+		7997
+		10750
+		10796
+		10834
+		10865
+		12846
+		12890
+		13146
+		13381
+	}
+	manpower = 1000000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.0
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = CHI
+		victory_points = {
+			10750
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+}

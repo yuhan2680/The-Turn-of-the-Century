@@ -1,0 +1,33 @@
+defined_text = { name = N89Phase
+text = { trigger = { has_country_flag = ctc_outcome_social_democratic } localization_key = CTC_PHASE_CTC_OUTCOME_SOCIAL_DEMOCRATIC }
+text = { trigger = { has_country_flag = ctc_outcome_maoist } localization_key = CTC_PHASE_CTC_OUTCOME_MAOIST }
+text = { trigger = { has_country_flag = ctc_outcome_revolution } localization_key = CTC_PHASE_CTC_OUTCOME_REVOLUTION }
+text = { trigger = { has_country_flag = ctc_outcome_conservative } localization_key = CTC_PHASE_CTC_OUTCOME_CONSERVATIVE }
+text = { trigger = { has_country_flag = ctc_outcome_reformist } localization_key = CTC_PHASE_CTC_OUTCOME_REFORMIST }
+text = { trigger = { has_country_flag = ctc_outcome_labour_reform } localization_key = CTC_PHASE_CTC_OUTCOME_LABOUR_REFORM }
+text = { trigger = { NOT = { date < 1989.6.1 } } localization_key = CTC_PHASE_JUNE }
+text = { trigger = { NOT = { date < 1989.5.1 } } localization_key = CTC_PHASE_MAY }
+text = { trigger = { has_country_flag = n89_prototype_complete } localization_key = N89_PHASE_END }
+text = { trigger = { has_country_flag = n89_done_16 } localization_key = N89_PHASE_CRISIS }
+text = { trigger = { NOT = { date < 1989.4.1 } } localization_key = N89_PHASE_APR }
+text = { localization_key = N89_PHASE_Q1 }
+}
+defined_text = { name = N89ContactStatus text = { trigger = { has_country_flag = n89_channels } localization_key = N89_CONTACT_OPEN } text = { localization_key = N89_CONTACT_WAIT } }
+defined_text = { name = CTCChinaOffices
+text = { trigger = { has_country_flag = ctc_outcome_social_democratic } localization_key = CTC_OFFICE_CTC_OUTCOME_SOCIAL_DEMOCRATIC }
+text = { trigger = { has_country_flag = ctc_outcome_maoist } localization_key = CTC_OFFICE_CTC_OUTCOME_MAOIST }
+text = { trigger = { has_country_flag = ctc_outcome_revolution } localization_key = CTC_OFFICE_CTC_OUTCOME_REVOLUTION }
+text = { trigger = { has_country_flag = ctc_jiang_general_secretary } localization_key = CTC_OFFICE_CTC_JIANG_GENERAL_SECRETARY }
+text = { trigger = { has_country_flag = ctc_outcome_labour_reform } localization_key = CTC_OFFICE_CTC_OUTCOME_LABOUR_REFORM }
+text = { trigger = { has_country_flag = ctc_outcome_reformist } localization_key = CTC_OFFICE_CTC_OUTCOME_REFORMIST }
+text = { trigger = { has_country_flag = ctc_zhao_removed } localization_key = CTC_OFFICE_CTC_ZHAO_REMOVED }
+text = { localization_key = CTC_OFFICE_INITIAL } }
+defined_text = { name = N89Record10 text = { trigger = { has_country_flag = n89_done_10 } localization_key = N89_RECORD_10 } text = { localization_key = N89_PENDING_10 } }
+defined_text = { name = N89Record11 text = { trigger = { has_country_flag = n89_done_11 } localization_key = N89_RECORD_11 } text = { localization_key = N89_PENDING_11 } }
+defined_text = { name = N89Record12 text = { trigger = { has_country_flag = n89_done_12 } localization_key = N89_RECORD_12 } text = { localization_key = N89_PENDING_12 } }
+defined_text = { name = N89Record13 text = { trigger = { has_country_flag = n89_done_13 } localization_key = N89_RECORD_13 } text = { localization_key = N89_PENDING_13 } }
+defined_text = { name = N89Record14 text = { trigger = { has_country_flag = n89_done_14 } localization_key = N89_RECORD_14 } text = { localization_key = N89_PENDING_14 } }
+defined_text = { name = N89Record15 text = { trigger = { has_country_flag = n89_done_15 } localization_key = N89_RECORD_15 } text = { localization_key = N89_PENDING_15 } }
+defined_text = { name = N89Record16 text = { trigger = { has_country_flag = n89_done_16 } localization_key = N89_RECORD_16 } text = { localization_key = N89_PENDING_16 } }
+defined_text = { name = N89Record20 text = { trigger = { has_country_flag = n89_done_20 } localization_key = N89_RECORD_20 } text = { localization_key = N89_PENDING_20 } }
+defined_text = { name = N89Record23 text = { trigger = { has_country_flag = n89_done_23 } localization_key = N89_RECORD_23 } text = { localization_key = N89_PENDING_23 } }

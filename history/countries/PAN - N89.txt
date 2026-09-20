@@ -1,0 +1,40 @@
+capital = 304
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_stability = 0.65
+set_war_support = 0.10
+set_research_slots = 3
+add_political_power = 100
+add_ideas = {
+	limited_exports
+	volunteer_only
+	civilian_economy
+}
+create_country_leader = {
+	name = N89_LEADER_PAN
+	picture = "gfx/leaders/ctc/N89_LEADER_PAN.dds"
+	expire = "2000.1.2"
+	ideology = despotism
+	traits = {
+
+	}
+}
+set_country_flag = ctc_1989_military_initialized
+oob = "CTC_PAN_1989"
+set_naval_oob = "CTC_PAN_1989_naval"
+set_air_oob = "CTC_PAN_1989_air"
+set_popularities = {
+	communism = 9
+	democratic = 39
+	neutrality = 50
+	fascism = 2
+}
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	ctc_1989_armed_forces = 1
+	basic_train = 1
+	motorised_infantry = 1
+}

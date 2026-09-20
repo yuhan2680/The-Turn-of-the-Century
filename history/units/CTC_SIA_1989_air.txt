@@ -1,0 +1,12 @@
+air_wings = {
+	289 = {
+		ctc_combat_aircraft = {
+			owner = "SIA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SIA"
+			amount = 65
+		}
+	}
+}

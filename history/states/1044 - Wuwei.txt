@@ -1,0 +1,27 @@
+state = {
+	id = 1044
+	name = "STATE_1044"
+	manpower = 1010300
+	state_category = pastoral
+	provinces = {
+		1630
+		5057
+		5100
+		12327
+		12776
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			5100
+			1
+		}
+	}
+}

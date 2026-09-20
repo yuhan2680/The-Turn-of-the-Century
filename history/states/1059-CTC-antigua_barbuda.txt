@@ -1,0 +1,16 @@
+state = {
+	id = 1059
+	name = "STATE_1059"
+	manpower = 64000
+	state_category = town
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+		owner = ATG
+		add_core_of = ATG
+	}
+	provinces = {
+		13399
+	}
+}

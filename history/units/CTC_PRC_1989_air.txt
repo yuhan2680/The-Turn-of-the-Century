@@ -1,0 +1,286 @@
+air_wings = {
+	608 = {
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+	}
+	283 = {
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+	}
+	287 = {
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+	}
+	322 = {
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRC"
+			amount = 100
+		}
+	}
+}

@@ -1,0 +1,238 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 12505
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 12505
+			ship = {
+				name = "驱逐舰1号 / Destroyer 1"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰2号 / Destroyer 2"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰3号 / Destroyer 3"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰4号 / Destroyer 4"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰5号 / Destroyer 5"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰6号 / Destroyer 6"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰7号 / Destroyer 7"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰8号 / Destroyer 8"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰9号 / Destroyer 9"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰10号 / Destroyer 10"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰11号 / Destroyer 11"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰12号 / Destroyer 12"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰13号 / Destroyer 13"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰14号 / Destroyer 14"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰15号 / Destroyer 15"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰16号 / Destroyer 16"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队2 / Fleet 2"
+		naval_base = 12503
+		task_force = {
+			name = "编队2 / Task Force 2"
+			location = 12503
+			ship = {
+				name = "驱逐舰17号 / Destroyer 17"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰18号 / Destroyer 18"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰19号 / Destroyer 19"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "潜艇1号 / Submarine 1"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "潜艇2号 / Submarine 2"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+			ship = {
+				name = "潜艇3号 / Submarine 3"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = CAN
+					}
+				}
+			}
+		}
+	}
+}

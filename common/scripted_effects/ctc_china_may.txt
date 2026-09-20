@@ -1,0 +1,255 @@
+ctc_china_may_daily = {
+if = { limit = {
+    tag = PRC has_country_flag = n89_initialized
+    has_country_flag = n89_prototype_complete
+    has_country_flag = ctc_april_content_complete
+    NOT = { date < 1989.5.2 }
+    NOT = { has_country_flag = ctc_outcome_locked }
+    NOT = { has_country_flag = ctc_outcome_pending }
+}
+ctc_start_crisis = yes
+
+if = { limit = {
+        NOT = { date < 1989.5.2 }  
+        NOT = { has_country_flag = ctc_may_skipped_10 }
+        NOT = { has_country_flag = ctc_may_done_10 }
+        NOT = { has_country_flag = ctc_may_sent_10 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_10
+    country_event = { id = ctc_china_may.10 }
+    }
+if = { limit = { OR = { has_country_flag = ctc_may_done_10 has_country_flag = ctc_may_skipped_10 } NOT = { AND = { has_country_flag = ctc_all_demands_fulfilled } } NOT = { has_country_flag = ctc_may_skipped_19 } } log = "[CTC] Skipped inapplicable ctc_china_may.19" set_country_flag = ctc_may_skipped_19 }
+if = { limit = {
+        NOT = { date < 1989.5.3 } OR = { has_country_flag = ctc_may_done_10 has_country_flag = ctc_may_skipped_10 } has_country_flag = ctc_all_demands_fulfilled
+        NOT = { has_country_flag = ctc_may_skipped_19 }
+        NOT = { has_country_flag = ctc_may_done_19 }
+        NOT = { has_country_flag = ctc_may_sent_19 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_19
+    country_event = { id = ctc_china_may.19 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.4 } OR = { has_country_flag = ctc_may_done_19 has_country_flag = ctc_may_skipped_19 } 
+        NOT = { has_country_flag = ctc_may_skipped_1 }
+        NOT = { has_country_flag = ctc_may_done_1 }
+        NOT = { has_country_flag = ctc_may_sent_1 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_1
+    country_event = { id = ctc_china_may.1 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.6 } OR = { has_country_flag = ctc_may_done_1 has_country_flag = ctc_may_skipped_1 } 
+        NOT = { has_country_flag = ctc_may_skipped_11 }
+        NOT = { has_country_flag = ctc_may_done_11 }
+        NOT = { has_country_flag = ctc_may_sent_11 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_11
+    country_event = { id = ctc_china_may.11 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.13 } OR = { has_country_flag = ctc_may_done_11 has_country_flag = ctc_may_skipped_11 } 
+        NOT = { has_country_flag = ctc_may_skipped_2 }
+        NOT = { has_country_flag = ctc_may_done_2 }
+        NOT = { has_country_flag = ctc_may_sent_2 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_2
+    country_event = { id = ctc_china_may.2 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.15 } OR = { has_country_flag = ctc_may_done_2 has_country_flag = ctc_may_skipped_2 } 
+        NOT = { has_country_flag = ctc_may_skipped_3 }
+        NOT = { has_country_flag = ctc_may_done_3 }
+        NOT = { has_country_flag = ctc_may_sent_3 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_3
+    country_event = { id = ctc_china_may.3 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.17 } OR = { has_country_flag = ctc_may_done_3 has_country_flag = ctc_may_skipped_3 } 
+        NOT = { has_country_flag = ctc_may_skipped_12 }
+        NOT = { has_country_flag = ctc_may_done_12 }
+        NOT = { has_country_flag = ctc_may_sent_12 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_12
+    country_event = { id = ctc_china_may.12 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.18 } OR = { has_country_flag = ctc_may_done_12 has_country_flag = ctc_may_skipped_12 } 
+        NOT = { has_country_flag = ctc_may_skipped_4 }
+        NOT = { has_country_flag = ctc_may_done_4 }
+        NOT = { has_country_flag = ctc_may_sent_4 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_4
+    country_event = { id = ctc_china_may.4 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.19 } OR = { has_country_flag = ctc_may_done_4 has_country_flag = ctc_may_skipped_4 } 
+        NOT = { has_country_flag = ctc_may_skipped_5 }
+        NOT = { has_country_flag = ctc_may_done_5 }
+        NOT = { has_country_flag = ctc_may_sent_5 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_5
+    country_event = { id = ctc_china_may.5 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.20 } OR = { has_country_flag = ctc_may_done_5 has_country_flag = ctc_may_skipped_5 } 
+        NOT = { has_country_flag = ctc_may_skipped_6 }
+        NOT = { has_country_flag = ctc_may_done_6 }
+        NOT = { has_country_flag = ctc_may_sent_6 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_6
+    country_event = { id = ctc_china_may.6 }
+    }
+if = { limit = { OR = { has_country_flag = ctc_may_done_6 has_country_flag = ctc_may_skipped_6 } NOT = { AND = { has_country_flag = ctc_workers_recognized } } NOT = { has_country_flag = ctc_may_skipped_13 } } log = "[CTC] Skipped inapplicable ctc_china_may.13" set_country_flag = ctc_may_skipped_13 }
+if = { limit = {
+        NOT = { date < 1989.5.22 } OR = { has_country_flag = ctc_may_done_6 has_country_flag = ctc_may_skipped_6 } has_country_flag = ctc_workers_recognized
+        NOT = { has_country_flag = ctc_may_skipped_13 }
+        NOT = { has_country_flag = ctc_may_done_13 }
+        NOT = { has_country_flag = ctc_may_sent_13 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_13
+    country_event = { id = ctc_china_may.13 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.23 } OR = { has_country_flag = ctc_may_done_13 has_country_flag = ctc_may_skipped_13 } 
+        NOT = { has_country_flag = ctc_may_skipped_7 }
+        NOT = { has_country_flag = ctc_may_done_7 }
+        NOT = { has_country_flag = ctc_may_sent_7 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_7
+    country_event = { id = ctc_china_may.7 }
+    }
+if = { limit = { OR = { has_country_flag = ctc_may_done_7 has_country_flag = ctc_may_skipped_7 } NOT = { AND = { has_country_flag = ctc_revolution_mobilized has_country_flag = ctc_joint_council } } NOT = { has_country_flag = ctc_may_skipped_14 } } log = "[CTC] Skipped inapplicable ctc_china_may.14" set_country_flag = ctc_may_skipped_14 }
+if = { limit = {
+        NOT = { date < 1989.5.25 } OR = { has_country_flag = ctc_may_done_7 has_country_flag = ctc_may_skipped_7 } has_country_flag = ctc_revolution_mobilized has_country_flag = ctc_joint_council
+        NOT = { has_country_flag = ctc_may_skipped_14 }
+        NOT = { has_country_flag = ctc_may_done_14 }
+        NOT = { has_country_flag = ctc_may_sent_14 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_14
+    country_event = { id = ctc_china_may.14 }
+    }
+if = { limit = {
+        NOT = { date < 1989.5.28 } OR = { has_country_flag = ctc_may_done_14 has_country_flag = ctc_may_skipped_14 } 
+        NOT = { has_country_flag = ctc_may_skipped_8 }
+        NOT = { has_country_flag = ctc_may_done_8 }
+        NOT = { has_country_flag = ctc_may_sent_8 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_8
+    country_event = { id = ctc_china_may.8 }
+    }
+if = { limit = { OR = { has_country_flag = ctc_may_done_8 has_country_flag = ctc_may_skipped_8 } NOT = { AND = { OR = { has_country_flag = ctc_reform_agreement has_country_flag = ctc_labour_agreement } } } NOT = { has_country_flag = ctc_may_skipped_15 } } log = "[CTC] Skipped inapplicable ctc_china_may.15" set_country_flag = ctc_may_skipped_15 }
+if = { limit = {
+        NOT = { date < 1989.5.30 } OR = { has_country_flag = ctc_may_done_8 has_country_flag = ctc_may_skipped_8 } OR = { has_country_flag = ctc_reform_agreement has_country_flag = ctc_labour_agreement }
+        NOT = { has_country_flag = ctc_may_skipped_15 }
+        NOT = { has_country_flag = ctc_may_done_15 }
+        NOT = { has_country_flag = ctc_may_sent_15 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_15
+    country_event = { id = ctc_china_may.15 }
+    }
+if = { limit = { OR = { has_country_flag = ctc_may_done_15 has_country_flag = ctc_may_skipped_15 } NOT = { AND = { has_country_flag = ctc_agreement_ratified } } NOT = { has_country_flag = ctc_may_skipped_16 } } log = "[CTC] Skipped inapplicable ctc_china_may.16" set_country_flag = ctc_may_skipped_16 }
+if = { limit = {
+        NOT = { date < 1989.6.1 } OR = { has_country_flag = ctc_may_done_15 has_country_flag = ctc_may_skipped_15 } has_country_flag = ctc_agreement_ratified
+        NOT = { has_country_flag = ctc_may_skipped_16 }
+        NOT = { has_country_flag = ctc_may_done_16 }
+        NOT = { has_country_flag = ctc_may_sent_16 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_16
+    country_event = { id = ctc_china_may.16 }
+    }
+if = { limit = {
+        NOT = { date < 1989.6.3 } OR = { has_country_flag = ctc_may_done_16 has_country_flag = ctc_may_skipped_16 } 
+        NOT = { has_country_flag = ctc_may_skipped_9 }
+        NOT = { has_country_flag = ctc_may_done_9 }
+        NOT = { has_country_flag = ctc_may_sent_9 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_9
+    country_event = { id = ctc_china_may.9 }
+    }
+if = { limit = { OR = { has_country_flag = ctc_may_done_9 has_country_flag = ctc_may_skipped_9 } NOT = { AND = { has_country_flag = ctc_final_suppress } } NOT = { has_country_flag = ctc_may_skipped_17 } } log = "[CTC] Skipped inapplicable ctc_china_may.17" set_country_flag = ctc_may_skipped_17 }
+if = { limit = {
+        NOT = { date < 1989.6.4 } OR = { has_country_flag = ctc_may_done_9 has_country_flag = ctc_may_skipped_9 } has_country_flag = ctc_final_suppress
+        NOT = { has_country_flag = ctc_may_skipped_17 }
+        NOT = { has_country_flag = ctc_may_done_17 }
+        NOT = { has_country_flag = ctc_may_sent_17 }
+        NOT = { has_country_flag = ctc_may_event_pending }
+    }
+    set_country_flag = ctc_may_event_pending
+    set_country_flag = ctc_may_sent_17
+    country_event = { id = ctc_china_may.17 }
+    }
+}
+if = { limit = {
+        tag = PRC has_country_flag = ctc_may_done_9
+        NOT = { date < 1989.6.4 } has_country_flag = ctc_final_suppress
+        has_country_flag = ctc_force_executed has_country_flag = ctc_may_done_17
+        NOT = { has_country_flag = ctc_outcome_locked }
+    } set_country_flag = ctc_conservative_settlement_ready ctc_offer_conservative_ending = yes }
+if = { limit = {
+        tag = PRC has_country_flag = ctc_may_done_9
+        NOT = { date < 1989.6.4 } has_country_flag = ctc_final_reform
+        
+        NOT = { has_country_flag = ctc_outcome_locked }
+    } set_country_flag = ctc_reformist_settlement_ready ctc_offer_reformist_ending = yes }
+if = { limit = {
+        tag = PRC has_country_flag = ctc_may_done_9
+        NOT = { date < 1989.6.4 } has_country_flag = ctc_final_labour
+        
+        NOT = { has_country_flag = ctc_outcome_locked }
+    } set_country_flag = ctc_labour_reform_settlement_ready ctc_offer_labour_reform_ending = yes }
+if = { limit = {
+        tag = PRC has_country_flag = ctc_may_done_9
+        NOT = { date < 1989.6.4 } has_country_flag = ctc_final_revolution
+        
+        NOT = { has_country_flag = ctc_outcome_locked }
+    } set_country_flag = ctc_revolution_settlement_ready ctc_offer_revolution_ending = yes }
+if = { limit = {
+    tag = PRC has_country_flag = ctc_outcome_conservative NOT = { date < 1989.6.24 }
+    NOT = { has_country_flag = ctc_may_sent_18 }
+} set_country_flag = ctc_may_sent_18 country_event = { id = ctc_china_may.18 } }
+if = { limit = {
+    tag = PRC has_country_flag = ctc_early_reform_settlement has_country_flag = ctc_outcome_reformist
+    NOT = { date < 1989.5.15 } NOT = { has_country_flag = ctc_may_sent_20 }
+} set_country_flag = ctc_may_sent_20 country_event = { id = ctc_china_may.20 } }
+if = { limit = {
+    has_country_flag = ctc_revolution_defeated_government
+    has_country_flag = ctc_revolution_started
+    NOT = { has_country_flag = ctc_revolution_won }
+    has_civil_war = no
+} ctc_record_revolution_victory = yes }
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 900
+	name = "STATE_900"
+	manpower = 1163674
+	resources = {
+		coal = 2
+	}
+	state_category = pastoral
+	provinces = {
+		1992
+		4889
+		7978
+		8034
+		10831
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = NGA
+		add_core_of = NGA
+		victory_points = {
+			8034
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

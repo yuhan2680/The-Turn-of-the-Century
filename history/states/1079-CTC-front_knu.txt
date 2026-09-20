@@ -1,0 +1,21 @@
+state = {
+	id = 1079
+	name = "STATE_1079"
+	manpower = 136692
+	state_category = town
+	history = {
+		owner = KNU
+		add_core_of = KNU
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12238
+			3
+		}
+	}
+	provinces = {
+		12238
+	}
+}

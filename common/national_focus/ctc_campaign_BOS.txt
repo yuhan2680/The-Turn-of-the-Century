@@ -1,0 +1,3003 @@
+focus_tree = { id = CTC_CP_BOS_tree country = { factor = 0 modifier = { add = 1500 tag = BOS  } } default = no continuous_focus_position = { x = 80 y = 7400 }
+ focus = {
+  id = CTC_CP_BOS_common_1_administration_1
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_administration_1_started country_event = { id = ctc_cp_BOS.10 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_administration_1_answered } } country_event = { id = ctc_cp_BOS.10 days = 1 } } country_event = { id = ctc_cp_BOS.12 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_administration_2
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_administration_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_administration_2_started country_event = { id = ctc_cp_BOS.20 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_administration_2_answered } } country_event = { id = ctc_cp_BOS.20 days = 1 } } country_event = { id = ctc_cp_BOS.22 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_administration_3
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_administration_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_administration_3_started country_event = { id = ctc_cp_BOS.30 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_administration_3_answered } } country_event = { id = ctc_cp_BOS.30 days = 1 } } country_event = { id = ctc_cp_BOS.32 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_administration_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_administration_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_administration_4_started country_event = { id = ctc_cp_BOS.40 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_administration_4_answered } } country_event = { id = ctc_cp_BOS.40 days = 1 } } country_event = { id = ctc_cp_BOS.42 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_industry_1
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_industry_1_started country_event = { id = ctc_cp_BOS.50 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_industry_1_answered } } country_event = { id = ctc_cp_BOS.50 days = 1 } } country_event = { id = ctc_cp_BOS.52 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_industry_2
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_industry_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_industry_2_started country_event = { id = ctc_cp_BOS.60 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_industry_2_answered } } country_event = { id = ctc_cp_BOS.60 days = 1 } } country_event = { id = ctc_cp_BOS.62 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_industry_3
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_industry_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_industry_3_started country_event = { id = ctc_cp_BOS.70 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_industry_3_answered } } country_event = { id = ctc_cp_BOS.70 days = 1 } } country_event = { id = ctc_cp_BOS.72 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_industry_4
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_industry_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_industry_4_started country_event = { id = ctc_cp_BOS.80 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_industry_4_answered } } country_event = { id = ctc_cp_BOS.80 days = 1 } } country_event = { id = ctc_cp_BOS.82 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_transport_1
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_transport_1_started country_event = { id = ctc_cp_BOS.90 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_transport_1_answered } } country_event = { id = ctc_cp_BOS.90 days = 1 } } country_event = { id = ctc_cp_BOS.92 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_transport_2
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_transport_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_transport_2_started country_event = { id = ctc_cp_BOS.100 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_transport_2_answered } } country_event = { id = ctc_cp_BOS.100 days = 1 } } country_event = { id = ctc_cp_BOS.102 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_transport_3
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_transport_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_transport_3_started country_event = { id = ctc_cp_BOS.110 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_transport_3_answered } } country_event = { id = ctc_cp_BOS.110 days = 1 } } country_event = { id = ctc_cp_BOS.112 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_transport_4
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_transport_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_transport_4_started country_event = { id = ctc_cp_BOS.120 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_transport_4_answered } } country_event = { id = ctc_cp_BOS.120 days = 1 } } country_event = { id = ctc_cp_BOS.122 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_science_1
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_science_1_started country_event = { id = ctc_cp_BOS.130 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_science_1_answered } } country_event = { id = ctc_cp_BOS.130 days = 1 } } country_event = { id = ctc_cp_BOS.132 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_science_2
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_science_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_science_2_started country_event = { id = ctc_cp_BOS.140 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_science_2_answered } } country_event = { id = ctc_cp_BOS.140 days = 1 } } country_event = { id = ctc_cp_BOS.142 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_science_3
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_science_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_science_3_started country_event = { id = ctc_cp_BOS.150 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_science_3_answered } } country_event = { id = ctc_cp_BOS.150 days = 1 } } country_event = { id = ctc_cp_BOS.152 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_science_4
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_science_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_science_4_started country_event = { id = ctc_cp_BOS.160 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_science_4_answered } } country_event = { id = ctc_cp_BOS.160 days = 1 } } country_event = { id = ctc_cp_BOS.162 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_public_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_public_1_started country_event = { id = ctc_cp_BOS.170 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_public_1_answered } } country_event = { id = ctc_cp_BOS.170 days = 1 } } country_event = { id = ctc_cp_BOS.172 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_public_2
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_public_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_public_2_started country_event = { id = ctc_cp_BOS.180 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_public_2_answered } } country_event = { id = ctc_cp_BOS.180 days = 1 } } country_event = { id = ctc_cp_BOS.182 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_public_3
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_public_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_public_3_started country_event = { id = ctc_cp_BOS.190 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_public_3_answered } } country_event = { id = ctc_cp_BOS.190 days = 1 } } country_event = { id = ctc_cp_BOS.192 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_public_4
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_public_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_public_4_started country_event = { id = ctc_cp_BOS.200 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_public_4_answered } } country_event = { id = ctc_cp_BOS.200 days = 1 } } country_event = { id = ctc_cp_BOS.202 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_army_1
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_army_1_started country_event = { id = ctc_cp_BOS.210 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_army_1_answered } } country_event = { id = ctc_cp_BOS.210 days = 1 } } country_event = { id = ctc_cp_BOS.212 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_army_2
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_army_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_army_2_started country_event = { id = ctc_cp_BOS.220 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_army_2_answered } } country_event = { id = ctc_cp_BOS.220 days = 1 } } country_event = { id = ctc_cp_BOS.222 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_army_3
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_army_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_army_3_started country_event = { id = ctc_cp_BOS.230 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_army_3_answered } } country_event = { id = ctc_cp_BOS.230 days = 1 } } country_event = { id = ctc_cp_BOS.232 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_army_4
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_army_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_army_4_started country_event = { id = ctc_cp_BOS.240 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_army_4_answered } } country_event = { id = ctc_cp_BOS.240 days = 1 } } country_event = { id = ctc_cp_BOS.242 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_security_1
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_security_1_started country_event = { id = ctc_cp_BOS.250 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_security_1_answered } } country_event = { id = ctc_cp_BOS.250 days = 1 } } country_event = { id = ctc_cp_BOS.252 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_security_2
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_security_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_security_2_started country_event = { id = ctc_cp_BOS.260 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_security_2_answered } } country_event = { id = ctc_cp_BOS.260 days = 1 } } country_event = { id = ctc_cp_BOS.262 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_security_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_security_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_security_3_started country_event = { id = ctc_cp_BOS.270 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_security_3_answered } } country_event = { id = ctc_cp_BOS.270 days = 1 } } country_event = { id = ctc_cp_BOS.272 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_security_4
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_security_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_security_4_started country_event = { id = ctc_cp_BOS.280 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_security_4_answered } } country_event = { id = ctc_cp_BOS.280 days = 1 } } country_event = { id = ctc_cp_BOS.282 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_diplomacy_1
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 0
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_diplomacy_1_started country_event = { id = ctc_cp_BOS.290 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_diplomacy_1_answered } } country_event = { id = ctc_cp_BOS.290 days = 1 } } country_event = { id = ctc_cp_BOS.292 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_diplomacy_2
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 1
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_diplomacy_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_diplomacy_2_started country_event = { id = ctc_cp_BOS.300 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_diplomacy_2_answered } } country_event = { id = ctc_cp_BOS.300 days = 1 } } country_event = { id = ctc_cp_BOS.302 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_diplomacy_3
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 2
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_diplomacy_2 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_diplomacy_3_started country_event = { id = ctc_cp_BOS.310 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_diplomacy_3_answered } } country_event = { id = ctc_cp_BOS.310 days = 1 } } country_event = { id = ctc_cp_BOS.312 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_1_diplomacy_4
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_diplomacy_3 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_1_diplomacy_4_started country_event = { id = ctc_cp_BOS.320 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_1_diplomacy_4_answered } } country_event = { id = ctc_cp_BOS.320 days = 1 } } country_event = { id = ctc_cp_BOS.322 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_administration_1
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_administration_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_administration_1_started country_event = { id = ctc_cp_BOS.330 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_administration_1_answered } } country_event = { id = ctc_cp_BOS.330 days = 1 } } country_event = { id = ctc_cp_BOS.332 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_administration_2
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_administration_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_administration_2_started country_event = { id = ctc_cp_BOS.340 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_administration_2_answered } } country_event = { id = ctc_cp_BOS.340 days = 1 } } country_event = { id = ctc_cp_BOS.342 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_administration_3
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_administration_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_administration_3_started country_event = { id = ctc_cp_BOS.350 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_administration_3_answered } } country_event = { id = ctc_cp_BOS.350 days = 1 } } country_event = { id = ctc_cp_BOS.352 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_administration_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_administration_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_administration_4_started country_event = { id = ctc_cp_BOS.360 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_administration_4_answered } } country_event = { id = ctc_cp_BOS.360 days = 1 } } country_event = { id = ctc_cp_BOS.362 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_industry_1
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_industry_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_industry_1_started country_event = { id = ctc_cp_BOS.370 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_industry_1_answered } } country_event = { id = ctc_cp_BOS.370 days = 1 } } country_event = { id = ctc_cp_BOS.372 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_industry_2
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_industry_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_industry_2_started country_event = { id = ctc_cp_BOS.380 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_industry_2_answered } } country_event = { id = ctc_cp_BOS.380 days = 1 } } country_event = { id = ctc_cp_BOS.382 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_industry_3
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_industry_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_industry_3_started country_event = { id = ctc_cp_BOS.390 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_industry_3_answered } } country_event = { id = ctc_cp_BOS.390 days = 1 } } country_event = { id = ctc_cp_BOS.392 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_industry_4
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_industry_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_industry_4_started country_event = { id = ctc_cp_BOS.400 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_industry_4_answered } } country_event = { id = ctc_cp_BOS.400 days = 1 } } country_event = { id = ctc_cp_BOS.402 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_transport_1
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_transport_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_transport_1_started country_event = { id = ctc_cp_BOS.410 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_transport_1_answered } } country_event = { id = ctc_cp_BOS.410 days = 1 } } country_event = { id = ctc_cp_BOS.412 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_transport_2
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_transport_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_transport_2_started country_event = { id = ctc_cp_BOS.420 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_transport_2_answered } } country_event = { id = ctc_cp_BOS.420 days = 1 } } country_event = { id = ctc_cp_BOS.422 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_transport_3
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_transport_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_transport_3_started country_event = { id = ctc_cp_BOS.430 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_transport_3_answered } } country_event = { id = ctc_cp_BOS.430 days = 1 } } country_event = { id = ctc_cp_BOS.432 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_transport_4
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_transport_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_transport_4_started country_event = { id = ctc_cp_BOS.440 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_transport_4_answered } } country_event = { id = ctc_cp_BOS.440 days = 1 } } country_event = { id = ctc_cp_BOS.442 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_science_1
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_science_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_science_1_started country_event = { id = ctc_cp_BOS.450 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_science_1_answered } } country_event = { id = ctc_cp_BOS.450 days = 1 } } country_event = { id = ctc_cp_BOS.452 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_science_2
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_science_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_science_2_started country_event = { id = ctc_cp_BOS.460 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_science_2_answered } } country_event = { id = ctc_cp_BOS.460 days = 1 } } country_event = { id = ctc_cp_BOS.462 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_science_3
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_science_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_science_3_started country_event = { id = ctc_cp_BOS.470 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_science_3_answered } } country_event = { id = ctc_cp_BOS.470 days = 1 } } country_event = { id = ctc_cp_BOS.472 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_science_4
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_science_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_science_4_started country_event = { id = ctc_cp_BOS.480 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_science_4_answered } } country_event = { id = ctc_cp_BOS.480 days = 1 } } country_event = { id = ctc_cp_BOS.482 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_public_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_public_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_public_1_started country_event = { id = ctc_cp_BOS.490 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_public_1_answered } } country_event = { id = ctc_cp_BOS.490 days = 1 } } country_event = { id = ctc_cp_BOS.492 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_public_2
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_public_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_public_2_started country_event = { id = ctc_cp_BOS.500 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_public_2_answered } } country_event = { id = ctc_cp_BOS.500 days = 1 } } country_event = { id = ctc_cp_BOS.502 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_public_3
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_public_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_public_3_started country_event = { id = ctc_cp_BOS.510 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_public_3_answered } } country_event = { id = ctc_cp_BOS.510 days = 1 } } country_event = { id = ctc_cp_BOS.512 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_public_4
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_public_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_public_4_started country_event = { id = ctc_cp_BOS.520 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_public_4_answered } } country_event = { id = ctc_cp_BOS.520 days = 1 } } country_event = { id = ctc_cp_BOS.522 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_army_1
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_army_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_army_1_started country_event = { id = ctc_cp_BOS.530 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_army_1_answered } } country_event = { id = ctc_cp_BOS.530 days = 1 } } country_event = { id = ctc_cp_BOS.532 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_army_2
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_army_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_army_2_started country_event = { id = ctc_cp_BOS.540 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_army_2_answered } } country_event = { id = ctc_cp_BOS.540 days = 1 } } country_event = { id = ctc_cp_BOS.542 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_army_3
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_army_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_army_3_started country_event = { id = ctc_cp_BOS.550 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_army_3_answered } } country_event = { id = ctc_cp_BOS.550 days = 1 } } country_event = { id = ctc_cp_BOS.552 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_army_4
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_army_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_army_4_started country_event = { id = ctc_cp_BOS.560 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_army_4_answered } } country_event = { id = ctc_cp_BOS.560 days = 1 } } country_event = { id = ctc_cp_BOS.562 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_security_1
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_security_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_security_1_started country_event = { id = ctc_cp_BOS.570 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_security_1_answered } } country_event = { id = ctc_cp_BOS.570 days = 1 } } country_event = { id = ctc_cp_BOS.572 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_security_2
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_security_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_security_2_started country_event = { id = ctc_cp_BOS.580 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_security_2_answered } } country_event = { id = ctc_cp_BOS.580 days = 1 } } country_event = { id = ctc_cp_BOS.582 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_security_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_security_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_security_3_started country_event = { id = ctc_cp_BOS.590 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_security_3_answered } } country_event = { id = ctc_cp_BOS.590 days = 1 } } country_event = { id = ctc_cp_BOS.592 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_security_4
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_security_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_security_4_started country_event = { id = ctc_cp_BOS.600 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_security_4_answered } } country_event = { id = ctc_cp_BOS.600 days = 1 } } country_event = { id = ctc_cp_BOS.602 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_diplomacy_1
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 10
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_1_diplomacy_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_diplomacy_1_started country_event = { id = ctc_cp_BOS.610 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_diplomacy_1_answered } } country_event = { id = ctc_cp_BOS.610 days = 1 } } country_event = { id = ctc_cp_BOS.612 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_diplomacy_2
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 11
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_diplomacy_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_diplomacy_2_started country_event = { id = ctc_cp_BOS.620 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_diplomacy_2_answered } } country_event = { id = ctc_cp_BOS.620 days = 1 } } country_event = { id = ctc_cp_BOS.622 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_diplomacy_3
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 12
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_diplomacy_2 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_diplomacy_3_started country_event = { id = ctc_cp_BOS.630 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_diplomacy_3_answered } } country_event = { id = ctc_cp_BOS.630 days = 1 } } country_event = { id = ctc_cp_BOS.632 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_2_diplomacy_4
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_diplomacy_3 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_2_diplomacy_4_started country_event = { id = ctc_cp_BOS.640 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_2_diplomacy_4_answered } } country_event = { id = ctc_cp_BOS.640 days = 1 } } country_event = { id = ctc_cp_BOS.642 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_administration_1
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_administration_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_administration_1_started country_event = { id = ctc_cp_BOS.650 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_administration_1_answered } } country_event = { id = ctc_cp_BOS.650 days = 1 } } country_event = { id = ctc_cp_BOS.652 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_administration_2
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_administration_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_administration_2_started country_event = { id = ctc_cp_BOS.660 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_administration_2_answered } } country_event = { id = ctc_cp_BOS.660 days = 1 } } country_event = { id = ctc_cp_BOS.662 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_administration_3
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_administration_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_administration_3_started country_event = { id = ctc_cp_BOS.670 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_administration_3_answered } } country_event = { id = ctc_cp_BOS.670 days = 1 } } country_event = { id = ctc_cp_BOS.672 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_administration_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_administration_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_administration_4_started country_event = { id = ctc_cp_BOS.680 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_administration_4_answered } } country_event = { id = ctc_cp_BOS.680 days = 1 } } country_event = { id = ctc_cp_BOS.682 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_industry_1
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_industry_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_industry_1_started country_event = { id = ctc_cp_BOS.690 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_industry_1_answered } } country_event = { id = ctc_cp_BOS.690 days = 1 } } country_event = { id = ctc_cp_BOS.692 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_industry_2
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_industry_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_industry_2_started country_event = { id = ctc_cp_BOS.700 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_industry_2_answered } } country_event = { id = ctc_cp_BOS.700 days = 1 } } country_event = { id = ctc_cp_BOS.702 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_industry_3
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_industry_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_industry_3_started country_event = { id = ctc_cp_BOS.710 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_industry_3_answered } } country_event = { id = ctc_cp_BOS.710 days = 1 } } country_event = { id = ctc_cp_BOS.712 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_industry_4
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_industry_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_industry_4_started country_event = { id = ctc_cp_BOS.720 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_industry_4_answered } } country_event = { id = ctc_cp_BOS.720 days = 1 } } country_event = { id = ctc_cp_BOS.722 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_transport_1
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_transport_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_transport_1_started country_event = { id = ctc_cp_BOS.730 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_transport_1_answered } } country_event = { id = ctc_cp_BOS.730 days = 1 } } country_event = { id = ctc_cp_BOS.732 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_transport_2
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_transport_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_transport_2_started country_event = { id = ctc_cp_BOS.740 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_transport_2_answered } } country_event = { id = ctc_cp_BOS.740 days = 1 } } country_event = { id = ctc_cp_BOS.742 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_transport_3
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_transport_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_transport_3_started country_event = { id = ctc_cp_BOS.750 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_transport_3_answered } } country_event = { id = ctc_cp_BOS.750 days = 1 } } country_event = { id = ctc_cp_BOS.752 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_transport_4
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_transport_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_transport_4_started country_event = { id = ctc_cp_BOS.760 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_transport_4_answered } } country_event = { id = ctc_cp_BOS.760 days = 1 } } country_event = { id = ctc_cp_BOS.762 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_science_1
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_science_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_science_1_started country_event = { id = ctc_cp_BOS.770 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_science_1_answered } } country_event = { id = ctc_cp_BOS.770 days = 1 } } country_event = { id = ctc_cp_BOS.772 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_science_2
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_science_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_science_2_started country_event = { id = ctc_cp_BOS.780 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_science_2_answered } } country_event = { id = ctc_cp_BOS.780 days = 1 } } country_event = { id = ctc_cp_BOS.782 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_science_3
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_science_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_science_3_started country_event = { id = ctc_cp_BOS.790 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_science_3_answered } } country_event = { id = ctc_cp_BOS.790 days = 1 } } country_event = { id = ctc_cp_BOS.792 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_science_4
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_science_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_science_4_started country_event = { id = ctc_cp_BOS.800 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_science_4_answered } } country_event = { id = ctc_cp_BOS.800 days = 1 } } country_event = { id = ctc_cp_BOS.802 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_public_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_public_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_public_1_started country_event = { id = ctc_cp_BOS.810 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_public_1_answered } } country_event = { id = ctc_cp_BOS.810 days = 1 } } country_event = { id = ctc_cp_BOS.812 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_public_2
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_public_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_public_2_started country_event = { id = ctc_cp_BOS.820 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_public_2_answered } } country_event = { id = ctc_cp_BOS.820 days = 1 } } country_event = { id = ctc_cp_BOS.822 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_public_3
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_public_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_public_3_started country_event = { id = ctc_cp_BOS.830 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_public_3_answered } } country_event = { id = ctc_cp_BOS.830 days = 1 } } country_event = { id = ctc_cp_BOS.832 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_public_4
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_public_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_public_4_started country_event = { id = ctc_cp_BOS.840 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_public_4_answered } } country_event = { id = ctc_cp_BOS.840 days = 1 } } country_event = { id = ctc_cp_BOS.842 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_army_1
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_army_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_army_1_started country_event = { id = ctc_cp_BOS.850 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_army_1_answered } } country_event = { id = ctc_cp_BOS.850 days = 1 } } country_event = { id = ctc_cp_BOS.852 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_army_2
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_army_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_army_2_started country_event = { id = ctc_cp_BOS.860 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_army_2_answered } } country_event = { id = ctc_cp_BOS.860 days = 1 } } country_event = { id = ctc_cp_BOS.862 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_army_3
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_army_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_army_3_started country_event = { id = ctc_cp_BOS.870 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_army_3_answered } } country_event = { id = ctc_cp_BOS.870 days = 1 } } country_event = { id = ctc_cp_BOS.872 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_army_4
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_army_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_army_4_started country_event = { id = ctc_cp_BOS.880 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_army_4_answered } } country_event = { id = ctc_cp_BOS.880 days = 1 } } country_event = { id = ctc_cp_BOS.882 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_security_1
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_security_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_security_1_started country_event = { id = ctc_cp_BOS.890 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_security_1_answered } } country_event = { id = ctc_cp_BOS.890 days = 1 } } country_event = { id = ctc_cp_BOS.892 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_security_2
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_security_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_security_2_started country_event = { id = ctc_cp_BOS.900 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_security_2_answered } } country_event = { id = ctc_cp_BOS.900 days = 1 } } country_event = { id = ctc_cp_BOS.902 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_security_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_security_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_security_3_started country_event = { id = ctc_cp_BOS.910 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_security_3_answered } } country_event = { id = ctc_cp_BOS.910 days = 1 } } country_event = { id = ctc_cp_BOS.912 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_security_4
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_security_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_security_4_started country_event = { id = ctc_cp_BOS.920 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_security_4_answered } } country_event = { id = ctc_cp_BOS.920 days = 1 } } country_event = { id = ctc_cp_BOS.922 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_diplomacy_1
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 20
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_2_diplomacy_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_diplomacy_1_started country_event = { id = ctc_cp_BOS.930 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_diplomacy_1_answered } } country_event = { id = ctc_cp_BOS.930 days = 1 } } country_event = { id = ctc_cp_BOS.932 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_diplomacy_2
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 21
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_diplomacy_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_diplomacy_2_started country_event = { id = ctc_cp_BOS.940 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_diplomacy_2_answered } } country_event = { id = ctc_cp_BOS.940 days = 1 } } country_event = { id = ctc_cp_BOS.942 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_diplomacy_3
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 22
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_diplomacy_2 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_diplomacy_3_started country_event = { id = ctc_cp_BOS.950 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_diplomacy_3_answered } } country_event = { id = ctc_cp_BOS.950 days = 1 } } country_event = { id = ctc_cp_BOS.952 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_3_diplomacy_4
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_diplomacy_3 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_3_diplomacy_4_started country_event = { id = ctc_cp_BOS.960 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_3_diplomacy_4_answered } } country_event = { id = ctc_cp_BOS.960 days = 1 } } country_event = { id = ctc_cp_BOS.962 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_administration_1
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_administration_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_administration_1_started country_event = { id = ctc_cp_BOS.970 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_administration_1_answered } } country_event = { id = ctc_cp_BOS.970 days = 1 } } country_event = { id = ctc_cp_BOS.972 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_administration_2
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_administration_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_administration_2_started country_event = { id = ctc_cp_BOS.980 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_administration_2_answered } } country_event = { id = ctc_cp_BOS.980 days = 1 } } country_event = { id = ctc_cp_BOS.982 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_administration_3
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_administration_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_administration_3_started country_event = { id = ctc_cp_BOS.990 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_administration_3_answered } } country_event = { id = ctc_cp_BOS.990 days = 1 } } country_event = { id = ctc_cp_BOS.992 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_administration_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_administration_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_administration_4_started country_event = { id = ctc_cp_BOS.1000 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_administration_4_answered } } country_event = { id = ctc_cp_BOS.1000 days = 1 } } country_event = { id = ctc_cp_BOS.1002 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_industry_1
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_industry_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_industry_1_started country_event = { id = ctc_cp_BOS.1010 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_industry_1_answered } } country_event = { id = ctc_cp_BOS.1010 days = 1 } } country_event = { id = ctc_cp_BOS.1012 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_industry_2
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_industry_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_industry_2_started country_event = { id = ctc_cp_BOS.1020 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_industry_2_answered } } country_event = { id = ctc_cp_BOS.1020 days = 1 } } country_event = { id = ctc_cp_BOS.1022 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_industry_3
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_industry_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_industry_3_started country_event = { id = ctc_cp_BOS.1030 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_industry_3_answered } } country_event = { id = ctc_cp_BOS.1030 days = 1 } } country_event = { id = ctc_cp_BOS.1032 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_industry_4
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_industry_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_industry_4_started country_event = { id = ctc_cp_BOS.1040 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_industry_4_answered } } country_event = { id = ctc_cp_BOS.1040 days = 1 } } country_event = { id = ctc_cp_BOS.1042 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_transport_1
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_transport_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_transport_1_started country_event = { id = ctc_cp_BOS.1050 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_transport_1_answered } } country_event = { id = ctc_cp_BOS.1050 days = 1 } } country_event = { id = ctc_cp_BOS.1052 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_transport_2
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_transport_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_transport_2_started country_event = { id = ctc_cp_BOS.1060 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_transport_2_answered } } country_event = { id = ctc_cp_BOS.1060 days = 1 } } country_event = { id = ctc_cp_BOS.1062 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_transport_3
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_transport_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_transport_3_started country_event = { id = ctc_cp_BOS.1070 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_transport_3_answered } } country_event = { id = ctc_cp_BOS.1070 days = 1 } } country_event = { id = ctc_cp_BOS.1072 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_transport_4
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_transport_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_transport_4_started country_event = { id = ctc_cp_BOS.1080 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_transport_4_answered } } country_event = { id = ctc_cp_BOS.1080 days = 1 } } country_event = { id = ctc_cp_BOS.1082 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_science_1
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_science_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_science_1_started country_event = { id = ctc_cp_BOS.1090 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_science_1_answered } } country_event = { id = ctc_cp_BOS.1090 days = 1 } } country_event = { id = ctc_cp_BOS.1092 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_science_2
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_science_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_science_2_started country_event = { id = ctc_cp_BOS.1100 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_science_2_answered } } country_event = { id = ctc_cp_BOS.1100 days = 1 } } country_event = { id = ctc_cp_BOS.1102 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_science_3
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_science_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_science_3_started country_event = { id = ctc_cp_BOS.1110 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_science_3_answered } } country_event = { id = ctc_cp_BOS.1110 days = 1 } } country_event = { id = ctc_cp_BOS.1112 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_science_4
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_science_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_science_4_started country_event = { id = ctc_cp_BOS.1120 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_science_4_answered } } country_event = { id = ctc_cp_BOS.1120 days = 1 } } country_event = { id = ctc_cp_BOS.1122 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_public_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_public_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_public_1_started country_event = { id = ctc_cp_BOS.1130 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_public_1_answered } } country_event = { id = ctc_cp_BOS.1130 days = 1 } } country_event = { id = ctc_cp_BOS.1132 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_public_2
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_public_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_public_2_started country_event = { id = ctc_cp_BOS.1140 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_public_2_answered } } country_event = { id = ctc_cp_BOS.1140 days = 1 } } country_event = { id = ctc_cp_BOS.1142 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_public_3
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_public_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_public_3_started country_event = { id = ctc_cp_BOS.1150 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_public_3_answered } } country_event = { id = ctc_cp_BOS.1150 days = 1 } } country_event = { id = ctc_cp_BOS.1152 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_public_4
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_public_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_public_4_started country_event = { id = ctc_cp_BOS.1160 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_public_4_answered } } country_event = { id = ctc_cp_BOS.1160 days = 1 } } country_event = { id = ctc_cp_BOS.1162 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_army_1
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_army_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_army_1_started country_event = { id = ctc_cp_BOS.1170 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_army_1_answered } } country_event = { id = ctc_cp_BOS.1170 days = 1 } } country_event = { id = ctc_cp_BOS.1172 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_army_2
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_army_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_army_2_started country_event = { id = ctc_cp_BOS.1180 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_army_2_answered } } country_event = { id = ctc_cp_BOS.1180 days = 1 } } country_event = { id = ctc_cp_BOS.1182 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_army_3
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_army_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_army_3_started country_event = { id = ctc_cp_BOS.1190 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_army_3_answered } } country_event = { id = ctc_cp_BOS.1190 days = 1 } } country_event = { id = ctc_cp_BOS.1192 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_army_4
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_army_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_army_4_started country_event = { id = ctc_cp_BOS.1200 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_army_4_answered } } country_event = { id = ctc_cp_BOS.1200 days = 1 } } country_event = { id = ctc_cp_BOS.1202 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_security_1
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_security_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_security_1_started country_event = { id = ctc_cp_BOS.1210 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_security_1_answered } } country_event = { id = ctc_cp_BOS.1210 days = 1 } } country_event = { id = ctc_cp_BOS.1212 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_security_2
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_security_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_security_2_started country_event = { id = ctc_cp_BOS.1220 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_security_2_answered } } country_event = { id = ctc_cp_BOS.1220 days = 1 } } country_event = { id = ctc_cp_BOS.1222 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_security_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_security_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_security_3_started country_event = { id = ctc_cp_BOS.1230 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_security_3_answered } } country_event = { id = ctc_cp_BOS.1230 days = 1 } } country_event = { id = ctc_cp_BOS.1232 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_security_4
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_security_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_security_4_started country_event = { id = ctc_cp_BOS.1240 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_security_4_answered } } country_event = { id = ctc_cp_BOS.1240 days = 1 } } country_event = { id = ctc_cp_BOS.1242 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_diplomacy_1
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 30
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_3_diplomacy_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_diplomacy_1_started country_event = { id = ctc_cp_BOS.1250 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_diplomacy_1_answered } } country_event = { id = ctc_cp_BOS.1250 days = 1 } } country_event = { id = ctc_cp_BOS.1252 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_diplomacy_2
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 31
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_diplomacy_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_diplomacy_2_started country_event = { id = ctc_cp_BOS.1260 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_diplomacy_2_answered } } country_event = { id = ctc_cp_BOS.1260 days = 1 } } country_event = { id = ctc_cp_BOS.1262 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_diplomacy_3
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 32
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_diplomacy_2 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_diplomacy_3_started country_event = { id = ctc_cp_BOS.1270 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_diplomacy_3_answered } } country_event = { id = ctc_cp_BOS.1270 days = 1 } } country_event = { id = ctc_cp_BOS.1272 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_4_diplomacy_4
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_diplomacy_3 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_4_diplomacy_4_started country_event = { id = ctc_cp_BOS.1280 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_4_diplomacy_4_answered } } country_event = { id = ctc_cp_BOS.1280 days = 1 } } country_event = { id = ctc_cp_BOS.1282 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_administration_1
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_administration_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_administration_1_started country_event = { id = ctc_cp_BOS.1290 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_administration_1_answered } } country_event = { id = ctc_cp_BOS.1290 days = 1 } } country_event = { id = ctc_cp_BOS.1292 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_administration_2
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_administration_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_administration_2_started country_event = { id = ctc_cp_BOS.1300 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_administration_2_answered } } country_event = { id = ctc_cp_BOS.1300 days = 1 } } country_event = { id = ctc_cp_BOS.1302 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_administration_3
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_administration_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_administration_3_started country_event = { id = ctc_cp_BOS.1310 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_administration_3_answered } } country_event = { id = ctc_cp_BOS.1310 days = 1 } } country_event = { id = ctc_cp_BOS.1312 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_administration_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 0 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_administration_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_administration_4_started country_event = { id = ctc_cp_BOS.1320 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_administration_4_answered } } country_event = { id = ctc_cp_BOS.1320 days = 1 } } country_event = { id = ctc_cp_BOS.1322 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_industry_1
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_industry_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_industry_1_started country_event = { id = ctc_cp_BOS.1330 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_industry_1_answered } } country_event = { id = ctc_cp_BOS.1330 days = 1 } } country_event = { id = ctc_cp_BOS.1332 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_industry_2
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_industry_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_industry_2_started country_event = { id = ctc_cp_BOS.1340 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_industry_2_answered } } country_event = { id = ctc_cp_BOS.1340 days = 1 } } country_event = { id = ctc_cp_BOS.1342 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_industry_3
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_industry_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_industry_3_started country_event = { id = ctc_cp_BOS.1350 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_industry_3_answered } } country_event = { id = ctc_cp_BOS.1350 days = 1 } } country_event = { id = ctc_cp_BOS.1352 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_industry_4
+  icon = GFX_ctc_focus_N89_PRC_employment
+  x = 3 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_industry_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_industry_4_started country_event = { id = ctc_cp_BOS.1360 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_industry_4_answered } } country_event = { id = ctc_cp_BOS.1360 days = 1 } } country_event = { id = ctc_cp_BOS.1362 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_transport_1
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_transport_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_transport_1_started country_event = { id = ctc_cp_BOS.1370 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_transport_1_answered } } country_event = { id = ctc_cp_BOS.1370 days = 1 } } country_event = { id = ctc_cp_BOS.1372 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_transport_2
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_transport_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_transport_2_started country_event = { id = ctc_cp_BOS.1380 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_transport_2_answered } } country_event = { id = ctc_cp_BOS.1380 days = 1 } } country_event = { id = ctc_cp_BOS.1382 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_transport_3
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_transport_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_transport_3_started country_event = { id = ctc_cp_BOS.1390 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_transport_3_answered } } country_event = { id = ctc_cp_BOS.1390 days = 1 } } country_event = { id = ctc_cp_BOS.1392 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_transport_4
+  icon = GFX_ctc_focus_N89_PRC_rural
+  x = 6 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_transport_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_transport_4_started country_event = { id = ctc_cp_BOS.1400 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_transport_4_answered } } country_event = { id = ctc_cp_BOS.1400 days = 1 } } country_event = { id = ctc_cp_BOS.1402 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_science_1
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_science_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_science_1_started country_event = { id = ctc_cp_BOS.1410 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_science_1_answered } } country_event = { id = ctc_cp_BOS.1410 days = 1 } } country_event = { id = ctc_cp_BOS.1412 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_science_2
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_science_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_science_2_started country_event = { id = ctc_cp_BOS.1420 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_science_2_answered } } country_event = { id = ctc_cp_BOS.1420 days = 1 } } country_event = { id = ctc_cp_BOS.1422 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_science_3
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_science_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_science_3_started country_event = { id = ctc_cp_BOS.1430 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_science_3_answered } } country_event = { id = ctc_cp_BOS.1430 days = 1 } } country_event = { id = ctc_cp_BOS.1432 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_science_4
+  icon = GFX_ctc_focus_N89_PRC_education
+  x = 9 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_science_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_science_4_started country_event = { id = ctc_cp_BOS.1440 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_science_4_answered } } country_event = { id = ctc_cp_BOS.1440 days = 1 } } country_event = { id = ctc_cp_BOS.1442 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_public_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_public_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_public_1_started country_event = { id = ctc_cp_BOS.1450 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_public_1_answered } } country_event = { id = ctc_cp_BOS.1450 days = 1 } } country_event = { id = ctc_cp_BOS.1452 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_public_2
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_public_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_public_2_started country_event = { id = ctc_cp_BOS.1460 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_public_2_answered } } country_event = { id = ctc_cp_BOS.1460 days = 1 } } country_event = { id = ctc_cp_BOS.1462 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_public_3
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_public_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_public_3_started country_event = { id = ctc_cp_BOS.1470 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_public_3_answered } } country_event = { id = ctc_cp_BOS.1470 days = 1 } } country_event = { id = ctc_cp_BOS.1472 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_public_4
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 12 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_public_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_public_4_started country_event = { id = ctc_cp_BOS.1480 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_public_4_answered } } country_event = { id = ctc_cp_BOS.1480 days = 1 } } country_event = { id = ctc_cp_BOS.1482 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_army_1
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_army_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_army_1_started country_event = { id = ctc_cp_BOS.1490 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_army_1_answered } } country_event = { id = ctc_cp_BOS.1490 days = 1 } } country_event = { id = ctc_cp_BOS.1492 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_army_2
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_army_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_army_2_started country_event = { id = ctc_cp_BOS.1500 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_army_2_answered } } country_event = { id = ctc_cp_BOS.1500 days = 1 } } country_event = { id = ctc_cp_BOS.1502 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_army_3
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_army_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_army_3_started country_event = { id = ctc_cp_BOS.1510 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_army_3_answered } } country_event = { id = ctc_cp_BOS.1510 days = 1 } } country_event = { id = ctc_cp_BOS.1512 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_army_4
+  icon = GFX_ctc_focus_N89_PRC_supply
+  x = 15 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_army_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_army_4_started country_event = { id = ctc_cp_BOS.1520 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_army_4_answered } } country_event = { id = ctc_cp_BOS.1520 days = 1 } } country_event = { id = ctc_cp_BOS.1522 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_security_1
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_security_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_security_1_started country_event = { id = ctc_cp_BOS.1530 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_security_1_answered } } country_event = { id = ctc_cp_BOS.1530 days = 1 } } country_event = { id = ctc_cp_BOS.1532 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_security_2
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_security_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_security_2_started country_event = { id = ctc_cp_BOS.1540 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_security_2_answered } } country_event = { id = ctc_cp_BOS.1540 days = 1 } } country_event = { id = ctc_cp_BOS.1542 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_security_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_security_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_security_3_started country_event = { id = ctc_cp_BOS.1550 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_security_3_answered } } country_event = { id = ctc_cp_BOS.1550 days = 1 } } country_event = { id = ctc_cp_BOS.1552 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_security_4
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 18 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_security_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_security_4_started country_event = { id = ctc_cp_BOS.1560 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_security_4_answered } } country_event = { id = ctc_cp_BOS.1560 days = 1 } } country_event = { id = ctc_cp_BOS.1562 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_diplomacy_1
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 40
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_4_diplomacy_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_diplomacy_1_started country_event = { id = ctc_cp_BOS.1570 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_diplomacy_1_answered } } country_event = { id = ctc_cp_BOS.1570 days = 1 } } country_event = { id = ctc_cp_BOS.1572 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_diplomacy_2
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 41
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_diplomacy_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_diplomacy_2_started country_event = { id = ctc_cp_BOS.1580 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_diplomacy_2_answered } } country_event = { id = ctc_cp_BOS.1580 days = 1 } } country_event = { id = ctc_cp_BOS.1582 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_diplomacy_3
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 42
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_diplomacy_2 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_diplomacy_3_started country_event = { id = ctc_cp_BOS.1590 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_diplomacy_3_answered } } country_event = { id = ctc_cp_BOS.1590 days = 1 } } country_event = { id = ctc_cp_BOS.1592 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_common_5_diplomacy_4
+  icon = GFX_ctc_focus_N89_PRC_contacts
+  x = 21 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_common_5_diplomacy_3 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_initialized }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_common_5_diplomacy_4_started country_event = { id = ctc_cp_BOS.1600 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_common_5_diplomacy_4_answered } } country_event = { id = ctc_cp_BOS.1600 days = 1 } } country_event = { id = ctc_cp_BOS.1602 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_0
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 0
+  cost = 3
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_0_started country_event = { id = ctc_cp_BOS.1610 days = 10 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_0_answered } } country_event = { id = ctc_cp_BOS.1610 days = 1 } } country_event = { id = ctc_cp_BOS.1612 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 1
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_0 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_1_started country_event = { id = ctc_cp_BOS.1620 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_1_answered } } country_event = { id = ctc_cp_BOS.1620 days = 1 } } country_event = { id = ctc_cp_BOS.1622 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_2
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 27 y = 2
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_1 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_2_started country_event = { id = ctc_cp_BOS.1630 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_2_answered } } country_event = { id = ctc_cp_BOS.1630 days = 1 } } country_event = { id = ctc_cp_BOS.1632 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 26 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_1_5 focus = CTC_CP_BOS_reconstruction_1_6 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_3_started country_event = { id = ctc_cp_BOS.1640 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_3_answered } } country_event = { id = ctc_cp_BOS.1640 days = 1 } } country_event = { id = ctc_cp_BOS.1642 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 26 y = 4
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_3 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_1_5 focus = CTC_CP_BOS_reconstruction_1_6 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_4_started country_event = { id = ctc_cp_BOS.1650 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_4_answered } } country_event = { id = ctc_cp_BOS.1650 days = 1 } } country_event = { id = ctc_cp_BOS.1652 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_5
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 28 y = 3
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_1_3 focus = CTC_CP_BOS_reconstruction_1_4 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_5_started country_event = { id = ctc_cp_BOS.1660 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_5_answered } } country_event = { id = ctc_cp_BOS.1660 days = 1 } } country_event = { id = ctc_cp_BOS.1662 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_6
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 28 y = 4
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_5 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_1_3 focus = CTC_CP_BOS_reconstruction_1_4 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_6_started country_event = { id = ctc_cp_BOS.1670 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_6_answered } } country_event = { id = ctc_cp_BOS.1670 days = 1 } } country_event = { id = ctc_cp_BOS.1672 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_7
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 27 y = 5
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_4 focus = CTC_CP_BOS_reconstruction_1_6 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_7_started country_event = { id = ctc_cp_BOS.1680 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_7_answered } } country_event = { id = ctc_cp_BOS.1680 days = 1 } } country_event = { id = ctc_cp_BOS.1682 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_8
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 6
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_7 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_8_started country_event = { id = ctc_cp_BOS.1690 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_8_answered } } country_event = { id = ctc_cp_BOS.1690 days = 1 } } country_event = { id = ctc_cp_BOS.1692 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_1_9
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 7
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_8 }
+  available = { date > 1989.01.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_1_9_started country_event = { id = ctc_cp_BOS.1700 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_1_9_answered } } country_event = { id = ctc_cp_BOS.1700 days = 1 } } country_event = { id = ctc_cp_BOS.1702 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_0
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 10
+  cost = 3
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_1_9 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_0_started country_event = { id = ctc_cp_BOS.1710 days = 10 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_0_answered } } country_event = { id = ctc_cp_BOS.1710 days = 1 } } country_event = { id = ctc_cp_BOS.1712 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 11
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_0 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_1_started country_event = { id = ctc_cp_BOS.1720 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_1_answered } } country_event = { id = ctc_cp_BOS.1720 days = 1 } } country_event = { id = ctc_cp_BOS.1722 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_2
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 27 y = 12
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_1 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_2_started country_event = { id = ctc_cp_BOS.1730 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_2_answered } } country_event = { id = ctc_cp_BOS.1730 days = 1 } } country_event = { id = ctc_cp_BOS.1732 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 26 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_2_5 focus = CTC_CP_BOS_reconstruction_2_6 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_3_started country_event = { id = ctc_cp_BOS.1740 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_3_answered } } country_event = { id = ctc_cp_BOS.1740 days = 1 } } country_event = { id = ctc_cp_BOS.1742 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 26 y = 14
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_3 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_2_5 focus = CTC_CP_BOS_reconstruction_2_6 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_4_started country_event = { id = ctc_cp_BOS.1750 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_4_answered } } country_event = { id = ctc_cp_BOS.1750 days = 1 } } country_event = { id = ctc_cp_BOS.1752 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_5
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 28 y = 13
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_2_3 focus = CTC_CP_BOS_reconstruction_2_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_5_started country_event = { id = ctc_cp_BOS.1760 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_5_answered } } country_event = { id = ctc_cp_BOS.1760 days = 1 } } country_event = { id = ctc_cp_BOS.1762 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_6
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 28 y = 14
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_5 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_2_3 focus = CTC_CP_BOS_reconstruction_2_4 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_6_started country_event = { id = ctc_cp_BOS.1770 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_6_answered } } country_event = { id = ctc_cp_BOS.1770 days = 1 } } country_event = { id = ctc_cp_BOS.1772 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_7
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 27 y = 15
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_4 focus = CTC_CP_BOS_reconstruction_2_6 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_7_started country_event = { id = ctc_cp_BOS.1780 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_7_answered } } country_event = { id = ctc_cp_BOS.1780 days = 1 } } country_event = { id = ctc_cp_BOS.1782 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_8
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 16
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_7 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_8_started country_event = { id = ctc_cp_BOS.1790 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_8_answered } } country_event = { id = ctc_cp_BOS.1790 days = 1 } } country_event = { id = ctc_cp_BOS.1792 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_2_9
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 17
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_8 }
+  available = { date > 1992.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_2_9_started country_event = { id = ctc_cp_BOS.1800 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_2_9_answered } } country_event = { id = ctc_cp_BOS.1800 days = 1 } } country_event = { id = ctc_cp_BOS.1802 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_0
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 20
+  cost = 3
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_2_9 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_0_started country_event = { id = ctc_cp_BOS.1810 days = 10 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_0_answered } } country_event = { id = ctc_cp_BOS.1810 days = 1 } } country_event = { id = ctc_cp_BOS.1812 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 21
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_0 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_1_started country_event = { id = ctc_cp_BOS.1820 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_1_answered } } country_event = { id = ctc_cp_BOS.1820 days = 1 } } country_event = { id = ctc_cp_BOS.1822 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_2
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 27 y = 22
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_1 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_2_started country_event = { id = ctc_cp_BOS.1830 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_2_answered } } country_event = { id = ctc_cp_BOS.1830 days = 1 } } country_event = { id = ctc_cp_BOS.1832 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 26 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_3_5 focus = CTC_CP_BOS_reconstruction_3_6 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_3_started country_event = { id = ctc_cp_BOS.1840 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_3_answered } } country_event = { id = ctc_cp_BOS.1840 days = 1 } } country_event = { id = ctc_cp_BOS.1842 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 26 y = 24
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_3 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_3_5 focus = CTC_CP_BOS_reconstruction_3_6 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_4_started country_event = { id = ctc_cp_BOS.1850 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_4_answered } } country_event = { id = ctc_cp_BOS.1850 days = 1 } } country_event = { id = ctc_cp_BOS.1852 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_5
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 28 y = 23
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_3_3 focus = CTC_CP_BOS_reconstruction_3_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_5_started country_event = { id = ctc_cp_BOS.1860 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_5_answered } } country_event = { id = ctc_cp_BOS.1860 days = 1 } } country_event = { id = ctc_cp_BOS.1862 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_6
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 28 y = 24
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_5 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_3_3 focus = CTC_CP_BOS_reconstruction_3_4 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_6_started country_event = { id = ctc_cp_BOS.1870 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_6_answered } } country_event = { id = ctc_cp_BOS.1870 days = 1 } } country_event = { id = ctc_cp_BOS.1872 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_7
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 27 y = 25
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_4 focus = CTC_CP_BOS_reconstruction_3_6 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_7_started country_event = { id = ctc_cp_BOS.1880 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_7_answered } } country_event = { id = ctc_cp_BOS.1880 days = 1 } } country_event = { id = ctc_cp_BOS.1882 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_8
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 26
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_7 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_8_started country_event = { id = ctc_cp_BOS.1890 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_8_answered } } country_event = { id = ctc_cp_BOS.1890 days = 1 } } country_event = { id = ctc_cp_BOS.1892 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_3_9
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 27
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_8 }
+  available = { date > 1996.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_3_9_started country_event = { id = ctc_cp_BOS.1900 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_3_9_answered } } country_event = { id = ctc_cp_BOS.1900 days = 1 } } country_event = { id = ctc_cp_BOS.1902 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_0
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 30
+  cost = 3
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_3_9 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_0_started country_event = { id = ctc_cp_BOS.1910 days = 10 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_0_answered } } country_event = { id = ctc_cp_BOS.1910 days = 1 } } country_event = { id = ctc_cp_BOS.1912 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 31
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_0 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_1_started country_event = { id = ctc_cp_BOS.1920 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_1_answered } } country_event = { id = ctc_cp_BOS.1920 days = 1 } } country_event = { id = ctc_cp_BOS.1922 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_2
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 27 y = 32
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_1 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_2_started country_event = { id = ctc_cp_BOS.1930 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_2_answered } } country_event = { id = ctc_cp_BOS.1930 days = 1 } } country_event = { id = ctc_cp_BOS.1932 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 26 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_4_5 focus = CTC_CP_BOS_reconstruction_4_6 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_3_started country_event = { id = ctc_cp_BOS.1940 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_3_answered } } country_event = { id = ctc_cp_BOS.1940 days = 1 } } country_event = { id = ctc_cp_BOS.1942 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 26 y = 34
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_3 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_4_5 focus = CTC_CP_BOS_reconstruction_4_6 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_4_started country_event = { id = ctc_cp_BOS.1950 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_4_answered } } country_event = { id = ctc_cp_BOS.1950 days = 1 } } country_event = { id = ctc_cp_BOS.1952 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_5
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 28 y = 33
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_4_3 focus = CTC_CP_BOS_reconstruction_4_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_5_started country_event = { id = ctc_cp_BOS.1960 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_5_answered } } country_event = { id = ctc_cp_BOS.1960 days = 1 } } country_event = { id = ctc_cp_BOS.1962 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_6
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 28 y = 34
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_5 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_4_3 focus = CTC_CP_BOS_reconstruction_4_4 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_6_started country_event = { id = ctc_cp_BOS.1970 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_6_answered } } country_event = { id = ctc_cp_BOS.1970 days = 1 } } country_event = { id = ctc_cp_BOS.1972 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_7
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 27 y = 35
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_4 focus = CTC_CP_BOS_reconstruction_4_6 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_7_started country_event = { id = ctc_cp_BOS.1980 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_7_answered } } country_event = { id = ctc_cp_BOS.1980 days = 1 } } country_event = { id = ctc_cp_BOS.1982 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_8
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 36
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_7 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_8_started country_event = { id = ctc_cp_BOS.1990 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_8_answered } } country_event = { id = ctc_cp_BOS.1990 days = 1 } } country_event = { id = ctc_cp_BOS.1992 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_4_9
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 37
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_8 }
+  available = { date > 2000.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_4_9_started country_event = { id = ctc_cp_BOS.2000 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_4_9_answered } } country_event = { id = ctc_cp_BOS.2000 days = 1 } } country_event = { id = ctc_cp_BOS.2002 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_0
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 40
+  cost = 3
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_4_9 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_0_started country_event = { id = ctc_cp_BOS.2010 days = 10 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_0_answered } } country_event = { id = ctc_cp_BOS.2010 days = 1 } } country_event = { id = ctc_cp_BOS.2012 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_1
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 41
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_0 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_1_started country_event = { id = ctc_cp_BOS.2020 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_1_answered } } country_event = { id = ctc_cp_BOS.2020 days = 1 } } country_event = { id = ctc_cp_BOS.2022 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_2
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 27 y = 42
+  cost = 5
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_1 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_2_started country_event = { id = ctc_cp_BOS.2030 days = 17 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_2_answered } } country_event = { id = ctc_cp_BOS.2030 days = 1 } } country_event = { id = ctc_cp_BOS.2032 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_3
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 26 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_5_5 focus = CTC_CP_BOS_reconstruction_5_6 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_3_started country_event = { id = ctc_cp_BOS.2040 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_3_answered } } country_event = { id = ctc_cp_BOS.2040 days = 1 } } country_event = { id = ctc_cp_BOS.2042 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_4
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 26 y = 44
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_3 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_5_5 focus = CTC_CP_BOS_reconstruction_5_6 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_4_started country_event = { id = ctc_cp_BOS.2050 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_4_answered } } country_event = { id = ctc_cp_BOS.2050 days = 1 } } country_event = { id = ctc_cp_BOS.2052 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_5
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 28 y = 43
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_2 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_5_3 focus = CTC_CP_BOS_reconstruction_5_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_5_started country_event = { id = ctc_cp_BOS.2060 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_5_answered } } country_event = { id = ctc_cp_BOS.2060 days = 1 } } country_event = { id = ctc_cp_BOS.2062 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_6
+  icon = GFX_ctc_focus_N89_PRC_discipline
+  x = 28 y = 44
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_5 }
+  mutually_exclusive = { focus = CTC_CP_BOS_reconstruction_5_3 focus = CTC_CP_BOS_reconstruction_5_4 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_6_started country_event = { id = ctc_cp_BOS.2070 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_6_answered } } country_event = { id = ctc_cp_BOS.2070 days = 1 } } country_event = { id = ctc_cp_BOS.2072 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_7
+  icon = GFX_ctc_focus_N89_PRC_oversight
+  x = 27 y = 45
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_4 focus = CTC_CP_BOS_reconstruction_5_6 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_7_started country_event = { id = ctc_cp_BOS.2080 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_7_answered } } country_event = { id = ctc_cp_BOS.2080 days = 1 } } country_event = { id = ctc_cp_BOS.2082 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_8
+  icon = GFX_ctc_focus_N89_PRC_political
+  x = 27 y = 46
+  cost = 6
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_7 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_8_started country_event = { id = ctc_cp_BOS.2090 days = 21 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_8_answered } } country_event = { id = ctc_cp_BOS.2090 days = 1 } } country_event = { id = ctc_cp_BOS.2092 days = 7 } } }
+ }
+ focus = {
+  id = CTC_CP_BOS_reconstruction_5_9
+  icon = GFX_ctc_focus_N89_PRC_voices
+  x = 27 y = 47
+  cost = 8
+  cancel_if_invalid = yes
+  continue_if_invalid = no
+  cancelable = yes
+  prerequisite = { focus = CTC_CP_BOS_reconstruction_5_8 }
+  available = { date > 2004.07.01 has_country_flag = ctc_cp_BOS_reconstruction }
+  allow_branch = { OR = { NOT = { has_country_flag = ctc_cp_route_selected } has_country_flag = ctc_cp_BOS_reconstruction } }
+  ai_will_do = { factor = 1 }
+  select_effect = { hidden_effect = { set_country_flag = ctc_cp_BOS_reconstruction_5_9_started country_event = { id = ctc_cp_BOS.2100 days = 28 } } }
+  completion_reward = { custom_effect_tooltip = ctc_cp_completion_tt hidden_effect = { if = { limit = { NOT = { has_country_flag = ctc_cp_BOS_reconstruction_5_9_answered } } country_event = { id = ctc_cp_BOS.2100 days = 1 } } country_event = { id = ctc_cp_BOS.2102 days = 7 } } }
+ }
+}

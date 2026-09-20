@@ -1,0 +1,1671 @@
+add_namespace = ctc_cp_succession
+
+country_event = {
+ id = ctc_cp_succession.1
+ title = ctc_cp_succession.1.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.1.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.1.o0
+  ai_chance = { factor = 70 }
+  trigger = { has_country_flag = ctc_cp_mandate has_war = no 11 = { is_owned_by = SOV is_controlled_by = SOV } 188 = { is_owned_by = SOV is_controlled_by = SOV } 189 = { is_owned_by = SOV is_controlled_by = SOV } 784 = { is_owned_by = SOV is_controlled_by = SOV } 814 = { is_owned_by = SOV is_controlled_by = SOV } 815 = { is_owned_by = SOV is_controlled_by = SOV } 12 = { is_owned_by = SOV is_controlled_by = SOV } 190 = { is_owned_by = SOV is_controlled_by = SOV } 808 = { is_owned_by = SOV is_controlled_by = SOV } 809 = { is_owned_by = SOV is_controlled_by = SOV } 810 = { is_owned_by = SOV is_controlled_by = SOV } 13 = { is_owned_by = SOV is_controlled_by = SOV } 191 = { is_owned_by = SOV is_controlled_by = SOV } 811 = { is_owned_by = SOV is_controlled_by = SOV } 812 = { is_owned_by = SOV is_controlled_by = SOV } 813 = { is_owned_by = SOV is_controlled_by = SOV } 73 = { is_owned_by = SOV is_controlled_by = SOV } 80 = { is_owned_by = SOV is_controlled_by = SOV } 89 = { is_owned_by = SOV is_controlled_by = SOV } 91 = { is_owned_by = SOV is_controlled_by = SOV } 93 = { is_owned_by = SOV is_controlled_by = SOV } 137 = { is_owned_by = SOV is_controlled_by = SOV } 192 = { is_owned_by = SOV is_controlled_by = SOV } 193 = { is_owned_by = SOV is_controlled_by = SOV } 196 = { is_owned_by = SOV is_controlled_by = SOV } 197 = { is_owned_by = SOV is_controlled_by = SOV } 198 = { is_owned_by = SOV is_controlled_by = SOV } 199 = { is_owned_by = SOV is_controlled_by = SOV } 200 = { is_owned_by = SOV is_controlled_by = SOV } 201 = { is_owned_by = SOV is_controlled_by = SOV } 202 = { is_owned_by = SOV is_controlled_by = SOV } 203 = { is_owned_by = SOV is_controlled_by = SOV } 221 = { is_owned_by = SOV is_controlled_by = SOV } 225 = { is_owned_by = SOV is_controlled_by = SOV } 226 = { is_owned_by = SOV is_controlled_by = SOV } 227 = { is_owned_by = SOV is_controlled_by = SOV } 228 = { is_owned_by = SOV is_controlled_by = SOV } 259 = { is_owned_by = SOV is_controlled_by = SOV } 766 = { is_owned_by = SOV is_controlled_by = SOV } 94 = { is_owned_by = SOV is_controlled_by = SOV } 95 = { is_owned_by = SOV is_controlled_by = SOV } 96 = { is_owned_by = SOV is_controlled_by = SOV } 194 = { is_owned_by = SOV is_controlled_by = SOV } 204 = { is_owned_by = SOV is_controlled_by = SOV } 206 = { is_owned_by = SOV is_controlled_by = SOV } 207 = { is_owned_by = SOV is_controlled_by = SOV } 241 = { is_owned_by = SOV is_controlled_by = SOV } 78 = { is_owned_by = SOV is_controlled_by = SOV } 834 = { is_owned_by = SOV is_controlled_by = SOV } 231 = { is_owned_by = SOV is_controlled_by = SOV } 826 = { is_owned_by = SOV is_controlled_by = SOV } 230 = { is_owned_by = SOV is_controlled_by = SOV } 229 = { is_owned_by = SOV is_controlled_by = SOV } 402 = { is_owned_by = SOV is_controlled_by = SOV } 404 = { is_owned_by = SOV is_controlled_by = SOV } 406 = { is_owned_by = SOV is_controlled_by = SOV } 407 = { is_owned_by = SOV is_controlled_by = SOV } 583 = { is_owned_by = SOV is_controlled_by = SOV } 586 = { is_owned_by = SOV is_controlled_by = SOV } 587 = { is_owned_by = SOV is_controlled_by = SOV } 588 = { is_owned_by = SOV is_controlled_by = SOV } 589 = { is_owned_by = SOV is_controlled_by = SOV } 590 = { is_owned_by = SOV is_controlled_by = SOV } 881 = { is_owned_by = SOV is_controlled_by = SOV } 882 = { is_owned_by = SOV is_controlled_by = SOV } 405 = { is_owned_by = SOV is_controlled_by = SOV } 585 = { is_owned_by = SOV is_controlled_by = SOV } 823 = { is_owned_by = SOV is_controlled_by = SOV } 830 = { is_owned_by = SOV is_controlled_by = SOV } 831 = { is_owned_by = SOV is_controlled_by = SOV } 584 = { is_owned_by = SOV is_controlled_by = SOV } 832 = { is_owned_by = SOV is_controlled_by = SOV } 732 = { is_owned_by = SOV is_controlled_by = SOV } 742 = { is_owned_by = SOV is_controlled_by = SOV } }
+  clr_country_flag = ctc_cp_event_open
+ctc_cp_form_commonwealth = yes
+ }
+ option = {
+  name = ctc_cp_succession.1.o1
+  ai_chance = { factor = 30 }
+  clr_country_flag = ctc_cp_event_open
+add_political_power = -10
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.2
+ title = ctc_cp_succession.2.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.2.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.2.o0
+  ai_chance = { factor = 100 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.3
+ title = ctc_cp_succession.3.t
+ is_triggered_only = yes
+ desc = { trigger = { has_country_flag = ctc_cp_YUG_conflict } text = ctc_cp_succession.3.d0 }
+ desc = ctc_cp_succession.3.d1
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.3.o0
+  ai_chance = { factor = 70 }
+  trigger = { has_country_flag = ctc_cp_mandate has_war = no 102 = { is_owned_by = YUG is_controlled_by = YUG } 853 = { is_owned_by = YUG is_controlled_by = YUG } 1047 = { is_owned_by = YUG is_controlled_by = YUG } 103 = { is_owned_by = YUG is_controlled_by = YUG } 109 = { is_owned_by = YUG is_controlled_by = YUG } 163 = { is_owned_by = YUG is_controlled_by = YUG } 852 = { is_owned_by = YUG is_controlled_by = YUG } 104 = { is_owned_by = YUG is_controlled_by = YUG } 804 = { is_owned_by = YUG is_controlled_by = YUG } 106 = { is_owned_by = YUG is_controlled_by = YUG } 970 = { is_owned_by = YUG is_controlled_by = YUG } 105 = { is_owned_by = YUG is_controlled_by = YUG } 45 = { is_owned_by = YUG is_controlled_by = YUG } 107 = { is_owned_by = YUG is_controlled_by = YUG } 108 = { is_owned_by = YUG is_controlled_by = YUG } 764 = { is_owned_by = YUG is_controlled_by = YUG } 802 = { is_owned_by = YUG is_controlled_by = YUG } 803 = { is_owned_by = YUG is_controlled_by = YUG } }
+  clr_country_flag = ctc_cp_event_open
+ctc_cp_form_yug_successors = yes
+ }
+ option = {
+  name = ctc_cp_succession.3.o1
+  ai_chance = { factor = 30 }
+  clr_country_flag = ctc_cp_event_open
+add_political_power = -10
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.4
+ title = ctc_cp_succession.4.t
+ is_triggered_only = yes
+ desc = { trigger = { has_country_flag = ctc_cp_yug_disputed } text = ctc_cp_succession.4.d0 }
+ desc = ctc_cp_succession.4.d1
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.4.o0
+  ai_chance = { factor = 70 }
+  clr_country_flag = ctc_cp_event_open
+add_stability = 0.02
+ }
+ option = {
+  name = ctc_cp_succession.4.o1
+  ai_chance = { factor = 30 }
+  trigger = { has_country_flag = ctc_cp_yug_disputed CRO = { exists = yes } BOS = { exists = yes } }
+  clr_country_flag = ctc_cp_event_open
+declare_war_on = { target = CRO type = annex_everything } declare_war_on = { target = BOS type = annex_everything }
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.10
+ title = ctc_cp_succession.10.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.10.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.10.o0
+  ai_chance = { factor = 75 }
+  trigger = { DDR = { exists = yes } }
+  clr_country_flag = ctc_cp_event_open
+DDR = { set_country_flag = ctc_cp_unity_GER }
+ }
+ option = {
+  name = ctc_cp_succession.10.o1
+  ai_chance = { factor = 25 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.11
+ title = ctc_cp_succession.11.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.11.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.11.o0
+  ai_chance = { factor = 75 }
+  trigger = { DDR = { exists = yes } }
+  clr_country_flag = ctc_cp_event_open
+DDR = { set_country_flag = ctc_cp_unity_SOV }
+ }
+ option = {
+  name = ctc_cp_succession.11.o1
+  ai_chance = { factor = 25 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.12
+ title = ctc_cp_succession.12.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.12.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.12.o0
+  ai_chance = { factor = 75 }
+  trigger = { DDR = { exists = yes } }
+  clr_country_flag = ctc_cp_event_open
+DDR = { set_country_flag = ctc_cp_unity_USA }
+ }
+ option = {
+  name = ctc_cp_succession.12.o1
+  ai_chance = { factor = 25 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.13
+ title = ctc_cp_succession.13.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.13.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.13.o0
+  ai_chance = { factor = 75 }
+  trigger = { DDR = { exists = yes } }
+  clr_country_flag = ctc_cp_event_open
+DDR = { set_country_flag = ctc_cp_unity_ENG }
+ }
+ option = {
+  name = ctc_cp_succession.13.o1
+  ai_chance = { factor = 25 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.14
+ title = ctc_cp_succession.14.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.14.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.14.o0
+  ai_chance = { factor = 75 }
+  trigger = { DDR = { exists = yes } }
+  clr_country_flag = ctc_cp_event_open
+DDR = { set_country_flag = ctc_cp_unity_FRA }
+ }
+ option = {
+  name = ctc_cp_succession.14.o1
+  ai_chance = { factor = 25 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}
+
+country_event = { id = ctc_cp_succession.15 hidden = yes is_triggered_only = yes
+ immediate = { if = { limit = { DDR = { exists = yes has_war = no has_country_flag = ctc_cp_mandate has_country_flag = ctc_cp_DDR_socialist has_country_flag = ctc_cp_unity_GER has_country_flag = ctc_cp_unity_SOV has_country_flag = ctc_cp_unity_USA has_country_flag = ctc_cp_unity_ENG has_country_flag = ctc_cp_unity_FRA } WGR = { exists = yes has_war = no } } country_event = { id = ctc_cp_succession.16 } } else = { country_event = { id = ctc_cp_succession.17 } } } }
+
+country_event = {
+ id = ctc_cp_succession.16
+ title = ctc_cp_succession.16.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.16.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.16.o0
+  ai_chance = { factor = 100 }
+  trigger = { DDR = { exists = yes has_war = no has_country_flag = ctc_cp_mandate has_country_flag = ctc_cp_DDR_socialist has_country_flag = ctc_cp_unity_GER has_country_flag = ctc_cp_unity_SOV has_country_flag = ctc_cp_unity_USA has_country_flag = ctc_cp_unity_ENG has_country_flag = ctc_cp_unity_FRA } WGR = { exists = yes has_war = no } }
+  clr_country_flag = ctc_cp_event_open
+WGR = { if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_administration_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_administration_1_answered set_country_flag = ctc_cp_GER_common_1_administration_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_administration_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_administration_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_administration_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_administration_1 } } complete_national_focus = CTC_CP_GER_common_1_administration_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_administration_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_administration_2_answered set_country_flag = ctc_cp_GER_common_1_administration_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_administration_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_administration_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_administration_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_administration_2 } } complete_national_focus = CTC_CP_GER_common_1_administration_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_administration_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_administration_3_answered set_country_flag = ctc_cp_GER_common_1_administration_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_administration_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_administration_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_administration_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_administration_3 } } complete_national_focus = CTC_CP_GER_common_1_administration_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_administration_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_administration_4_answered set_country_flag = ctc_cp_GER_common_1_administration_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_administration_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_administration_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_administration_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_administration_4 } } complete_national_focus = CTC_CP_GER_common_1_administration_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_industry_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_industry_1_answered set_country_flag = ctc_cp_GER_common_1_industry_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_industry_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_industry_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_industry_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_industry_1 } } complete_national_focus = CTC_CP_GER_common_1_industry_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_industry_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_industry_2_answered set_country_flag = ctc_cp_GER_common_1_industry_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_industry_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_industry_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_industry_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_industry_2 } } complete_national_focus = CTC_CP_GER_common_1_industry_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_industry_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_industry_3_answered set_country_flag = ctc_cp_GER_common_1_industry_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_industry_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_industry_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_industry_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_industry_3 } } complete_national_focus = CTC_CP_GER_common_1_industry_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_industry_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_industry_4_answered set_country_flag = ctc_cp_GER_common_1_industry_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_industry_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_industry_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_industry_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_industry_4 } } complete_national_focus = CTC_CP_GER_common_1_industry_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_transport_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_transport_1_answered set_country_flag = ctc_cp_GER_common_1_transport_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_transport_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_transport_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_transport_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_transport_1 } } complete_national_focus = CTC_CP_GER_common_1_transport_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_transport_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_transport_2_answered set_country_flag = ctc_cp_GER_common_1_transport_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_transport_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_transport_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_transport_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_transport_2 } } complete_national_focus = CTC_CP_GER_common_1_transport_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_transport_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_transport_3_answered set_country_flag = ctc_cp_GER_common_1_transport_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_transport_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_transport_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_transport_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_transport_3 } } complete_national_focus = CTC_CP_GER_common_1_transport_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_transport_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_transport_4_answered set_country_flag = ctc_cp_GER_common_1_transport_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_transport_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_transport_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_transport_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_transport_4 } } complete_national_focus = CTC_CP_GER_common_1_transport_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_science_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_science_1_answered set_country_flag = ctc_cp_GER_common_1_science_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_science_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_science_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_science_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_science_1 } } complete_national_focus = CTC_CP_GER_common_1_science_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_science_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_science_2_answered set_country_flag = ctc_cp_GER_common_1_science_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_science_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_science_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_science_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_science_2 } } complete_national_focus = CTC_CP_GER_common_1_science_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_science_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_science_3_answered set_country_flag = ctc_cp_GER_common_1_science_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_science_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_science_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_science_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_science_3 } } complete_national_focus = CTC_CP_GER_common_1_science_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_science_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_science_4_answered set_country_flag = ctc_cp_GER_common_1_science_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_science_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_science_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_science_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_science_4 } } complete_national_focus = CTC_CP_GER_common_1_science_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_public_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_public_1_answered set_country_flag = ctc_cp_GER_common_1_public_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_public_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_public_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_public_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_public_1 } } complete_national_focus = CTC_CP_GER_common_1_public_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_public_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_public_2_answered set_country_flag = ctc_cp_GER_common_1_public_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_public_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_public_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_public_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_public_2 } } complete_national_focus = CTC_CP_GER_common_1_public_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_public_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_public_3_answered set_country_flag = ctc_cp_GER_common_1_public_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_public_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_public_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_public_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_public_3 } } complete_national_focus = CTC_CP_GER_common_1_public_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_public_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_public_4_answered set_country_flag = ctc_cp_GER_common_1_public_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_public_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_public_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_public_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_public_4 } } complete_national_focus = CTC_CP_GER_common_1_public_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_army_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_army_1_answered set_country_flag = ctc_cp_GER_common_1_army_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_army_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_army_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_army_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_army_1 } } complete_national_focus = CTC_CP_GER_common_1_army_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_army_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_army_2_answered set_country_flag = ctc_cp_GER_common_1_army_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_army_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_army_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_army_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_army_2 } } complete_national_focus = CTC_CP_GER_common_1_army_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_army_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_army_3_answered set_country_flag = ctc_cp_GER_common_1_army_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_army_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_army_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_army_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_army_3 } } complete_national_focus = CTC_CP_GER_common_1_army_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_army_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_army_4_answered set_country_flag = ctc_cp_GER_common_1_army_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_army_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_army_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_army_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_army_4 } } complete_national_focus = CTC_CP_GER_common_1_army_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_security_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_security_1_answered set_country_flag = ctc_cp_GER_common_1_security_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_security_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_security_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_security_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_security_1 } } complete_national_focus = CTC_CP_GER_common_1_security_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_security_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_security_2_answered set_country_flag = ctc_cp_GER_common_1_security_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_security_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_security_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_security_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_security_2 } } complete_national_focus = CTC_CP_GER_common_1_security_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_security_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_security_3_answered set_country_flag = ctc_cp_GER_common_1_security_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_security_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_security_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_security_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_security_3 } } complete_national_focus = CTC_CP_GER_common_1_security_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_security_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_security_4_answered set_country_flag = ctc_cp_GER_common_1_security_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_security_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_security_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_security_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_security_4 } } complete_national_focus = CTC_CP_GER_common_1_security_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_diplomacy_1_settled } }
+ set_country_flag = ctc_cp_GER_common_1_diplomacy_1_answered set_country_flag = ctc_cp_GER_common_1_diplomacy_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_diplomacy_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_diplomacy_1_credit } }
+   set_variable = { ctc_cp_GER_common_1_diplomacy_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_diplomacy_1 } } complete_national_focus = CTC_CP_GER_common_1_diplomacy_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_diplomacy_2_settled } }
+ set_country_flag = ctc_cp_GER_common_1_diplomacy_2_answered set_country_flag = ctc_cp_GER_common_1_diplomacy_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_diplomacy_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_diplomacy_2_credit } }
+   set_variable = { ctc_cp_GER_common_1_diplomacy_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_diplomacy_2 } } complete_national_focus = CTC_CP_GER_common_1_diplomacy_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_diplomacy_3_settled } }
+ set_country_flag = ctc_cp_GER_common_1_diplomacy_3_answered set_country_flag = ctc_cp_GER_common_1_diplomacy_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_diplomacy_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_diplomacy_3_credit } }
+   set_variable = { ctc_cp_GER_common_1_diplomacy_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_diplomacy_3 } } complete_national_focus = CTC_CP_GER_common_1_diplomacy_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_1_diplomacy_4_settled } }
+ set_country_flag = ctc_cp_GER_common_1_diplomacy_4_answered set_country_flag = ctc_cp_GER_common_1_diplomacy_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_1_diplomacy_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_1_diplomacy_4_credit } }
+   set_variable = { ctc_cp_GER_common_1_diplomacy_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_1_diplomacy_4 } } complete_national_focus = CTC_CP_GER_common_1_diplomacy_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_administration_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_administration_1_answered set_country_flag = ctc_cp_GER_common_2_administration_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_administration_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_administration_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_administration_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_administration_1 } } complete_national_focus = CTC_CP_GER_common_2_administration_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_administration_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_administration_2_answered set_country_flag = ctc_cp_GER_common_2_administration_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_administration_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_administration_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_administration_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_administration_2 } } complete_national_focus = CTC_CP_GER_common_2_administration_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_administration_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_administration_3_answered set_country_flag = ctc_cp_GER_common_2_administration_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_administration_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_administration_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_administration_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_administration_3 } } complete_national_focus = CTC_CP_GER_common_2_administration_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_administration_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_administration_4_answered set_country_flag = ctc_cp_GER_common_2_administration_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_administration_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_administration_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_administration_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_administration_4 } } complete_national_focus = CTC_CP_GER_common_2_administration_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_industry_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_industry_1_answered set_country_flag = ctc_cp_GER_common_2_industry_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_industry_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_industry_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_industry_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_industry_1 } } complete_national_focus = CTC_CP_GER_common_2_industry_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_industry_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_industry_2_answered set_country_flag = ctc_cp_GER_common_2_industry_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_industry_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_industry_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_industry_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_industry_2 } } complete_national_focus = CTC_CP_GER_common_2_industry_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_industry_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_industry_3_answered set_country_flag = ctc_cp_GER_common_2_industry_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_industry_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_industry_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_industry_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_industry_3 } } complete_national_focus = CTC_CP_GER_common_2_industry_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_industry_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_industry_4_answered set_country_flag = ctc_cp_GER_common_2_industry_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_industry_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_industry_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_industry_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_industry_4 } } complete_national_focus = CTC_CP_GER_common_2_industry_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_transport_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_transport_1_answered set_country_flag = ctc_cp_GER_common_2_transport_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_transport_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_transport_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_transport_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_transport_1 } } complete_national_focus = CTC_CP_GER_common_2_transport_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_transport_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_transport_2_answered set_country_flag = ctc_cp_GER_common_2_transport_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_transport_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_transport_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_transport_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_transport_2 } } complete_national_focus = CTC_CP_GER_common_2_transport_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_transport_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_transport_3_answered set_country_flag = ctc_cp_GER_common_2_transport_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_transport_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_transport_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_transport_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_transport_3 } } complete_national_focus = CTC_CP_GER_common_2_transport_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_transport_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_transport_4_answered set_country_flag = ctc_cp_GER_common_2_transport_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_transport_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_transport_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_transport_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_transport_4 } } complete_national_focus = CTC_CP_GER_common_2_transport_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_science_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_science_1_answered set_country_flag = ctc_cp_GER_common_2_science_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_science_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_science_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_science_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_science_1 } } complete_national_focus = CTC_CP_GER_common_2_science_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_science_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_science_2_answered set_country_flag = ctc_cp_GER_common_2_science_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_science_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_science_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_science_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_science_2 } } complete_national_focus = CTC_CP_GER_common_2_science_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_science_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_science_3_answered set_country_flag = ctc_cp_GER_common_2_science_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_science_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_science_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_science_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_science_3 } } complete_national_focus = CTC_CP_GER_common_2_science_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_science_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_science_4_answered set_country_flag = ctc_cp_GER_common_2_science_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_science_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_science_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_science_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_science_4 } } complete_national_focus = CTC_CP_GER_common_2_science_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_public_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_public_1_answered set_country_flag = ctc_cp_GER_common_2_public_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_public_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_public_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_public_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_public_1 } } complete_national_focus = CTC_CP_GER_common_2_public_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_public_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_public_2_answered set_country_flag = ctc_cp_GER_common_2_public_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_public_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_public_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_public_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_public_2 } } complete_national_focus = CTC_CP_GER_common_2_public_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_public_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_public_3_answered set_country_flag = ctc_cp_GER_common_2_public_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_public_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_public_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_public_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_public_3 } } complete_national_focus = CTC_CP_GER_common_2_public_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_public_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_public_4_answered set_country_flag = ctc_cp_GER_common_2_public_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_public_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_public_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_public_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_public_4 } } complete_national_focus = CTC_CP_GER_common_2_public_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_army_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_army_1_answered set_country_flag = ctc_cp_GER_common_2_army_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_army_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_army_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_army_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_army_1 } } complete_national_focus = CTC_CP_GER_common_2_army_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_army_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_army_2_answered set_country_flag = ctc_cp_GER_common_2_army_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_army_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_army_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_army_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_army_2 } } complete_national_focus = CTC_CP_GER_common_2_army_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_army_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_army_3_answered set_country_flag = ctc_cp_GER_common_2_army_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_army_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_army_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_army_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_army_3 } } complete_national_focus = CTC_CP_GER_common_2_army_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_army_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_army_4_answered set_country_flag = ctc_cp_GER_common_2_army_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_army_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_army_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_army_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_army_4 } } complete_national_focus = CTC_CP_GER_common_2_army_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_security_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_security_1_answered set_country_flag = ctc_cp_GER_common_2_security_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_security_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_security_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_security_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_security_1 } } complete_national_focus = CTC_CP_GER_common_2_security_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_security_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_security_2_answered set_country_flag = ctc_cp_GER_common_2_security_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_security_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_security_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_security_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_security_2 } } complete_national_focus = CTC_CP_GER_common_2_security_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_security_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_security_3_answered set_country_flag = ctc_cp_GER_common_2_security_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_security_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_security_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_security_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_security_3 } } complete_national_focus = CTC_CP_GER_common_2_security_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_security_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_security_4_answered set_country_flag = ctc_cp_GER_common_2_security_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_security_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_security_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_security_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_security_4 } } complete_national_focus = CTC_CP_GER_common_2_security_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_diplomacy_1_settled } }
+ set_country_flag = ctc_cp_GER_common_2_diplomacy_1_answered set_country_flag = ctc_cp_GER_common_2_diplomacy_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_diplomacy_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_diplomacy_1_credit } }
+   set_variable = { ctc_cp_GER_common_2_diplomacy_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_diplomacy_1 } } complete_national_focus = CTC_CP_GER_common_2_diplomacy_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_diplomacy_2_settled } }
+ set_country_flag = ctc_cp_GER_common_2_diplomacy_2_answered set_country_flag = ctc_cp_GER_common_2_diplomacy_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_diplomacy_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_diplomacy_2_credit } }
+   set_variable = { ctc_cp_GER_common_2_diplomacy_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_diplomacy_2 } } complete_national_focus = CTC_CP_GER_common_2_diplomacy_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_diplomacy_3_settled } }
+ set_country_flag = ctc_cp_GER_common_2_diplomacy_3_answered set_country_flag = ctc_cp_GER_common_2_diplomacy_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_diplomacy_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_diplomacy_3_credit } }
+   set_variable = { ctc_cp_GER_common_2_diplomacy_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_diplomacy_3 } } complete_national_focus = CTC_CP_GER_common_2_diplomacy_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_2_diplomacy_4_settled } }
+ set_country_flag = ctc_cp_GER_common_2_diplomacy_4_answered set_country_flag = ctc_cp_GER_common_2_diplomacy_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_2_diplomacy_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_2_diplomacy_4_credit } }
+   set_variable = { ctc_cp_GER_common_2_diplomacy_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_2_diplomacy_4 } } complete_national_focus = CTC_CP_GER_common_2_diplomacy_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_administration_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_administration_1_answered set_country_flag = ctc_cp_GER_common_3_administration_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_administration_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_administration_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_administration_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_administration_1 } } complete_national_focus = CTC_CP_GER_common_3_administration_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_administration_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_administration_2_answered set_country_flag = ctc_cp_GER_common_3_administration_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_administration_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_administration_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_administration_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_administration_2 } } complete_national_focus = CTC_CP_GER_common_3_administration_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_administration_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_administration_3_answered set_country_flag = ctc_cp_GER_common_3_administration_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_administration_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_administration_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_administration_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_administration_3 } } complete_national_focus = CTC_CP_GER_common_3_administration_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_administration_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_administration_4_answered set_country_flag = ctc_cp_GER_common_3_administration_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_administration_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_administration_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_administration_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_administration_4 } } complete_national_focus = CTC_CP_GER_common_3_administration_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_industry_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_industry_1_answered set_country_flag = ctc_cp_GER_common_3_industry_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_industry_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_industry_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_industry_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_industry_1 } } complete_national_focus = CTC_CP_GER_common_3_industry_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_industry_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_industry_2_answered set_country_flag = ctc_cp_GER_common_3_industry_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_industry_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_industry_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_industry_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_industry_2 } } complete_national_focus = CTC_CP_GER_common_3_industry_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_industry_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_industry_3_answered set_country_flag = ctc_cp_GER_common_3_industry_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_industry_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_industry_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_industry_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_industry_3 } } complete_national_focus = CTC_CP_GER_common_3_industry_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_industry_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_industry_4_answered set_country_flag = ctc_cp_GER_common_3_industry_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_industry_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_industry_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_industry_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_industry_4 } } complete_national_focus = CTC_CP_GER_common_3_industry_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_transport_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_transport_1_answered set_country_flag = ctc_cp_GER_common_3_transport_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_transport_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_transport_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_transport_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_transport_1 } } complete_national_focus = CTC_CP_GER_common_3_transport_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_transport_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_transport_2_answered set_country_flag = ctc_cp_GER_common_3_transport_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_transport_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_transport_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_transport_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_transport_2 } } complete_national_focus = CTC_CP_GER_common_3_transport_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_transport_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_transport_3_answered set_country_flag = ctc_cp_GER_common_3_transport_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_transport_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_transport_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_transport_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_transport_3 } } complete_national_focus = CTC_CP_GER_common_3_transport_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_transport_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_transport_4_answered set_country_flag = ctc_cp_GER_common_3_transport_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_transport_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_transport_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_transport_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_transport_4 } } complete_national_focus = CTC_CP_GER_common_3_transport_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_science_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_science_1_answered set_country_flag = ctc_cp_GER_common_3_science_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_science_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_science_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_science_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_science_1 } } complete_national_focus = CTC_CP_GER_common_3_science_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_science_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_science_2_answered set_country_flag = ctc_cp_GER_common_3_science_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_science_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_science_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_science_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_science_2 } } complete_national_focus = CTC_CP_GER_common_3_science_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_science_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_science_3_answered set_country_flag = ctc_cp_GER_common_3_science_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_science_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_science_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_science_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_science_3 } } complete_national_focus = CTC_CP_GER_common_3_science_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_science_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_science_4_answered set_country_flag = ctc_cp_GER_common_3_science_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_science_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_science_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_science_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_science_4 } } complete_national_focus = CTC_CP_GER_common_3_science_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_public_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_public_1_answered set_country_flag = ctc_cp_GER_common_3_public_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_public_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_public_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_public_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_public_1 } } complete_national_focus = CTC_CP_GER_common_3_public_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_public_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_public_2_answered set_country_flag = ctc_cp_GER_common_3_public_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_public_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_public_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_public_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_public_2 } } complete_national_focus = CTC_CP_GER_common_3_public_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_public_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_public_3_answered set_country_flag = ctc_cp_GER_common_3_public_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_public_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_public_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_public_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_public_3 } } complete_national_focus = CTC_CP_GER_common_3_public_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_public_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_public_4_answered set_country_flag = ctc_cp_GER_common_3_public_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_public_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_public_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_public_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_public_4 } } complete_national_focus = CTC_CP_GER_common_3_public_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_army_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_army_1_answered set_country_flag = ctc_cp_GER_common_3_army_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_army_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_army_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_army_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_army_1 } } complete_national_focus = CTC_CP_GER_common_3_army_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_army_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_army_2_answered set_country_flag = ctc_cp_GER_common_3_army_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_army_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_army_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_army_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_army_2 } } complete_national_focus = CTC_CP_GER_common_3_army_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_army_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_army_3_answered set_country_flag = ctc_cp_GER_common_3_army_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_army_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_army_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_army_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_army_3 } } complete_national_focus = CTC_CP_GER_common_3_army_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_army_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_army_4_answered set_country_flag = ctc_cp_GER_common_3_army_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_army_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_army_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_army_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_army_4 } } complete_national_focus = CTC_CP_GER_common_3_army_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_security_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_security_1_answered set_country_flag = ctc_cp_GER_common_3_security_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_security_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_security_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_security_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_security_1 } } complete_national_focus = CTC_CP_GER_common_3_security_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_security_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_security_2_answered set_country_flag = ctc_cp_GER_common_3_security_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_security_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_security_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_security_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_security_2 } } complete_national_focus = CTC_CP_GER_common_3_security_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_security_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_security_3_answered set_country_flag = ctc_cp_GER_common_3_security_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_security_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_security_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_security_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_security_3 } } complete_national_focus = CTC_CP_GER_common_3_security_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_security_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_security_4_answered set_country_flag = ctc_cp_GER_common_3_security_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_security_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_security_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_security_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_security_4 } } complete_national_focus = CTC_CP_GER_common_3_security_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_diplomacy_1_settled } }
+ set_country_flag = ctc_cp_GER_common_3_diplomacy_1_answered set_country_flag = ctc_cp_GER_common_3_diplomacy_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_diplomacy_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_diplomacy_1_credit } }
+   set_variable = { ctc_cp_GER_common_3_diplomacy_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_diplomacy_1 } } complete_national_focus = CTC_CP_GER_common_3_diplomacy_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_diplomacy_2_settled } }
+ set_country_flag = ctc_cp_GER_common_3_diplomacy_2_answered set_country_flag = ctc_cp_GER_common_3_diplomacy_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_diplomacy_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_diplomacy_2_credit } }
+   set_variable = { ctc_cp_GER_common_3_diplomacy_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_diplomacy_2 } } complete_national_focus = CTC_CP_GER_common_3_diplomacy_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_diplomacy_3_settled } }
+ set_country_flag = ctc_cp_GER_common_3_diplomacy_3_answered set_country_flag = ctc_cp_GER_common_3_diplomacy_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_diplomacy_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_diplomacy_3_credit } }
+   set_variable = { ctc_cp_GER_common_3_diplomacy_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_diplomacy_3 } } complete_national_focus = CTC_CP_GER_common_3_diplomacy_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_3_diplomacy_4_settled } }
+ set_country_flag = ctc_cp_GER_common_3_diplomacy_4_answered set_country_flag = ctc_cp_GER_common_3_diplomacy_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_3_diplomacy_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_3_diplomacy_4_credit } }
+   set_variable = { ctc_cp_GER_common_3_diplomacy_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_3_diplomacy_4 } } complete_national_focus = CTC_CP_GER_common_3_diplomacy_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_administration_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_administration_1_answered set_country_flag = ctc_cp_GER_common_4_administration_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_administration_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_administration_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_administration_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_administration_1 } } complete_national_focus = CTC_CP_GER_common_4_administration_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_administration_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_administration_2_answered set_country_flag = ctc_cp_GER_common_4_administration_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_administration_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_administration_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_administration_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_administration_2 } } complete_national_focus = CTC_CP_GER_common_4_administration_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_administration_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_administration_3_answered set_country_flag = ctc_cp_GER_common_4_administration_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_administration_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_administration_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_administration_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_administration_3 } } complete_national_focus = CTC_CP_GER_common_4_administration_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_administration_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_administration_4_answered set_country_flag = ctc_cp_GER_common_4_administration_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_administration_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_administration_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_administration_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_administration_4 } } complete_national_focus = CTC_CP_GER_common_4_administration_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_industry_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_industry_1_answered set_country_flag = ctc_cp_GER_common_4_industry_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_industry_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_industry_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_industry_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_industry_1 } } complete_national_focus = CTC_CP_GER_common_4_industry_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_industry_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_industry_2_answered set_country_flag = ctc_cp_GER_common_4_industry_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_industry_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_industry_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_industry_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_industry_2 } } complete_national_focus = CTC_CP_GER_common_4_industry_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_industry_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_industry_3_answered set_country_flag = ctc_cp_GER_common_4_industry_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_industry_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_industry_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_industry_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_industry_3 } } complete_national_focus = CTC_CP_GER_common_4_industry_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_industry_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_industry_4_answered set_country_flag = ctc_cp_GER_common_4_industry_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_industry_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_industry_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_industry_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_industry_4 } } complete_national_focus = CTC_CP_GER_common_4_industry_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_transport_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_transport_1_answered set_country_flag = ctc_cp_GER_common_4_transport_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_transport_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_transport_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_transport_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_transport_1 } } complete_national_focus = CTC_CP_GER_common_4_transport_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_transport_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_transport_2_answered set_country_flag = ctc_cp_GER_common_4_transport_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_transport_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_transport_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_transport_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_transport_2 } } complete_national_focus = CTC_CP_GER_common_4_transport_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_transport_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_transport_3_answered set_country_flag = ctc_cp_GER_common_4_transport_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_transport_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_transport_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_transport_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_transport_3 } } complete_national_focus = CTC_CP_GER_common_4_transport_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_transport_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_transport_4_answered set_country_flag = ctc_cp_GER_common_4_transport_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_transport_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_transport_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_transport_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_transport_4 } } complete_national_focus = CTC_CP_GER_common_4_transport_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_science_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_science_1_answered set_country_flag = ctc_cp_GER_common_4_science_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_science_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_science_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_science_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_science_1 } } complete_national_focus = CTC_CP_GER_common_4_science_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_science_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_science_2_answered set_country_flag = ctc_cp_GER_common_4_science_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_science_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_science_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_science_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_science_2 } } complete_national_focus = CTC_CP_GER_common_4_science_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_science_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_science_3_answered set_country_flag = ctc_cp_GER_common_4_science_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_science_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_science_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_science_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_science_3 } } complete_national_focus = CTC_CP_GER_common_4_science_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_science_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_science_4_answered set_country_flag = ctc_cp_GER_common_4_science_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_science_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_science_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_science_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_science_4 } } complete_national_focus = CTC_CP_GER_common_4_science_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_public_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_public_1_answered set_country_flag = ctc_cp_GER_common_4_public_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_public_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_public_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_public_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_public_1 } } complete_national_focus = CTC_CP_GER_common_4_public_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_public_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_public_2_answered set_country_flag = ctc_cp_GER_common_4_public_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_public_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_public_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_public_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_public_2 } } complete_national_focus = CTC_CP_GER_common_4_public_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_public_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_public_3_answered set_country_flag = ctc_cp_GER_common_4_public_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_public_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_public_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_public_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_public_3 } } complete_national_focus = CTC_CP_GER_common_4_public_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_public_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_public_4_answered set_country_flag = ctc_cp_GER_common_4_public_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_public_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_public_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_public_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_public_4 } } complete_national_focus = CTC_CP_GER_common_4_public_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_army_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_army_1_answered set_country_flag = ctc_cp_GER_common_4_army_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_army_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_army_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_army_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_army_1 } } complete_national_focus = CTC_CP_GER_common_4_army_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_army_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_army_2_answered set_country_flag = ctc_cp_GER_common_4_army_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_army_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_army_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_army_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_army_2 } } complete_national_focus = CTC_CP_GER_common_4_army_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_army_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_army_3_answered set_country_flag = ctc_cp_GER_common_4_army_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_army_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_army_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_army_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_army_3 } } complete_national_focus = CTC_CP_GER_common_4_army_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_army_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_army_4_answered set_country_flag = ctc_cp_GER_common_4_army_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_army_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_army_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_army_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_army_4 } } complete_national_focus = CTC_CP_GER_common_4_army_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_security_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_security_1_answered set_country_flag = ctc_cp_GER_common_4_security_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_security_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_security_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_security_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_security_1 } } complete_national_focus = CTC_CP_GER_common_4_security_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_security_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_security_2_answered set_country_flag = ctc_cp_GER_common_4_security_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_security_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_security_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_security_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_security_2 } } complete_national_focus = CTC_CP_GER_common_4_security_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_security_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_security_3_answered set_country_flag = ctc_cp_GER_common_4_security_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_security_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_security_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_security_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_security_3 } } complete_national_focus = CTC_CP_GER_common_4_security_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_security_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_security_4_answered set_country_flag = ctc_cp_GER_common_4_security_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_security_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_security_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_security_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_security_4 } } complete_national_focus = CTC_CP_GER_common_4_security_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_diplomacy_1_settled } }
+ set_country_flag = ctc_cp_GER_common_4_diplomacy_1_answered set_country_flag = ctc_cp_GER_common_4_diplomacy_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_diplomacy_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_diplomacy_1_credit } }
+   set_variable = { ctc_cp_GER_common_4_diplomacy_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_diplomacy_1 } } complete_national_focus = CTC_CP_GER_common_4_diplomacy_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_diplomacy_2_settled } }
+ set_country_flag = ctc_cp_GER_common_4_diplomacy_2_answered set_country_flag = ctc_cp_GER_common_4_diplomacy_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_diplomacy_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_diplomacy_2_credit } }
+   set_variable = { ctc_cp_GER_common_4_diplomacy_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_diplomacy_2 } } complete_national_focus = CTC_CP_GER_common_4_diplomacy_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_diplomacy_3_settled } }
+ set_country_flag = ctc_cp_GER_common_4_diplomacy_3_answered set_country_flag = ctc_cp_GER_common_4_diplomacy_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_diplomacy_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_diplomacy_3_credit } }
+   set_variable = { ctc_cp_GER_common_4_diplomacy_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_diplomacy_3 } } complete_national_focus = CTC_CP_GER_common_4_diplomacy_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_4_diplomacy_4_settled } }
+ set_country_flag = ctc_cp_GER_common_4_diplomacy_4_answered set_country_flag = ctc_cp_GER_common_4_diplomacy_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_4_diplomacy_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_4_diplomacy_4_credit } }
+   set_variable = { ctc_cp_GER_common_4_diplomacy_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_4_diplomacy_4 } } complete_national_focus = CTC_CP_GER_common_4_diplomacy_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_administration_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_administration_1_answered set_country_flag = ctc_cp_GER_common_5_administration_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_administration_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_administration_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_administration_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_administration_1 } } complete_national_focus = CTC_CP_GER_common_5_administration_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_administration_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_administration_2_answered set_country_flag = ctc_cp_GER_common_5_administration_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_administration_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_administration_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_administration_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_administration_2 } } complete_national_focus = CTC_CP_GER_common_5_administration_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_administration_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_administration_3_answered set_country_flag = ctc_cp_GER_common_5_administration_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_administration_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_administration_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_administration_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_administration_3 } } complete_national_focus = CTC_CP_GER_common_5_administration_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_administration_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_administration_4_answered set_country_flag = ctc_cp_GER_common_5_administration_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_administration_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_administration_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_administration_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_administration_4 } } complete_national_focus = CTC_CP_GER_common_5_administration_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_industry_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_industry_1_answered set_country_flag = ctc_cp_GER_common_5_industry_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_industry_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_industry_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_industry_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_industry_1 } } complete_national_focus = CTC_CP_GER_common_5_industry_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_industry_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_industry_2_answered set_country_flag = ctc_cp_GER_common_5_industry_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_industry_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_industry_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_industry_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_industry_2 } } complete_national_focus = CTC_CP_GER_common_5_industry_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_industry_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_industry_3_answered set_country_flag = ctc_cp_GER_common_5_industry_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_industry_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_industry_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_industry_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_industry_3 } } complete_national_focus = CTC_CP_GER_common_5_industry_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_industry_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_industry_4_answered set_country_flag = ctc_cp_GER_common_5_industry_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_industry_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_industry_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_industry_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_industry_4 } } complete_national_focus = CTC_CP_GER_common_5_industry_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_transport_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_transport_1_answered set_country_flag = ctc_cp_GER_common_5_transport_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_transport_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_transport_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_transport_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_transport_1 } } complete_national_focus = CTC_CP_GER_common_5_transport_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_transport_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_transport_2_answered set_country_flag = ctc_cp_GER_common_5_transport_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_transport_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_transport_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_transport_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_transport_2 } } complete_national_focus = CTC_CP_GER_common_5_transport_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_transport_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_transport_3_answered set_country_flag = ctc_cp_GER_common_5_transport_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_transport_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_transport_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_transport_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_transport_3 } } complete_national_focus = CTC_CP_GER_common_5_transport_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_transport_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_transport_4_answered set_country_flag = ctc_cp_GER_common_5_transport_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_transport_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_transport_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_transport_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_transport_4 } } complete_national_focus = CTC_CP_GER_common_5_transport_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_science_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_science_1_answered set_country_flag = ctc_cp_GER_common_5_science_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_science_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_science_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_science_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_science_1 } } complete_national_focus = CTC_CP_GER_common_5_science_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_science_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_science_2_answered set_country_flag = ctc_cp_GER_common_5_science_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_science_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_science_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_science_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_science_2 } } complete_national_focus = CTC_CP_GER_common_5_science_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_science_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_science_3_answered set_country_flag = ctc_cp_GER_common_5_science_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_science_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_science_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_science_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_science_3 } } complete_national_focus = CTC_CP_GER_common_5_science_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_science_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_science_4_answered set_country_flag = ctc_cp_GER_common_5_science_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_science_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_science_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_science_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_science_4 } } complete_national_focus = CTC_CP_GER_common_5_science_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_public_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_public_1_answered set_country_flag = ctc_cp_GER_common_5_public_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_public_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_public_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_public_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_public_1 } } complete_national_focus = CTC_CP_GER_common_5_public_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_public_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_public_2_answered set_country_flag = ctc_cp_GER_common_5_public_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_public_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_public_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_public_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_public_2 } } complete_national_focus = CTC_CP_GER_common_5_public_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_public_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_public_3_answered set_country_flag = ctc_cp_GER_common_5_public_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_public_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_public_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_public_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_public_3 } } complete_national_focus = CTC_CP_GER_common_5_public_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_public_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_public_4_answered set_country_flag = ctc_cp_GER_common_5_public_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_public_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_public_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_public_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_public_4 } } complete_national_focus = CTC_CP_GER_common_5_public_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_army_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_army_1_answered set_country_flag = ctc_cp_GER_common_5_army_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_army_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_army_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_army_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_army_1 } } complete_national_focus = CTC_CP_GER_common_5_army_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_army_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_army_2_answered set_country_flag = ctc_cp_GER_common_5_army_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_army_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_army_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_army_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_army_2 } } complete_national_focus = CTC_CP_GER_common_5_army_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_army_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_army_3_answered set_country_flag = ctc_cp_GER_common_5_army_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_army_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_army_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_army_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_army_3 } } complete_national_focus = CTC_CP_GER_common_5_army_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_army_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_army_4_answered set_country_flag = ctc_cp_GER_common_5_army_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_army_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_army_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_army_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_army_4 } } complete_national_focus = CTC_CP_GER_common_5_army_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_security_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_security_1_answered set_country_flag = ctc_cp_GER_common_5_security_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_security_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_security_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_security_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_security_1 } } complete_national_focus = CTC_CP_GER_common_5_security_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_security_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_security_2_answered set_country_flag = ctc_cp_GER_common_5_security_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_security_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_security_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_security_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_security_2 } } complete_national_focus = CTC_CP_GER_common_5_security_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_security_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_security_3_answered set_country_flag = ctc_cp_GER_common_5_security_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_security_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_security_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_security_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_security_3 } } complete_national_focus = CTC_CP_GER_common_5_security_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_security_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_security_4_answered set_country_flag = ctc_cp_GER_common_5_security_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_security_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_security_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_security_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_security_4 } } complete_national_focus = CTC_CP_GER_common_5_security_4 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_diplomacy_1_settled } }
+ set_country_flag = ctc_cp_GER_common_5_diplomacy_1_answered set_country_flag = ctc_cp_GER_common_5_diplomacy_1_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_diplomacy_1_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_diplomacy_1_credit } }
+   set_variable = { ctc_cp_GER_common_5_diplomacy_1_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_diplomacy_1 } } complete_national_focus = CTC_CP_GER_common_5_diplomacy_1 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_diplomacy_2_settled } }
+ set_country_flag = ctc_cp_GER_common_5_diplomacy_2_answered set_country_flag = ctc_cp_GER_common_5_diplomacy_2_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_diplomacy_2_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_diplomacy_2_credit } }
+   set_variable = { ctc_cp_GER_common_5_diplomacy_2_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_diplomacy_2 } } complete_national_focus = CTC_CP_GER_common_5_diplomacy_2 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_diplomacy_3_settled } }
+ set_country_flag = ctc_cp_GER_common_5_diplomacy_3_answered set_country_flag = ctc_cp_GER_common_5_diplomacy_3_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_diplomacy_3_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_diplomacy_3_credit } }
+   set_variable = { ctc_cp_GER_common_5_diplomacy_3_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_diplomacy_3 } } complete_national_focus = CTC_CP_GER_common_5_diplomacy_3 }
+ }
+if = { limit = { DDR = { has_country_flag = ctc_cp_DDR_common_5_diplomacy_4_settled } }
+ set_country_flag = ctc_cp_GER_common_5_diplomacy_4_answered set_country_flag = ctc_cp_GER_common_5_diplomacy_4_settled
+ set_variable = { ctc_cp_inherited_credit = DDR.ctc_cp_DDR_common_5_diplomacy_4_credit }
+ if = { limit = { check_variable = { ctc_cp_inherited_credit > ctc_cp_GER_common_5_diplomacy_4_credit } }
+   set_variable = { ctc_cp_GER_common_5_diplomacy_4_credit = ctc_cp_inherited_credit }
+ }
+ if = { limit = { NOT = { has_completed_focus = CTC_CP_GER_common_5_diplomacy_4 } } complete_national_focus = CTC_CP_GER_common_5_diplomacy_4 }
+ }
+set_variable = { ctc_cp_done_administration = 0 }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_1_administration_1_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_1_administration_2_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_1_administration_3_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_1_administration_4_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_2_administration_1_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_2_administration_2_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_2_administration_3_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_2_administration_4_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_3_administration_1_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_3_administration_2_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_3_administration_3_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_3_administration_4_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_4_administration_1_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_4_administration_2_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_4_administration_3_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_4_administration_4_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_5_administration_1_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_5_administration_2_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_5_administration_3_credit }
+add_to_variable = { ctc_cp_done_administration = ctc_cp_GER_common_5_administration_4_credit }
+set_variable = { ctc_cp_done_industry = 0 }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_1_industry_1_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_1_industry_2_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_1_industry_3_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_1_industry_4_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_2_industry_1_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_2_industry_2_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_2_industry_3_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_2_industry_4_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_3_industry_1_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_3_industry_2_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_3_industry_3_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_3_industry_4_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_4_industry_1_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_4_industry_2_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_4_industry_3_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_4_industry_4_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_5_industry_1_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_5_industry_2_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_5_industry_3_credit }
+add_to_variable = { ctc_cp_done_industry = ctc_cp_GER_common_5_industry_4_credit }
+set_variable = { ctc_cp_done_transport = 0 }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_1_transport_1_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_1_transport_2_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_1_transport_3_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_1_transport_4_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_2_transport_1_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_2_transport_2_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_2_transport_3_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_2_transport_4_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_3_transport_1_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_3_transport_2_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_3_transport_3_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_3_transport_4_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_4_transport_1_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_4_transport_2_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_4_transport_3_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_4_transport_4_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_5_transport_1_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_5_transport_2_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_5_transport_3_credit }
+add_to_variable = { ctc_cp_done_transport = ctc_cp_GER_common_5_transport_4_credit }
+set_variable = { ctc_cp_done_science = 0 }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_1_science_1_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_1_science_2_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_1_science_3_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_1_science_4_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_2_science_1_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_2_science_2_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_2_science_3_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_2_science_4_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_3_science_1_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_3_science_2_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_3_science_3_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_3_science_4_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_4_science_1_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_4_science_2_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_4_science_3_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_4_science_4_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_5_science_1_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_5_science_2_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_5_science_3_credit }
+add_to_variable = { ctc_cp_done_science = ctc_cp_GER_common_5_science_4_credit }
+set_variable = { ctc_cp_done_public = 0 }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_1_public_1_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_1_public_2_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_1_public_3_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_1_public_4_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_2_public_1_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_2_public_2_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_2_public_3_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_2_public_4_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_3_public_1_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_3_public_2_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_3_public_3_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_3_public_4_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_4_public_1_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_4_public_2_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_4_public_3_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_4_public_4_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_5_public_1_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_5_public_2_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_5_public_3_credit }
+add_to_variable = { ctc_cp_done_public = ctc_cp_GER_common_5_public_4_credit }
+set_variable = { ctc_cp_done_army = 0 }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_1_army_1_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_1_army_2_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_1_army_3_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_1_army_4_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_2_army_1_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_2_army_2_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_2_army_3_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_2_army_4_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_3_army_1_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_3_army_2_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_3_army_3_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_3_army_4_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_4_army_1_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_4_army_2_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_4_army_3_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_4_army_4_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_5_army_1_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_5_army_2_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_5_army_3_credit }
+add_to_variable = { ctc_cp_done_army = ctc_cp_GER_common_5_army_4_credit }
+set_variable = { ctc_cp_done_security = 0 }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_1_security_1_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_1_security_2_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_1_security_3_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_1_security_4_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_2_security_1_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_2_security_2_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_2_security_3_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_2_security_4_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_3_security_1_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_3_security_2_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_3_security_3_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_3_security_4_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_4_security_1_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_4_security_2_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_4_security_3_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_4_security_4_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_5_security_1_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_5_security_2_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_5_security_3_credit }
+add_to_variable = { ctc_cp_done_security = ctc_cp_GER_common_5_security_4_credit }
+set_variable = { ctc_cp_done_diplomacy = 0 }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_1_diplomacy_1_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_1_diplomacy_2_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_1_diplomacy_3_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_1_diplomacy_4_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_2_diplomacy_1_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_2_diplomacy_2_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_2_diplomacy_3_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_2_diplomacy_4_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_3_diplomacy_1_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_3_diplomacy_2_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_3_diplomacy_3_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_3_diplomacy_4_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_4_diplomacy_1_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_4_diplomacy_2_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_4_diplomacy_3_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_4_diplomacy_4_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_5_diplomacy_1_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_5_diplomacy_2_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_5_diplomacy_3_credit }
+add_to_variable = { ctc_cp_done_diplomacy = ctc_cp_GER_common_5_diplomacy_4_credit }
+ctc_cp_refresh = yes change_tag_from = DDR annex_country = { target = DDR transfer_troops = yes } set_country_flag = ctc_cp_german_unified ctc_cp_refresh = yes }
+ }
+ option = {
+  name = ctc_cp_succession.16.o1
+  ai_chance = { factor = 0 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}
+
+country_event = {
+ id = ctc_cp_succession.17
+ title = ctc_cp_succession.17.t
+ is_triggered_only = yes
+ desc = ctc_cp_succession.17.d0
+ immediate = { set_country_flag = ctc_cp_event_open set_country_flag = ctc_cp_last_event }
+ option = {
+  name = ctc_cp_succession.17.o0
+  ai_chance = { factor = 100 }
+  clr_country_flag = ctc_cp_event_open
+
+ }
+}

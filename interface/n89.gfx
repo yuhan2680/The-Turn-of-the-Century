@@ -1,0 +1,11 @@
+spriteTypes = {
+spriteType = { name = "GFX_n89_desk" texturefile = "gfx/interface/n89/desk.tga" noOfFrames = 1 }
+spriteType = { name = "GFX_n89_chronicle" texturefile = "gfx/interface/n89/chronicle.tga" noOfFrames = 1 }
+spriteType = { name = "GFX_n89_political_brief" texturefile = "gfx/interface/n89/political_brief.tga" noOfFrames = 1 }
+spriteType = { name = "GFX_n89_blue_bar" texturefile = "gfx/interface/n89/blue_bar.tga" noOfFrames = 101 }
+spriteType = { name = "GFX_n89_gold_bar" texturefile = "gfx/interface/n89/gold_bar.tga" noOfFrames = 101 }
+spriteType = { name = "GFX_n89_green_bar" texturefile = "gfx/interface/n89/green_bar.tga" noOfFrames = 101 }
+spriteType = { name = "GFX_n89_button" texturefile = "gfx/interface/n89/button.tga" noOfFrames = 3 }
+spriteType = { name = "GFX_n89_tab" texturefile = "gfx/interface/n89/tab.tga" noOfFrames = 3 }
+spriteType = { name = "GFX_n89_close" texturefile = "gfx/interface/n89/close.tga" noOfFrames = 3 }
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 1058
+	name = "STATE_1058"
+	manpower = 760000
+	state_category = town
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+		owner = SWA
+		add_core_of = SWA
+	}
+	provinces = {
+		13396
+		13397
+		13398
+	}
+}

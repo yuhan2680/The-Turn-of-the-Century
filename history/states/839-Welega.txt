@@ -1,0 +1,30 @@
+state = {
+	id = 839
+	name = "STATE_839"
+	manpower = 600000
+	resources = {
+
+	}
+	state_category = pastoral
+	provinces = {
+		2009
+		12856
+		13243
+	}
+	local_supplies = 0.0
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+
+		}
+		victory_points = {
+			2009
+			2
+		}
+		victory_points = {
+			13243
+			1
+		}
+	}
+}

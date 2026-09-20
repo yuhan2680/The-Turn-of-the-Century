@@ -1,0 +1,8 @@
+air_wings = {
+	658 = {
+		ctc_combat_aircraft = {
+			owner = "UAE"
+			amount = 44
+		}
+	}
+}

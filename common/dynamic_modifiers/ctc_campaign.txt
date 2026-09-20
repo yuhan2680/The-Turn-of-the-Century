@@ -1,0 +1,18 @@
+ctc_cp_policy = { icon = GFX_idea_ctc_cp_policy enable = { always = yes }
+ air_mission_efficiency = ctc_cp_mod_air_mission_efficiency
+ army_org_factor = ctc_cp_mod_army_org_factor
+ conscription = ctc_cp_mod_conscription
+ consumer_goods_factor = ctc_cp_mod_consumer_goods_factor
+ industrial_capacity_dockyard = ctc_cp_mod_industrial_capacity_dockyard
+ industrial_capacity_factory = ctc_cp_mod_industrial_capacity_factory
+ line_change_production_efficiency_factor = ctc_cp_mod_line_change_production_efficiency_factor
+ local_resources_factor = ctc_cp_mod_local_resources_factor
+ navy_org_factor = ctc_cp_mod_navy_org_factor
+ political_power_factor = ctc_cp_mod_political_power_factor
+ political_power_gain = ctc_cp_mod_political_power_gain
+ production_factory_efficiency_gain_factor = ctc_cp_mod_production_factory_efficiency_gain_factor
+ production_speed_industrial_complex_factor = ctc_cp_mod_production_speed_industrial_complex_factor
+ research_speed_factor = ctc_cp_mod_research_speed_factor
+ stability_factor = ctc_cp_mod_stability_factor
+ trade_opinion_factor = ctc_cp_mod_trade_opinion_factor
+}

@@ -1,0 +1,1 @@
+ctc_armed_forces = { icon = generic_army_support visible = { has_country_flag = ctc_1989_military_initialized } }

@@ -1,0 +1,40 @@
+capital = 1059
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = yes
+}
+set_stability = 0.5
+set_war_support = 0.15
+set_research_slots = 2
+add_political_power = 50
+add_ideas = {
+	limited_exports
+	volunteer_only
+	civilian_economy
+}
+create_country_leader = {
+	name = N89_LEADER_ATG
+	picture = "gfx/leaders/ctc/N89_LEADER_ATG.dds"
+	expire = "2035.1.1"
+	ideology = liberalism
+	traits = {
+
+	}
+}
+set_country_flag = ctc_1989_military_initialized
+oob = "CTC_ATG_1989"
+set_naval_oob = "CTC_ATG_1989_naval"
+set_air_oob = "CTC_ATG_1989_air"
+set_popularities = {
+	communism = 2
+	democratic = 93
+	neutrality = 5
+	fascism = 0
+}
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	basic_train = 1
+	ctc_1989_armed_forces = 1
+	motorised_infantry = 1
+}

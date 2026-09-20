@@ -1,0 +1,816 @@
+division_template = {
+	name = "步兵师 / Infantry Division"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 0
+			y = 4
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "装甲师 / Armored Division"
+	regiments = {
+		modern_armor = {
+			x = 0
+			y = 0
+		}
+		modern_armor = {
+			x = 0
+			y = 1
+		}
+		modern_armor = {
+			x = 0
+			y = 2
+		}
+		modern_armor = {
+			x = 0
+			y = 3
+		}
+		motorized = {
+			x = 2
+			y = 0
+		}
+		motorized = {
+			x = 2
+			y = 1
+		}
+		motorized = {
+			x = 2
+			y = 2
+		}
+		motorized = {
+			x = 2
+			y = 3
+		}
+		motorized = {
+			x = 2
+			y = 4
+		}
+		motorized = {
+			x = 3
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "独立步兵营 / Independent Infantry Battalion"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "独立步兵连 / Independent Infantry Company"
+	regiments = {
+		ctc_infantry_company = {
+			x = 0
+			y = 0
+		}
+	}
+}
+units = {
+	division = {
+		name = "第1装甲师 / 1st Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10149
+	}
+	division = {
+		name = "第2装甲师 / 2nd Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1273
+	}
+	division = {
+		name = "第3装甲师 / 3rd Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10246
+	}
+	division = {
+		name = "第4装甲师 / 4th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1228
+	}
+	division = {
+		name = "第5装甲师 / 5th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8011
+	}
+	division = {
+		name = "第6装甲师 / 6th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12307
+	}
+	division = {
+		name = "第7装甲师 / 7th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8087
+	}
+	division = {
+		name = "第8装甲师 / 8th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10118
+	}
+	division = {
+		name = "第9装甲师 / 9th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1349
+	}
+	division = {
+		name = "第10装甲师 / 10th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4245
+	}
+	division = {
+		name = "第11装甲师 / 11th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12366
+	}
+	division = {
+		name = "第12装甲师 / 12th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1908
+	}
+	division = {
+		name = "第13装甲师 / 13th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1116
+	}
+	division = {
+		name = "第14装甲师 / 14th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4516
+	}
+	division = {
+		name = "第15装甲师 / 15th Armored Division"
+		division_template = "装甲师 / Armored Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4950
+	}
+	division = {
+		name = "第1步兵师 / 1st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4106
+	}
+	division = {
+		name = "第2步兵师 / 2nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1377
+	}
+	division = {
+		name = "第3步兵师 / 3rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 2086
+	}
+	division = {
+		name = "第4步兵师 / 4th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8005
+	}
+	division = {
+		name = "第5步兵师 / 5th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12251
+	}
+	division = {
+		name = "第6步兵师 / 6th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1321
+	}
+	division = {
+		name = "第7步兵师 / 7th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12295
+	}
+	division = {
+		name = "第8步兵师 / 8th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 7465
+	}
+	division = {
+		name = "第9步兵师 / 9th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4435
+	}
+	division = {
+		name = "第10步兵师 / 10th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10729
+	}
+	division = {
+		name = "第11步兵师 / 11th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1553
+	}
+	division = {
+		name = "第12步兵师 / 12th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1949
+	}
+	division = {
+		name = "第13步兵师 / 13th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10149
+	}
+	division = {
+		name = "第14步兵师 / 14th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1273
+	}
+	division = {
+		name = "第15步兵师 / 15th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10246
+	}
+	division = {
+		name = "第16步兵师 / 16th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1228
+	}
+	division = {
+		name = "第17步兵师 / 17th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8011
+	}
+	division = {
+		name = "第18步兵师 / 18th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1059
+	}
+	division = {
+		name = "第19步兵师 / 19th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8087
+	}
+	division = {
+		name = "第20步兵师 / 20th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10118
+	}
+	division = {
+		name = "第21步兵师 / 21st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1349
+	}
+	division = {
+		name = "第22步兵师 / 22nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4245
+	}
+	division = {
+		name = "第23步兵师 / 23rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12366
+	}
+	division = {
+		name = "第24步兵师 / 24th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1908
+	}
+	division = {
+		name = "第25步兵师 / 25th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1116
+	}
+	division = {
+		name = "第26步兵师 / 26th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4516
+	}
+	division = {
+		name = "第27步兵师 / 27th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4950
+	}
+	division = {
+		name = "第28步兵师 / 28th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4106
+	}
+	division = {
+		name = "第29步兵师 / 29th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1377
+	}
+	division = {
+		name = "第30步兵师 / 30th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 2086
+	}
+	division = {
+		name = "第31步兵师 / 31st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8005
+	}
+	division = {
+		name = "第32步兵师 / 32nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12251
+	}
+	division = {
+		name = "第33步兵师 / 33rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1321
+	}
+	division = {
+		name = "第34步兵师 / 34th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12295
+	}
+	division = {
+		name = "第35步兵师 / 35th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 7465
+	}
+	division = {
+		name = "第36步兵师 / 36th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4435
+	}
+	division = {
+		name = "第37步兵师 / 37th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10729
+	}
+	division = {
+		name = "第38步兵师 / 38th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1553
+	}
+	division = {
+		name = "第39步兵师 / 39th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1949
+	}
+	division = {
+		name = "第40步兵师 / 40th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10149
+	}
+	division = {
+		name = "第41步兵师 / 41st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1273
+	}
+	division = {
+		name = "第42步兵师 / 42nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10246
+	}
+	division = {
+		name = "第43步兵师 / 43rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1228
+	}
+	division = {
+		name = "第44步兵师 / 44th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8011
+	}
+	division = {
+		name = "第45步兵师 / 45th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1059
+	}
+	division = {
+		name = "第46步兵师 / 46th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8087
+	}
+	division = {
+		name = "第47步兵师 / 47th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10118
+	}
+	division = {
+		name = "第48步兵师 / 48th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1349
+	}
+	division = {
+		name = "第49步兵师 / 49th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4245
+	}
+	division = {
+		name = "第50步兵师 / 50th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12366
+	}
+	division = {
+		name = "第51步兵师 / 51st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1908
+	}
+	division = {
+		name = "第52步兵师 / 52nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1116
+	}
+	division = {
+		name = "第53步兵师 / 53rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4516
+	}
+	division = {
+		name = "第54步兵师 / 54th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4950
+	}
+	division = {
+		name = "第55步兵师 / 55th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4106
+	}
+	division = {
+		name = "第56步兵师 / 56th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1377
+	}
+	division = {
+		name = "第57步兵师 / 57th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 2086
+	}
+	division = {
+		name = "第58步兵师 / 58th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8005
+	}
+	division = {
+		name = "第59步兵师 / 59th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12251
+	}
+	division = {
+		name = "第60步兵师 / 60th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1321
+	}
+	division = {
+		name = "第61步兵师 / 61st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12295
+	}
+	division = {
+		name = "第62步兵师 / 62nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 7465
+	}
+	division = {
+		name = "第63步兵师 / 63rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4435
+	}
+	division = {
+		name = "第64步兵师 / 64th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10729
+	}
+	division = {
+		name = "第65步兵师 / 65th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1553
+	}
+	division = {
+		name = "第66步兵师 / 66th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1949
+	}
+	division = {
+		name = "第67步兵师 / 67th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10149
+	}
+	division = {
+		name = "第68步兵师 / 68th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1273
+	}
+	division = {
+		name = "第69步兵师 / 69th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10246
+	}
+	division = {
+		name = "第70步兵师 / 70th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1228
+	}
+	division = {
+		name = "第71步兵师 / 71st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8011
+	}
+	division = {
+		name = "第72步兵师 / 72nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1059
+	}
+	division = {
+		name = "第73步兵师 / 73rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8087
+	}
+	division = {
+		name = "第74步兵师 / 74th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 10118
+	}
+	division = {
+		name = "第75步兵师 / 75th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1349
+	}
+	division = {
+		name = "第76步兵师 / 76th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4245
+	}
+	division = {
+		name = "第77步兵师 / 77th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12366
+	}
+	division = {
+		name = "第78步兵师 / 78th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1908
+	}
+	division = {
+		name = "第79步兵师 / 79th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1116
+	}
+	division = {
+		name = "第80步兵师 / 80th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4516
+	}
+	division = {
+		name = "第81步兵师 / 81st Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4950
+	}
+	division = {
+		name = "第82步兵师 / 82nd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 4106
+	}
+	division = {
+		name = "第83步兵师 / 83rd Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1377
+	}
+	division = {
+		name = "第84步兵师 / 84th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 2086
+	}
+	division = {
+		name = "第85步兵师 / 85th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 8005
+	}
+	division = {
+		name = "第86步兵师 / 86th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 12251
+	}
+	division = {
+		name = "第87步兵师 / 87th Infantry Division"
+		division_template = "步兵师 / Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		location = 1321
+	}
+}
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = ctc_tank_equipment
+		amount = 150
+		producer = RAJ
+	}
+	ctc_logistics_RAJ = yes
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 765
+	name = "STATE_765"
+	manpower = 51600
+	state_category = pastoral
+	provinces = {
+		8051
+	}
+	local_supplies = 0.0
+	history = {
+		victory_points = {
+			8051
+			1
+		}
+		buildings = {
+			infrastructure = 1
+			8051 = {
+				naval_base = 2
+			}
+			air_base = 1
+		}
+		owner = QAT
+		add_core_of = QAT
+	}
+}

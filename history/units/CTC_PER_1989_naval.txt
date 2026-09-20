@@ -1,0 +1,90 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 7982
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 7982
+			ship = {
+				name = "驱逐舰1号 / Destroyer 1"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰2号 / Destroyer 2"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰3号 / Destroyer 3"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰1号 / Frigate 1"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰2号 / Frigate 2"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰3号 / Frigate 3"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰4号 / Frigate 4"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰5号 / Frigate 5"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = PER
+					}
+				}
+			}
+		}
+	}
+}

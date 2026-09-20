@@ -1,0 +1,8 @@
+air_wings = {
+	556 = {
+		ctc_combat_aircraft = {
+			owner = "MLI"
+			amount = 27
+		}
+	}
+}

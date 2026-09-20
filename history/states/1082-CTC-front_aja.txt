@@ -1,0 +1,21 @@
+state = {
+	id = 1082
+	name = "STATE_1082"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = AJA
+		add_core_of = AJA
+		add_core_of = AFG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13419
+			3
+		}
+	}
+	provinces = {
+		13419
+	}
+}

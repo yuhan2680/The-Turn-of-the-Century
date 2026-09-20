@@ -1,0 +1,8 @@
+air_wings = {
+	670 = {
+		ctc_combat_aircraft = {
+			owner = "LAO"
+			amount = 30
+		}
+	}
+}

@@ -1,0 +1,1737 @@
+add_namespace = ctc_china_may
+country_event = {
+	id = ctc_china_may.1
+	title = ctc_china_may.1.t
+	desc = ctc_china_may.1.desc
+	picture = GFX_ctc_photo_zhao1984
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_1
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.1"
+	}
+	option = {
+		name = ctc_china_may.1.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_1_a
+		trigger = {
+			has_country_flag = n89_zhao_authorized
+			n89_dialogue_space = yes
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_r
+			value = 4
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = 5
+		}
+		set_country_flag = ctc_dialogue_public
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.1.a"
+			set_country_flag = ctc_may_done_1
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.1.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_1_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_h
+			value = 3
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -3
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.1.b"
+			set_country_flag = ctc_may_done_1
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.2
+	title = ctc_china_may.2.t
+	desc = ctc_china_may.2.desc
+	picture = GFX_ctc_photo_demonstrators1989
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_2
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.2"
+	}
+	option = {
+		name = ctc_china_may.2.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_2_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_political_power = -15
+		add_to_variable = {
+			var = n89_trust
+			value = 5
+		}
+		set_country_flag = ctc_medical_access
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.2.a"
+			set_country_flag = ctc_may_done_2
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.2.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_2_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_h
+			value = 3
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -5
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.2.b"
+			set_country_flag = ctc_may_done_2
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.3
+	title = ctc_china_may.3.t
+	desc = ctc_china_may.3.desc
+	picture = GFX_ctc_photo_gorbachev1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_3
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.3"
+	}
+	option = {
+		name = ctc_china_may.3.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_political_power = 10
+		set_country_flag = ctc_sino_soviet_normalization
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.3.a"
+			set_country_flag = ctc_may_done_3
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.4
+	title = ctc_china_may.4.t
+	desc = ctc_china_may.4.desc
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_4
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.4"
+	}
+	option = {
+		name = ctc_china_may.4.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_4_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_r
+			value = 5
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = 7
+		}
+		add_political_power = -20
+		set_country_flag = ctc_negotiating_team
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.4.a"
+			set_country_flag = ctc_may_done_4
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.4.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_4_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_h
+			value = 5
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -7
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.4.b"
+			set_country_flag = ctc_may_done_4
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.4.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_4_c
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = 6
+		}
+		add_political_power = -25
+		set_country_flag = ctc_workers_seat
+		set_country_flag = ctc_negotiating_team
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.4.c"
+			set_country_flag = ctc_may_done_4
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.5
+	title = ctc_china_may.5.t
+	desc = ctc_china_may.5.desc
+	picture = GFX_ctc_photo_factory1985
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_5
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.5"
+	}
+	option = {
+		name = ctc_china_may.5.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_5_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_workers_recognized
+		add_political_power = -30
+		add_to_variable = {
+			var = n89_trust
+			value = 5
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.5.a"
+			set_country_flag = ctc_may_done_5
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.5.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_5_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_workers_rejected
+		add_to_variable = {
+			var = n89_h
+			value = 4
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -4
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.5.b"
+			set_country_flag = ctc_may_done_5
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.6
+	title = ctc_china_may.6.t
+	desc = ctc_china_may.6.desc
+	picture = GFX_ctc_photo_tanks1989
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_6
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.6"
+	}
+	option = {
+		name = ctc_china_may.6.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_6_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_martial_law
+		add_to_variable = {
+			var = n89_h
+			value = 8
+		}
+		add_to_variable = {
+			var = n89_r
+			value = -8
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -10
+		}
+		add_stability = -0.04
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.6.a"
+			set_country_flag = ctc_may_done_6
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.6.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_6_b
+		trigger = {
+			has_country_flag = ctc_reform_authority
+			has_country_flag = n89_zhao_authorized
+			check_variable = {
+				n89_r > 44
+			}
+			check_variable = {
+				n89_trust > 39
+			}
+			has_country_flag = ctc_negotiating_team
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_reform_mandate
+		add_to_variable = {
+			var = n89_r
+			value = 6
+		}
+		add_political_power = -35
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.6.b"
+			set_country_flag = ctc_may_done_6
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.6.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_6_c
+		trigger = {
+			has_country_flag = ctc_workers_recognized
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_labour_mandate
+		add_political_power = -40
+		add_to_variable = {
+			var = n89_trust
+			value = 4
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.6.c"
+			set_country_flag = ctc_may_done_6
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.7
+	title = ctc_china_may.7.t
+	desc = ctc_china_may.7.desc
+	picture = GFX_ctc_photo_beijing_bicycles1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_7
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.7"
+	}
+	option = {
+		name = ctc_china_may.7.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_7_a
+		trigger = {
+			has_country_flag = ctc_reform_mandate
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_country_flag = ctc_martial_law
+			}
+		}
+		set_country_flag = ctc_reform_committee
+		add_political_power = -20
+		add_to_variable = {
+			var = n89_trust
+			value = 5
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.7.a"
+			set_country_flag = ctc_may_done_7
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.7.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_7_b
+		trigger = {
+			has_country_flag = ctc_labour_mandate
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_country_flag = ctc_martial_law
+			}
+		}
+		set_country_flag = ctc_strike_coordination
+		set_country_flag = ctc_strike_underway
+		add_ideas = ctc_prc_general_strike
+		add_political_power = -25
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.7.b"
+			set_country_flag = ctc_may_done_7
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.7.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_7_c
+		trigger = {
+			has_country_flag = ctc_martial_law
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_army_standoff
+		add_to_variable = {
+			var = n89_h
+			value = 4
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.7.c"
+			set_country_flag = ctc_may_done_7
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.7.d
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_7_d
+		trigger = {
+			has_country_flag = ctc_martial_law
+			has_country_flag = ctc_workers_recognized
+			has_country_flag = ctc_joint_council
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				has_country_flag = ctc_martial_law
+			}
+		}
+		set_country_flag = ctc_revolution_mobilized
+		set_country_flag = ctc_strike_underway
+		add_ideas = ctc_prc_general_strike
+		add_political_power = -45
+		add_stability = -0.08
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.7.d"
+			set_country_flag = ctc_may_done_7
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.8
+	title = ctc_china_may.8.t
+	desc = ctc_china_may.8.desc
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_8
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.8"
+	}
+	option = {
+		name = ctc_china_may.8.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_8_a
+		trigger = {
+			has_country_flag = ctc_reform_committee
+			has_country_flag = ctc_delegation_mandate
+			check_variable = {
+				n89_trust > 39
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_reform_agreement
+		add_political_power = -25
+		add_to_variable = {
+			var = n89_trust
+			value = 5
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.8.a"
+			set_country_flag = ctc_may_done_8
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.8.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_8_b
+		trigger = {
+			has_country_flag = ctc_strike_coordination
+			has_country_flag = ctc_strike_underway
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_labour_agreement
+		add_stability = -0.03
+		add_political_power = -25
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.8.b"
+			set_country_flag = ctc_may_done_8
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.8.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_8_c
+		trigger = {
+			has_country_flag = ctc_revolution_mobilized
+			has_country_flag = ctc_officers_joined
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_revolution_command
+		add_stability = -0.10
+		add_political_power = -40
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.8.c"
+			set_country_flag = ctc_may_done_8
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.8.d
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_8_d
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_final_hardline
+		add_to_variable = {
+			var = n89_h
+			value = 5
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -8
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.8.d"
+			set_country_flag = ctc_may_done_8
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.9
+	title = ctc_china_may.9.t
+	desc = ctc_china_may.9.desc
+	picture = GFX_ctc_photo_tiananmen1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_9
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.9"
+	}
+	option = {
+		name = ctc_china_may.9.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_9_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_final_suppress
+		add_stability = -0.08
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.9.a"
+			set_country_flag = ctc_may_done_9
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.9.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_9_b
+		trigger = {
+			has_country_flag = ctc_reform_agreement
+			has_country_flag = ctc_agreement_ratified
+			has_country_flag = ctc_agreement_implemented
+			has_country_flag = ctc_reform_authority
+			has_country_flag = n89_zhao_authorized
+			NOT = {
+				has_country_flag = ctc_zhao_removed
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_final_reform
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.9.b"
+			set_country_flag = ctc_may_done_9
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.9.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_9_c
+		trigger = {
+			has_country_flag = ctc_labour_agreement
+			has_country_flag = ctc_agreement_ratified
+			has_country_flag = ctc_agreement_implemented
+			has_country_flag = ctc_workers_recognized
+			has_country_flag = ctc_strike_underway
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_final_labour
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.9.c"
+			set_country_flag = ctc_may_done_9
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.9.d
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_9_d
+		trigger = {
+			has_country_flag = ctc_revolution_command
+			has_country_flag = ctc_officers_joined
+			has_country_flag = ctc_joint_council
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_final_revolution
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.9.d"
+			set_country_flag = ctc_may_done_9
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.10
+	title = ctc_china_may.10.t
+	desc = ctc_china_may.10.desc
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_10
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.10"
+	}
+	option = {
+		name = ctc_china_may.10.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_10_a
+		trigger = {
+			OR = {
+				has_country_flag = ctc_petition_agenda
+				has_country_flag = n89_petitions_received
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_political_power = -25
+		add_to_variable = {
+			var = n89_trust
+			value = 6
+		}
+		set_country_flag = ctc_petition_implemented
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.10.a"
+			set_country_flag = ctc_may_done_10
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.10.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_10_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -2
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.10.b"
+			set_country_flag = ctc_may_done_10
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.10.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_10_c
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_r
+			value = -3
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -6
+		}
+		set_country_flag = ctc_petition_broken
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.10.c"
+			set_country_flag = ctc_may_done_10
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.10.d
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_10_d
+		trigger = {
+			has_country_flag = ctc_hu_review
+			has_country_flag = ctc_appeals_review
+			has_country_flag = ctc_public_disclosure
+			has_country_flag = ctc_press_reform_agenda
+			has_country_flag = ctc_education_funded
+			has_country_flag = ctc_assembly_protocol
+			has_country_flag = ctc_open_reporting
+			has_country_flag = n89_zhao_authorized
+			NOT = {
+				has_country_flag = ctc_zhao_removed
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_political_power = -40
+		set_country_flag = ctc_petition_implemented
+		set_country_flag = ctc_all_demands_fulfilled
+		add_to_variable = {
+			var = n89_trust
+			value = 12
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.10.d"
+			set_country_flag = ctc_may_done_10
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.11
+	title = ctc_china_may.11.t
+	desc = ctc_china_may.11.desc
+	picture = GFX_ctc_photo_demonstrators1989
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_11
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.11"
+	}
+	option = {
+		name = ctc_china_may.11.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_11_a
+		trigger = {
+			has_country_flag = ctc_students_recognized
+			check_variable = {
+				n89_trust > 34
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_delegation_mandate
+		add_to_variable = {
+			var = n89_trust
+			value = 3
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.11.a"
+			set_country_flag = ctc_may_done_11
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.11.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_11_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_h
+			value = 1
+		}
+		add_to_variable = {
+			var = n89_trust
+			value = -3
+		}
+		set_country_flag = ctc_delegation_disputed
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.11.b"
+			set_country_flag = ctc_may_done_11
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.11.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_11_c
+		trigger = {
+			OR = {
+				has_country_flag = ctc_student_mandate_check
+				has_country_flag = ctc_students_recognized
+			}
+			check_variable = {
+				n89_trust > 39
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_political_power = -15
+		set_country_flag = ctc_delegation_mandate
+		add_to_variable = {
+			var = n89_trust
+			value = 2
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.11.c"
+			set_country_flag = ctc_may_done_11
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.12
+	title = ctc_china_may.12.t
+	desc = ctc_china_may.12.desc
+	picture = GFX_ctc_photo_zhao1984
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_12
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.12"
+	}
+	option = {
+		name = ctc_china_may.12.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_12_a
+		trigger = {
+			has_country_flag = n89_zhao_authorized
+			check_variable = {
+				n89_r > 49
+			}
+			check_variable = {
+				n89_h < 75
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				n89_hardline_space = yes
+			}
+		}
+		set_country_flag = ctc_reform_authority
+		add_to_variable = {
+			var = n89_r
+			value = 8
+		}
+		add_to_variable = {
+			var = n89_h
+			value = -6
+		}
+		add_political_power = -25
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.12.a"
+			set_country_flag = ctc_may_done_12
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.12.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_12_b
+		trigger = {
+			n89_hardline_space = yes
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = n89_zhao_authorized
+		set_country_flag = ctc_zhao_removed
+		add_to_variable = {
+			var = n89_r
+			value = -15
+		}
+		add_to_variable = {
+			var = n89_h
+			value = 15
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.12.b"
+			set_country_flag = ctc_may_done_12
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.12.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_12_c
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				n89_hardline_space = yes
+			}
+		}
+		set_country_flag = ctc_collective_authority
+		add_to_variable = {
+			var = n89_h
+			value = 1
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.12.c"
+			set_country_flag = ctc_may_done_12
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.13
+	title = ctc_china_may.13.t
+	desc = ctc_china_may.13.desc
+	picture = GFX_ctc_photo_factory1985
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_13
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.13"
+	}
+	option = {
+		name = ctc_china_may.13.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_13_a
+		trigger = {
+			has_country_flag = ctc_delegation_mandate
+			check_variable = {
+				n89_trust > 34
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_joint_council
+		add_political_power = -15
+		add_to_variable = {
+			var = n89_trust
+			value = 3
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.13.a"
+			set_country_flag = ctc_may_done_13
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.13.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_13_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_separate_worker_dialogue
+		add_to_variable = {
+			var = n89_trust
+			value = 1
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.13.b"
+			set_country_flag = ctc_may_done_13
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.13.c
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_13_c
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_workers_excluded
+		add_to_variable = {
+			var = n89_trust
+			value = -4
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.13.c"
+			set_country_flag = ctc_may_done_13
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.14
+	title = ctc_china_may.14.t
+	desc = ctc_china_may.14.desc
+	picture = GFX_ctc_photo_tanks1989
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_14
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.14"
+	}
+	option = {
+		name = ctc_china_may.14.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_14_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_officers_joined
+		add_political_power = -30
+		add_stability = -0.05
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.14.a"
+			set_country_flag = ctc_may_done_14
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.14.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_14_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_officers_mediation
+		add_to_variable = {
+			var = n89_trust
+			value = 1
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.14.b"
+			set_country_flag = ctc_may_done_14
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.15
+	title = ctc_china_may.15.t
+	desc = ctc_china_may.15.desc
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_15
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.15"
+	}
+	option = {
+		name = ctc_china_may.15.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_15_a
+		trigger = {
+			OR = {
+				AND = {
+					has_country_flag = ctc_reform_agreement
+					has_country_flag = ctc_delegation_mandate
+					check_variable = {
+						n89_trust > 39
+					}
+				}
+				AND = {
+					has_country_flag = ctc_labour_agreement
+					has_country_flag = ctc_workers_recognized
+					NOT = {
+						has_country_flag = ctc_workers_excluded
+					}
+					check_variable = {
+						n89_trust > 29
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_agreement_ratified
+		add_to_variable = {
+			var = n89_trust
+			value = 4
+		}
+		add_political_power = -15
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.15.a"
+			set_country_flag = ctc_may_done_15
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.15.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_15_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_agreement_unratified
+		add_to_variable = {
+			var = n89_trust
+			value = -5
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.15.b"
+			set_country_flag = ctc_may_done_15
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.16
+	title = ctc_china_may.16.t
+	desc = ctc_china_may.16.desc
+	picture = GFX_ctc_photo_beijing_market1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_16
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.16"
+	}
+	option = {
+		name = ctc_china_may.16.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_16_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_agreement_implemented
+		add_political_power = -40
+		add_to_variable = {
+			var = n89_trust
+			value = 5
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.16.a"
+			set_country_flag = ctc_may_done_16
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.16.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_16_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_agreement_broken
+		add_to_variable = {
+			var = n89_trust
+			value = -10
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.16.b"
+			set_country_flag = ctc_may_done_16
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.17
+	title = ctc_china_may.17.t
+	desc = ctc_china_may.17.desc
+	picture = GFX_ctc_photo_aftermath1989
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_17
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.17"
+		set_country_flag = ctc_force_executed
+		set_country_flag = ctc_severe_casualties
+		add_stability = -0.08
+	}
+	option = {
+		name = ctc_china_may.17.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_casualty_inquiry
+		add_political_power = -15
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.17.a"
+			set_country_flag = ctc_may_done_17
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.17.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_17_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_to_variable = {
+			var = n89_h
+			value = 3
+		}
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.17.b"
+			set_country_flag = ctc_may_done_17
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.18
+	title = ctc_china_may.18.t
+	desc = ctc_china_may.18.desc
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_18
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.18"
+	}
+	option = {
+		name = ctc_china_may.18.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_18_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		ctc_install_jiang_zemin = yes
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.18.a"
+			set_country_flag = ctc_may_done_18
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.19
+	title = ctc_china_may.19.t
+	desc = ctc_china_may.19.desc
+	picture = GFX_ctc_photo_great_hall1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_19
+		}
+		NOT = {
+			has_country_flag = ctc_outcome_locked
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.19"
+	}
+	option = {
+		name = ctc_china_may.19.a
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_19_a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_early_reform_settlement
+		set_country_flag = ctc_reformist_settlement_ready
+		ctc_offer_reformist_ending = yes
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.19.a"
+			set_country_flag = ctc_may_done_19
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+	option = {
+		name = ctc_china_may.19.b
+		custom_effect_tooltip = CTC_EFFECT_ctc_china_may_19_b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_country_flag = ctc_early_settlement_deferred
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.19.b"
+			set_country_flag = ctc_may_done_19
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}
+country_event = {
+	id = ctc_china_may.20
+	title = ctc_china_may.20.t
+	desc = ctc_china_may.20.desc
+	picture = GFX_ctc_photo_gorbachev1988
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		has_country_flag = n89_initialized
+		NOT = {
+			has_country_flag = ctc_may_done_20
+		}
+	}
+	immediate = {
+		log = "[CTC] Opened ctc_china_may.20"
+	}
+	option = {
+		name = ctc_china_may.20.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+		add_political_power = 10
+		set_country_flag = ctc_sino_soviet_normalization
+		hidden_effect = {
+			log = "[CTC] Answered ctc_china_may.20.a"
+			set_country_flag = ctc_may_done_20
+			clr_country_flag = ctc_may_event_pending
+			n89_clamp = yes
+			ctc_china_may_daily = yes
+		}
+	}
+}

@@ -1,0 +1,7 @@
+# Native on_civil_war_end: ROOT is the winner, FROM is annexed.
+on_actions = { on_civil_war_end = { effect = {
+    if = { limit = {
+        tag = PRC has_country_flag = ctc_revolution_started
+        FROM = { has_country_flag = ctc_prc_old_government }
+    } set_country_flag = ctc_revolution_defeated_government }
+} } }

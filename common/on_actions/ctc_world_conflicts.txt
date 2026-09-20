@@ -1,0 +1,15 @@
+on_actions = { on_startup = { effect = { if = { limit = { NOT = { has_global_flag = ctc_world_conflicts_initialized } } set_global_flag = ctc_world_conflicts_initialized
+UNA = { if = { limit = { NOT = { has_war_with = ANG } } declare_war_on = { target = ANG type = annex_everything } } }
+EPL = { if = { limit = { NOT = { has_war_with = ETH } } declare_war_on = { target = ETH type = annex_everything } } }
+SPL = { if = { limit = { NOT = { has_war_with = SUD } } declare_war_on = { target = SUD type = annex_everything } } }
+SNM = { if = { limit = { NOT = { has_war_with = SOM } } declare_war_on = { target = SOM type = annex_everything } } }
+REN = { if = { limit = { NOT = { has_war_with = MZB } } declare_war_on = { target = MZB type = annex_everything } } }
+BCP = { if = { limit = { NOT = { has_war_with = BRM } } declare_war_on = { target = BRM type = annex_everything } } }
+KIA = { if = { limit = { NOT = { has_war_with = BRM } } declare_war_on = { target = BRM type = annex_everything } } }
+KNU = { if = { limit = { NOT = { has_war_with = BRM } } declare_war_on = { target = BRM type = annex_everything } } }
+MTA = { if = { limit = { NOT = { has_war_with = BRM } } declare_war_on = { target = BRM type = annex_everything } } }
+KHM = { if = { limit = { NOT = { has_war_with = CAM } } declare_war_on = { target = CAM type = annex_everything } } }
+AJA = { if = { limit = { NOT = { has_war_with = AFG } } declare_war_on = { target = AFG type = annex_everything } } }
+AHI = { if = { limit = { NOT = { has_war_with = AFG } } declare_war_on = { target = AFG type = annex_everything } } }
+WES = { if = { limit = { NOT = { has_war_with = MOR } } declare_war_on = { target = MOR type = annex_everything } } }
+} } } }

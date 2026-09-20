@@ -1,0 +1,22 @@
+state = {
+	id = 1075
+	name = "STATE_1075"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = SNM
+		add_core_of = SNM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13415
+			3
+		}
+	}
+	provinces = {
+		13415
+		13416
+	}
+}

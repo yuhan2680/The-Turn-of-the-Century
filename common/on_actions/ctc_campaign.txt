@@ -1,0 +1,990 @@
+on_actions = {
+on_daily_ARG = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ARG } } ctc_cp_initialize_ARG = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_ARG = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.120 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.121 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.122 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.123 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.124 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.125 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.126 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ARG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ARG_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.127 } } } }
+on_daily_AST = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_AST } } ctc_cp_initialize_AST = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_AST = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.220 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.221 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.222 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.223 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.224 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.225 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.226 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_AST ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_AST_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.227 } } } }
+on_daily_BOS = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_BOS } } ctc_cp_initialize_BOS = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_BOS = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.320 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.321 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.322 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.323 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.324 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.325 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.326 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BOS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BOS_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.327 } } } }
+on_daily_BRA = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_BRA } } ctc_cp_initialize_BRA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_BRA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.420 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.421 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.422 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.423 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.424 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.425 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.426 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_BRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_BRA_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.427 } } } }
+on_daily_CAN = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_CAN } } ctc_cp_initialize_CAN = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_CAN = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.520 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.521 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.522 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.523 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.524 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.525 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.526 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CAN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CAN_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.527 } } } }
+on_daily_CRO = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_CRO } } ctc_cp_initialize_CRO = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_CRO = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.620 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.621 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.622 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.623 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.624 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.625 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.626 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_CRO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_CRO_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.627 } } } }
+on_daily_DDR = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_DDR } } ctc_cp_initialize_DDR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_DDR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.720 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.721 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.722 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.723 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.724 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.725 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.726 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_DDR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_DDR_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.727 } } } }
+on_daily_ENG = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ENG } } ctc_cp_initialize_ENG = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_ENG = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.820 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.821 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.822 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.823 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.824 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.825 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.826 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ENG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ENG_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.827 } } } }
+on_daily_FRA = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_FRA } } ctc_cp_initialize_FRA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_FRA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.920 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.921 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.922 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.923 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.924 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.925 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.926 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_FRA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_FRA_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.927 } } } }
+on_daily_WGR = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_GER } } ctc_cp_initialize_GER = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_GER = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1020 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1021 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1022 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1023 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1024 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1025 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1026 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_GER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_GER_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1027 } } } }
+on_daily_INS = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_INS } } ctc_cp_initialize_INS = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_INS = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1120 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1121 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1122 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1123 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1124 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1125 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1126 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_INS ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_INS_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1127 } } } }
+on_daily_IRQ = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_IRQ } } ctc_cp_initialize_IRQ = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_IRQ = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1220 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1221 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1222 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1223 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1224 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1225 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1226 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_IRQ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_IRQ_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1227 } } } }
+on_daily_ISR = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ISR } } ctc_cp_initialize_ISR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_ISR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1320 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1321 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1322 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1323 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1324 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1325 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1326 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ISR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ISR_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1327 } } } }
+on_daily_ITA = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ITA } } ctc_cp_initialize_ITA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_ITA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1420 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1421 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1422 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1423 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1424 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1425 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1426 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_ITA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_ITA_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1427 } } } }
+on_daily_JAP = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_JAP } } ctc_cp_initialize_JAP = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_JAP = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1520 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1521 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1522 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1523 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1524 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1525 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1526 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_JAP ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_JAP_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1527 } } } }
+on_daily_KOR = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_KOR } } ctc_cp_initialize_KOR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_KOR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1620 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1621 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1622 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1623 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1624 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1625 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1626 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_KOR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_KOR_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1627 } } } }
+on_daily_PAK = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PAK } } ctc_cp_initialize_PAK = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_PAK = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1720 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1721 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1722 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1723 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1724 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1725 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1726 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAK_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1727 } } } }
+on_daily_PAL = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PAL } } ctc_cp_initialize_PAL = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_PAL = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1820 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1821 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1822 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1823 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1824 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1825 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1826 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PAL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PAL_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1827 } } } }
+on_daily_PER = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PER } } ctc_cp_initialize_PER = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_PER = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1920 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1921 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1922 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1923 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1924 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1925 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1926 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PER ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PER_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.1927 } } } }
+on_daily_POL = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_POL } } ctc_cp_initialize_POL = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_POL = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2020 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2021 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2022 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2023 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2024 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2025 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2026 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_POL ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_POL_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2027 } } } }
+on_daily_PRC = { effect = { if = { limit = { exists = yes  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } NOT = { has_country_flag = ctc_cp_initialized_PRC } } ctc_cp_initialize_PRC = yes }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2120 } }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2121 } }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2122 } }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2123 } }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2124 } }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2125 } }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2126 } }
+if = { limit = {  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } has_country_flag = ctc_cp_initialized_PRC ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRC_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2127 } } } }
+on_daily_PRK = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PRK } } ctc_cp_initialize_PRK = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_PRK = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2220 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2221 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2222 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2223 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2224 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2225 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2226 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_PRK ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_PRK_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2227 } } } }
+on_daily_RAJ = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_RAJ } } ctc_cp_initialize_RAJ = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_RAJ = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2320 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2321 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2322 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2323 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2324 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2325 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2326 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_RAJ ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_RAJ_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2327 } } } }
+on_daily_SOV = { effect = { if = { limit = { exists = yes has_country_flag = ctc_cp_russian_successor NOT = { has_country_flag = ctc_cp_initialized_RUS } } ctc_cp_initialize_RUS = yes }
+if = { limit = { has_country_flag = ctc_cp_russian_successor has_country_flag = ctc_cp_initialized_RUS
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_RUS = yes }
+if = { limit = { exists = yes NOT = { has_country_flag = ctc_cp_russian_successor } NOT = { has_country_flag = ctc_cp_initialized_SOV } } ctc_cp_initialize_SOV = yes }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_SOV = yes }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2820 } }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2821 } }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2822 } }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2823 } }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2824 } }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2825 } }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2826 } }
+if = { limit = { NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SOV_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2827 } } } }
+on_daily_SAF = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SAF } } ctc_cp_initialize_SAF = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_SAF = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2520 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2521 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2522 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2523 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2524 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2525 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2526 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SAF ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SAF_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2527 } } } }
+on_daily_SIA = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SIA } } ctc_cp_initialize_SIA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_SIA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2620 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2621 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2622 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2623 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2624 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2625 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2626 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SIA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SIA_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2627 } } } }
+on_daily_SLV = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SLO } } ctc_cp_initialize_SLO = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_SLO = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2720 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2721 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2722 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2723 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2724 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2725 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2726 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SLO ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SLO_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2727 } } } }
+on_daily_SPR = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SPR } } ctc_cp_initialize_SPR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_SPR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2920 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2921 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2922 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2923 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2924 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2925 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2926 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SPR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SPR_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.2927 } } } }
+on_daily_SER = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SRB } } ctc_cp_initialize_SRB = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_SRB = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3020 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3021 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3022 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3023 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3024 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3025 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3026 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_SRB ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_SRB_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3027 } } } }
+on_daily_TUR = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_TUR } } ctc_cp_initialize_TUR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_TUR = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3120 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3121 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3122 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3123 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3124 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3125 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3126 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TUR ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TUR_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3127 } } } }
+on_daily_CHI = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_TWN } } ctc_cp_initialize_TWN = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_TWN = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3220 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3221 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3222 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3223 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3224 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3225 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3226 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_TWN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_TWN_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3227 } } } }
+on_daily_USA = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_USA } } ctc_cp_initialize_USA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_USA = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3320 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3321 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3322 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3323 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3324 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3325 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3326 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_USA ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_USA_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3327 } } } }
+on_daily_VIN = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_VIN } } ctc_cp_initialize_VIN = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_VIN = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3420 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3421 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3422 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3423 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3424 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3425 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3426 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_VIN ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_VIN_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3427 } } } }
+on_daily_YUG = { effect = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_YUG } } ctc_cp_initialize_YUG = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG
+ has_country_flag = ctc_cp_mandate has_country_flag = { flag = ctc_cp_authority_review days > 1459 }
+ has_war = no ctc_cp_event_slot = yes } ctc_cp_vote_result_YUG = yes }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_0 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3520 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_1 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3521 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_2 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3522 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_3 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3523 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_4 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3524 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_5 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3525 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_6 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3526 } }
+if = { limit = {  has_country_flag = ctc_cp_initialized_YUG ctc_cp_event_slot = yes
+ OR = { NOT = { has_country_flag = ctc_cp_last_event } has_country_flag = { flag = ctc_cp_last_event days > 27 } }
+ NOT = { has_country_flag = ctc_cp_local_YUG_7 } } set_country_flag = ctc_cp_event_open country_event = { id = ctc_cp_politics.3527 } } } }
+on_startup = { effect = { ARG = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ARG } } ctc_cp_initialize_ARG = yes } }
+AST = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_AST } } ctc_cp_initialize_AST = yes } }
+BOS = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_BOS } } ctc_cp_initialize_BOS = yes } }
+BRA = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_BRA } } ctc_cp_initialize_BRA = yes } }
+CAN = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_CAN } } ctc_cp_initialize_CAN = yes } }
+CRO = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_CRO } } ctc_cp_initialize_CRO = yes } }
+DDR = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_DDR } } ctc_cp_initialize_DDR = yes } }
+ENG = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ENG } } ctc_cp_initialize_ENG = yes } }
+FRA = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_FRA } } ctc_cp_initialize_FRA = yes } }
+WGR = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_GER } } ctc_cp_initialize_GER = yes } }
+INS = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_INS } } ctc_cp_initialize_INS = yes } }
+IRQ = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_IRQ } } ctc_cp_initialize_IRQ = yes } }
+ISR = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ISR } } ctc_cp_initialize_ISR = yes } }
+ITA = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_ITA } } ctc_cp_initialize_ITA = yes } }
+JAP = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_JAP } } ctc_cp_initialize_JAP = yes } }
+KOR = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_KOR } } ctc_cp_initialize_KOR = yes } }
+PAK = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PAK } } ctc_cp_initialize_PAK = yes } }
+PAL = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PAL } } ctc_cp_initialize_PAL = yes } }
+PER = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PER } } ctc_cp_initialize_PER = yes } }
+POL = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_POL } } ctc_cp_initialize_POL = yes } }
+PRC = { if = { limit = { exists = yes  OR = { has_country_flag = ctc_outcome_conservative has_country_flag = ctc_outcome_reformist has_country_flag = ctc_outcome_labour_reform has_country_flag = ctc_outcome_social_democratic has_country_flag = ctc_outcome_maoist } NOT = { has_country_flag = ctc_cp_initialized_PRC } } ctc_cp_initialize_PRC = yes } }
+PRK = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_PRK } } ctc_cp_initialize_PRK = yes } }
+RAJ = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_RAJ } } ctc_cp_initialize_RAJ = yes } }
+SOV = { if = { limit = { exists = yes has_country_flag = ctc_cp_russian_successor NOT = { has_country_flag = ctc_cp_initialized_RUS } } ctc_cp_initialize_RUS = yes } }
+SAF = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SAF } } ctc_cp_initialize_SAF = yes } }
+SIA = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SIA } } ctc_cp_initialize_SIA = yes } }
+SLV = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SLO } } ctc_cp_initialize_SLO = yes } }
+SOV = { if = { limit = { exists = yes NOT = { has_country_flag = ctc_cp_russian_successor } NOT = { has_country_flag = ctc_cp_initialized_SOV } } ctc_cp_initialize_SOV = yes } }
+SPR = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SPR } } ctc_cp_initialize_SPR = yes } }
+SER = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_SRB } } ctc_cp_initialize_SRB = yes } }
+TUR = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_TUR } } ctc_cp_initialize_TUR = yes } }
+CHI = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_TWN } } ctc_cp_initialize_TWN = yes } }
+USA = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_USA } } ctc_cp_initialize_USA = yes } }
+VIN = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_VIN } } ctc_cp_initialize_VIN = yes } }
+YUG = { if = { limit = { exists = yes  NOT = { has_country_flag = ctc_cp_initialized_YUG } } ctc_cp_initialize_YUG = yes } } } }
+}

@@ -1,0 +1,363 @@
+# N89 native skin; base engine declarations retained.
+spriteTypes = {
+	spriteType = {
+		name = "GFX_leader_frame_0_6"
+		texturefile = "gfx/interface/leader_frame_0_6.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_popup_win"
+		texturefile = "gfx/interface/n89/native/GFX_generic_popup_win.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_bg_417"
+		texturefile = "gfx/interface/n89/native/GFX_generic_bg_417.tga"
+	}
+	textSpriteType = {
+		name = "GFX_sort_160"
+		texturefile = "gfx/interface/sort_160.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_242"
+		texturefile = "gfx/interface/sort_242.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_247"
+		texturefile = "gfx/interface/sort_247.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_81"
+		texturefile = "gfx/interface/sort_81.dds"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_scrollbar_horisontal_bg"
+		size = {
+			x = 156
+			y = 18
+		}
+		textureFile = "gfx/interface/n89/native/GFX_scrollbar_horisontal_bg.tga"
+		borderSize = {
+			x = 52
+			y = 0
+		}
+		tilingCenter = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_scrollbar_vertical_bg"
+		size = {
+			x = 18
+			y = 156
+		}
+		textureFile = "gfx/interface/n89/native/GFX_scrollbar_vertical_bg.tga"
+		borderSize = {
+			x = 0
+			y = 52
+		}
+		tilingCenter = yes
+	}
+	spriteType = {
+		name = "GFX_generic_bg_307x113"
+		texturefile = "gfx/interface/n89/native/GFX_generic_bg_307x113.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_bg"
+		texturefile = "gfx/interface/n89/native/GFX_generic_bg.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_154"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_154.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_258"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_258.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_203"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_203.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_203_transp"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_203_transp.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_325"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_325.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_325_transp"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_325_transp.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_w_box_smallest"
+		texturefile = "gfx/interface/generic_w_box_smallest.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_w_box_small"
+		texturefile = "gfx/interface/generic_w_box_small.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_w_box"
+		texturefile = "gfx/interface/generic_w_box.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_w_box_125"
+		texturefile = "gfx/interface/generic_w_box_125.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_box_smallest"
+		texturefile = "gfx/interface/n89/native/GFX_generic_box_smallest.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_box_small"
+		texturefile = "gfx/interface/n89/native/GFX_generic_box_small.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_box"
+		texturefile = "gfx/interface/n89/native/GFX_generic_box.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_box_96"
+		texturefile = "gfx/interface/n89/native/GFX_generic_box_96.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_box_125"
+		texturefile = "gfx/interface/n89/native/GFX_generic_box_125.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_box_80"
+		texturefile = "gfx/interface/n89/native/GFX_generic_box_80.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_108"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_108.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_88"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_88.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_48"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_48.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_text_bg_60"
+		texturefile = "gfx/interface/n89/native/GFX_generic_text_bg_60.tga"
+	}
+	spriteType = {
+		name = "GFX_generic_w_box"
+		texturefile = "gfx/interface/generic_w_box.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_checkbox"
+		texturefile = "gfx/interface/n89/native/GFX_generic_checkbox.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_header_bg"
+		texturefile = "gfx/interface/n89/native/GFX_header_bg.tga"
+	}
+	spriteType = {
+		name = "GFX_construction_header_bg"
+		texturefile = "gfx/interface/n89/native/GFX_construction_header_bg.tga"
+	}
+	spriteType = {
+		name = "GFX_resources_strip"
+		texturefile = "gfx/interface/resources_strip.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "resource_item_background"
+		texturefile = "gfx/interface/n89/native/resource_item_background.tga"
+	}
+	spriteType = {
+		name = "GFX_missing_resources_strip"
+		texturefile = "gfx/interface/missing_resources_strip.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_closebutton"
+		texturefile = "gfx/interface/n89/native/GFX_closebutton.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	spriteType = {
+		name = "GFX_backbutton32"
+		texturefile = "gfx//interface//backbutton32.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	spriteType = {
+		name = "GFX_closebutton_16"
+		texturefile = "gfx/interface/n89/native/GFX_closebutton_16.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	spriteType = {
+		name = "GFX_closebutton_small"
+		texturefile = "gfx/interface/n89/native/GFX_closebutton_small.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	spriteType = {
+		name = "GFX_closebutton_small_2"
+		texturefile = "gfx/interface/n89/native/GFX_closebutton_small_2.tga"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	spriteType = {
+		name = "GFX_remove"
+		texturefile = "gfx/interface/button_type_9.dds"
+	}
+	textSpriteType = {
+		name = "GFX_remove2"
+		texturefile = "gfx/interface/button_type_9.dds"
+	}
+	spriteType = {
+		name = "GFX_checkbox_gold_32"
+		texturefile = "gfx//interface//checkbox_gold_32.dds"
+		noOfFrames = 2
+	}
+	maskedShieldType = {
+		name = "GFX_flag_small"
+		textureFile1 = "gfx\\interface\\flag_small_overlay.dds"
+		textureFile2 = "gfx\\interface\\flag_small_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_flag_smallest"
+		textureFile1 = "gfx\\interface\\flag_smallest_overlay.dds"
+		textureFile2 = "gfx\\interface\\flag_smallest_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_shield_small"
+		textureFile1 = "gfx/interface/small_shield_overlay.dds"
+		textureFile2 = "gfx/interface/small_shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_shield_medium"
+		textureFile1 = "gfx/interface/flag_overlay.dds"
+		textureFile2 = "gfx/interface/shield_medium_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_flag_small2"
+		textureFile1 = "gfx/interface/flag_overlay_small.dds"
+		textureFile2 = "gfx/interface/shield_small_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	spriteType = {
+		name = "GFX_major_country_flag_overlay"
+		texturefile = "gfx/interface/major_country_flag_overlay.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_small2_not_masked"
+		texturefile = "gfx/interface/flag_overlay_small.dds"
+	}
+	maskedShieldType = {
+		name = "GFX_player_flag"
+		textureFile1 = "gfx/interface/flag_overlay.dds"
+		textureFile2 = "gfx/interface/shield_medium_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_shield_thin"
+		textureFile1 = "gfx/interface/shield_frame.dds"
+		textureFile2 = "gfx/interface/shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	spriteType = {
+		name = "GFX_large_flag_frame"
+		texturefile = "gfx//interface//large_flag_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_checkbox_button_149"
+		texturefile = "gfx//interface//checkbox_button_149.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_checkbox_button_264"
+		texturefile = "gfx//interface//checkbox_button_264.dds"
+		noOfFrames = 2
+	}
+	textSpriteType = {
+		name = "GFX_standard_button_88"
+		texturefile = "gfx/interface/standard_button_88.dds"
+	}
+	textSpriteType = {
+		name = "GFX_big_button_232"
+		texturefile = "gfx/interface/big_button_232.dds"
+	}
+	textSpriteType = {
+		name = "GFX_list_button"
+		texturefile = "gfx//interface//list_button.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_tab_small_116"
+		texturefile = "gfx/interface/n89/native/GFX_tab_small_116.tga"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_scroll_right_gold"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_right_gold.tga"
+	}
+	spriteType = {
+		name = "GFX_scroll_left_gold"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_left_gold.tga"
+	}
+	spriteType = {
+		name = "GFX_scroll_right"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_right.tga"
+	}
+	spriteType = {
+		name = "GFX_scroll_left"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_left.tga"
+	}
+	spriteType = {
+		name = "GFX_scroll_up"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_up.tga"
+	}
+	spriteType = {
+		name = "GFX_scroll_down"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_down.tga"
+	}
+	spriteType = {
+		name = "GFX_scroll_drager"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_drager.tga"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_scroll_drager_blue"
+		texturefile = "gfx/interface/n89/native/GFX_scroll_drager_blue.tga"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_scroll_track"
+		size = {
+			x = 12
+			y = 12
+		}
+		texturefile = "gfx/interface/n89/native/GFX_scroll_track.tga"
+		borderSize = {
+			x = 4
+			y = 4
+		}
+	}
+	corneredTileSpriteType = {
+		name = "GFX_scroll_track_horisontal"
+		size = {
+			x = 12
+			y = 12
+		}
+		texturefile = "gfx/interface/n89/native/GFX_scroll_track_horisontal.tga"
+		borderSize = {
+			x = 4
+			y = 4
+		}
+	}
+	spriteType = {
+		name = "GFX_return_btn"
+		texturefile = "gfx/interface/return_btn.dds"
+	}
+}

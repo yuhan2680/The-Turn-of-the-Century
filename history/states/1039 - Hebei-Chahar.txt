@@ -1,0 +1,33 @@
+state = {
+	id = 1039
+	name = "STATE_1039"
+	manpower = 367500
+	state_category = pastoral
+	provinces = {
+		1137
+		1590
+		6904
+		9776
+	}
+	local_supplies = 0.0
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+			1590 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+		}
+		victory_points = {
+			6904
+			3
+		}
+	}
+}

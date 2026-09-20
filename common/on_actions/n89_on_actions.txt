@@ -1,0 +1,17 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            PRC = {
+                if = {
+                    limit = {
+                        exists = yes
+                        date > 1988.12.31
+                        date < 1989.1.2
+                        NOT = { has_country_flag = n89_initialized }
+                    }
+                    country_event = { id = n89_china.1 }
+                }
+            }
+        }
+    }
+}

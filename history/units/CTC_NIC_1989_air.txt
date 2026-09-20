@@ -1,0 +1,8 @@
+air_wings = {
+	317 = {
+		ctc_combat_aircraft = {
+			owner = "NIC"
+			amount = 9
+		}
+	}
+}

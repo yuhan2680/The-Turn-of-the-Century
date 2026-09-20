@@ -1,0 +1,28 @@
+state = {
+	id = 290
+	name = "STATE_290"
+	state_category = rural
+	resources = {
+		steel = 40
+	}
+	local_supplies = 0.0
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			12087
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+	}
+	manpower = 623000
+	provinces = {
+		4199
+		7215
+		10113
+		12087
+	}
+}

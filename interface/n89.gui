@@ -1,0 +1,48 @@
+guiTypes = {
+containerWindowType = { name = n89_access_window position = { x = 342 y = 8 } size = { width = 112 height = 32 }
+buttonType = { name = "open" buttonText = "N89_UI_OPEN" buttonFont = "hoi_18mbs" quadTextureSprite = "GFX_n89_button" position = { x = 0 y = 0 } clicksound = click_default }
+}
+containerWindowType = { name = n89_politics_brief_window position = { x = 0 y = 286 } size = { width = 550 height = 102 }
+iconType = { name = "background" spriteType = "GFX_n89_political_brief" position = { x = 0 y = 0 } }
+instantTextBoxType = { name = "brief_header" text = "N89_UI_POLITICS_HEADING" position = { x = 18 y = 8 } font = "hoi_18mbs" maxWidth = 510 maxHeight = 25 format = left }
+instantTextBoxType = { name = "brief_values" text = "N89_UI_BRIEF_VALUES" position = { x = 18 y = 37 } font = "hoi_16mbs" maxWidth = 510 maxHeight = 62 format = left }
+}
+containerWindowType = { name = n89_desk_window position = { x = -460 y = -190 } orientation = CENTER size = { width = 920 height = 440 } moveable = yes
+background = { name = "background" quadTextureSprite = "GFX_n89_desk" }
+instantTextBoxType = { name = "masthead" text = "N89_UI_MASTHEAD" position = { x = 22 y = 9 } font = "hoi_24header" alwaysTransparent = yes maxWidth = 780 maxHeight = 32 format = left }
+buttonType = { name = "close" buttonText = "N89_UI_CLOSE" buttonFont = "hoi_18mbs" quadTextureSprite = "GFX_n89_close" position = { x = 875 y = 8 } clicksound = click_default }
+instantTextBoxType = { name = "edition" text = "N89_UI_EDITION" position = { x = 20 y = 65 } font = "hoi_16mbs" maxWidth = 155 maxHeight = 50 format = left }
+buttonType = { name = "overview" buttonText = "N89_UI_OVERVIEW" buttonFont = "hoi_18mbs" quadTextureSprite = "GFX_n89_tab" position = { x = 18 y = 132 } clicksound = click_default }
+buttonType = { name = "chronicle" buttonText = "N89_UI_CHRONICLE" buttonFont = "hoi_18mbs" quadTextureSprite = "GFX_n89_tab" position = { x = 18 y = 178 } clicksound = click_default }
+instantTextBoxType = { name = "phase" text = "[N89Phase]" position = { x = 220 y = 61 } font = "hoi_18mbs" maxWidth = 665 maxHeight = 27 format = left }
+instantTextBoxType = { name = "r_title" text = "N89_UI_R" position = { x = 225 y = 116 } font = "hoi_18mbs" maxWidth = 166 maxHeight = 30 format = left }
+iconType = { name = "r_bar" spriteType = "GFX_n89_blue_bar" position = { x = 485 y = 124 } pdx_tooltip = "N89_UI_TIP_R" }
+instantTextBoxType = { name = "r_value" text = "[?n89_r|0] / 100" position = { x = 732 y = 115 } font = "hoi_18mbs" maxWidth = 134 maxHeight = 30 format = right }
+instantTextBoxType = { name = "h_title" text = "N89_UI_H" position = { x = 225 y = 158 } font = "hoi_18mbs" maxWidth = 166 maxHeight = 30 format = left }
+iconType = { name = "h_bar" spriteType = "GFX_n89_gold_bar" position = { x = 485 y = 166 } pdx_tooltip = "N89_UI_TIP_H" }
+instantTextBoxType = { name = "h_value" text = "[?n89_h|0] / 100" position = { x = 732 y = 157 } font = "hoi_18mbs" maxWidth = 134 maxHeight = 30 format = right }
+instantTextBoxType = { name = "trust_title" text = "N89_UI_TRUST" position = { x = 225 y = 220 } font = "hoi_18mbs" maxWidth = 166 maxHeight = 30 format = left }
+iconType = { name = "trust_bar" spriteType = "GFX_n89_green_bar" position = { x = 485 y = 228 } pdx_tooltip = "N89_UI_TIP_TRUST" }
+instantTextBoxType = { name = "trust_value" text = "[?n89_trust|0] / 100" position = { x = 732 y = 219 } font = "hoi_18mbs" maxWidth = 134 maxHeight = 30 format = right }
+instantTextBoxType = { name = "office" text = "N89_UI_OFFICE" position = { x = 225 y = 290 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 125 format = left }
+}
+containerWindowType = { name = n89_chronicle_window position = { x = -460 y = -190 } orientation = CENTER size = { width = 920 height = 440 } moveable = yes
+background = { name = "background" quadTextureSprite = "GFX_n89_desk" }
+instantTextBoxType = { name = "masthead" text = "N89_UI_MASTHEAD" position = { x = 22 y = 9 } font = "hoi_24header" alwaysTransparent = yes maxWidth = 780 maxHeight = 32 format = left }
+buttonType = { name = "close" buttonText = "N89_UI_CLOSE" buttonFont = "hoi_18mbs" quadTextureSprite = "GFX_n89_close" position = { x = 875 y = 8 } clicksound = click_default }
+instantTextBoxType = { name = "edition" text = "N89_UI_EDITION" position = { x = 20 y = 65 } font = "hoi_16mbs" maxWidth = 155 maxHeight = 50 format = left }
+buttonType = { name = "overview" buttonText = "N89_UI_OVERVIEW" buttonFont = "hoi_18mbs" quadTextureSprite = "GFX_n89_tab" position = { x = 18 y = 132 } clicksound = click_default }
+buttonType = { name = "chronicle" buttonText = "N89_UI_CHRONICLE" buttonFont = "hoi_18mbs" quadTextureSprite = "GFX_n89_tab" position = { x = 18 y = 178 } clicksound = click_default }
+instantTextBoxType = { name = "phase" text = "[N89Phase]" position = { x = 220 y = 61 } font = "hoi_18mbs" maxWidth = 665 maxHeight = 27 format = left }
+iconType = { name = "timeline_background" spriteType = "GFX_n89_chronicle" position = { x = 205 y = 106 } }
+instantTextBoxType = { name = "entry10" text = "[N89Record10]" position = { x = 223 y = 115 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry11" text = "[N89Record11]" position = { x = 223 y = 145 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry12" text = "[N89Record12]" position = { x = 223 y = 175 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry13" text = "[N89Record13]" position = { x = 223 y = 205 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry14" text = "[N89Record14]" position = { x = 223 y = 235 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry15" text = "[N89Record15]" position = { x = 223 y = 265 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry16" text = "[N89Record16]" position = { x = 223 y = 295 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry20" text = "[N89Record20]" position = { x = 223 y = 325 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+instantTextBoxType = { name = "entry23" text = "[N89Record23]" position = { x = 223 y = 355 } font = "hoi_18mbs" maxWidth = 650 maxHeight = 28 format = left }
+}
+}

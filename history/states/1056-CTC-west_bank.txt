@@ -1,0 +1,25 @@
+state = {
+	id = 1056
+	name = "STATE_1056"
+	manpower = 1300000
+	state_category = town
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+		owner = PAL
+		controller = ISR
+		add_core_of = PAL
+	}
+	provinces = {
+		7107
+		13384
+		13385
+		13386
+		13387
+		13388
+		13389
+		13390
+		13391
+	}
+}

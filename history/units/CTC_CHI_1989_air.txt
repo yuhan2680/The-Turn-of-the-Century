@@ -1,0 +1,24 @@
+air_wings = {
+	524 = {
+		ctc_combat_aircraft = {
+			owner = "CHI"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "CHI"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "CHI"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "CHI"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "CHI"
+			amount = 100
+		}
+	}
+}

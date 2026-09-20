@@ -1,0 +1,319 @@
+ctc_apply_conservative_settlement = {
+	remove_ideas = ctc_prc_general_strike
+	set_country_flag = ctc_chapter_finished
+	set_country_flag = ctc_chapter_ending_conservative
+	set_country_flag = ctc_zhao_removed
+	clr_country_flag = n89_zhao_authorized
+	remove_ideas = ctc_prc_governance_adjustment
+	add_ideas = ctc_prc_june_aftermath
+	set_politics = {
+		ruling_party = communism
+		elections_allowed = no
+	}
+	add_stability = -0.05
+	set_variable = {
+		var = n89_r
+		value = 10
+	}
+	set_variable = {
+		var = n89_h
+		value = 85
+	}
+	set_variable = {
+		var = n89_trust
+		value = 10
+	}
+}
+ctc_apply_reformist_settlement = {
+	remove_ideas = ctc_prc_general_strike
+	set_country_flag = ctc_chapter_finished
+	set_country_flag = ctc_chapter_ending_reformist
+	remove_ideas = ctc_prc_governance_adjustment
+	add_ideas = ctc_prc_reform_agreement
+	set_politics = {
+		ruling_party = democratic
+		elections_allowed = yes
+		election_frequency = 48
+	}
+	set_popularities = {
+		democratic = 65
+		communism = 30
+		neutrality = 5
+		fascism = 0
+	}
+	set_party_name = {
+		ideology = democratic
+		long_name = CTC_REFORM_PARTY
+		name = CTC_REFORM_PARTY
+	}
+	retire_country_leader = yes
+	create_country_leader = {
+		name = N89_LEADER_PRC
+		picture = "gfx/leaders/ctc/N89_LEADER_PRC.dds"
+		expire = "2035.1.1"
+		ideology = liberalism
+		traits = {
+
+		}
+	}
+	add_stability = 0.05
+	set_variable = {
+		var = n89_r
+		value = 80
+	}
+	set_variable = {
+		var = n89_h
+		value = 25
+	}
+}
+ctc_apply_labour_reform_settlement = {
+	remove_ideas = ctc_prc_general_strike
+	set_country_flag = ctc_strike_settled
+	set_country_flag = ctc_chapter_finished
+	set_country_flag = ctc_chapter_ending_labour_reform
+	remove_ideas = ctc_prc_governance_adjustment
+	add_ideas = ctc_prc_labour_compact
+	set_politics = {
+		ruling_party = communism
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 65
+		democratic = 25
+		neutrality = 10
+		fascism = 0
+	}
+	set_party_name = {
+		ideology = communism
+		long_name = CTC_LABOUR_PARTY
+		name = CTC_LABOUR_PARTY
+	}
+	retire_country_leader = yes
+	create_country_leader = {
+		name = CTC_LABOUR_COUNCIL
+		picture = "gfx/leaders/ctc/CTC_LABOUR_COUNCIL.dds"
+		expire = "2035.1.1"
+		ideology = marxism
+		traits = {
+
+		}
+	}
+	add_stability = 0.03
+}
+ctc_install_jiang_zemin = {
+	if = {
+		limit = {
+			has_country_flag = ctc_outcome_conservative
+		}
+		set_country_flag = ctc_jiang_general_secretary
+		retire_country_leader = yes
+		create_country_leader = {
+			name = CTC_JIANG_ZEMIN
+			picture = "gfx/leaders/ctc/CTC_JIANG_ZEMIN.dds"
+			expire = "2035.1.1"
+			ideology = marxism
+			traits = {
+
+			}
+		}
+	}
+}
+ctc_apply_social_democratic_settlement = {
+	ctc_grant_revolution_victory_rewards = yes
+	set_country_flag = ctc_chapter_finished
+	set_country_flag = ctc_chapter_ending_social_democratic
+	set_cosmetic_tag = CTC_PRC_SOCIAL_DEMOCRATIC
+	set_politics = {
+		ruling_party = democratic
+		elections_allowed = yes
+		election_frequency = 48
+	}
+	set_popularities = {
+		democratic = 65
+		communism = 30
+		neutrality = 5
+		fascism = 0
+	}
+	set_party_name = {
+		ideology = democratic
+		long_name = CTC_JOINT_PARTY
+		name = CTC_JOINT_PARTY
+	}
+	retire_country_leader = yes
+	create_country_leader = {
+		name = CTC_JOINT_COUNCIL
+		picture = "gfx/leaders/ctc/CTC_JOINT_COUNCIL.dds"
+		expire = "2035.1.1"
+		ideology = socialism
+		traits = {
+
+		}
+	}
+	add_stability = 0.05
+}
+ctc_apply_maoist_settlement = {
+	ctc_grant_revolution_victory_rewards = yes
+	set_country_flag = ctc_chapter_finished
+	set_country_flag = ctc_chapter_ending_maoist
+	set_cosmetic_tag = CTC_PRC_MAOIST
+	set_politics = {
+		ruling_party = communism
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 80
+		democratic = 15
+		neutrality = 5
+		fascism = 0
+	}
+	set_party_name = {
+		ideology = communism
+		long_name = CTC_MAOIST_PARTY
+		name = CTC_MAOIST_PARTY
+	}
+	retire_country_leader = yes
+	create_country_leader = {
+		name = CTC_REVOLUTION_COUNCIL
+		picture = "gfx/leaders/ctc/CTC_REVOLUTION_COUNCIL.dds"
+		expire = "2035.1.1"
+		ideology = anti_revisionism
+		traits = {
+
+		}
+	}
+	add_stability = -0.03
+}
+ctc_mobilize_revolution_forces = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_revolution_militia_raised
+			}
+		}
+		set_country_flag = ctc_revolution_militia_raised
+		set_technology = {
+			militia_tech = 1
+			popup = no
+		}
+		division_template = {
+			name = "工人民兵师 / Workers' Militia Division"
+			regiments = {
+				militia = {
+					x = 0
+					y = 0
+				}
+				militia = {
+					x = 0
+					y = 1
+				}
+				militia = {
+					x = 1
+					y = 0
+				}
+				militia = {
+					x = 1
+					y = 1
+				}
+			}
+		}
+		capital_scope = { create_unit = {
+			division = "division_template = \"工人民兵师 / Workers' Militia Division\" start_experience_factor = 0.05 start_equipment_factor = 0.55 start_manpower_factor = 0.8"
+			owner = PRC
+			count = 48
+			allow_spawning_on_enemy_provs = no
+		} }
+		set_war_support = 0.65
+		log = "[CTC] Revolution mobilised: 48 four-battalion militia divisions; regular defections remain a small minority."
+	}
+}
+ctc_grant_revolution_victory_rewards = {
+	if = {
+		limit = {
+			has_country_flag = ctc_revolution_won
+			has_civil_war = no
+			NOT = {
+				has_country_flag = ctc_revolution_rewards_granted
+			}
+		}
+		set_country_flag = ctc_revolution_rewards_granted
+		remove_ideas = ctc_prc_revolutionary_coalition
+		remove_ideas = ctc_prc_army_reorganization
+		add_timed_idea = {
+			idea = ctc_prc_reconstruction_mobilization
+			days = 1095
+		}
+		add_political_power = 150
+		army_experience = 75
+		log = "[CTC] Revolutionary victory rewards granted once, after the war."
+	}
+}
+ctc_apply_revolution_settlement = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = ctc_revolution_started
+			}
+		}
+		set_country_flag = ctc_revolution_started
+		remove_ideas = ctc_prc_governance_adjustment
+		remove_ideas = ctc_prc_general_strike
+		add_ideas = ctc_prc_revolutionary_coalition
+		start_civil_war = {
+			ideology = neutrality
+			ruling_party = communism
+			size = 0.8
+			army_ratio = 0.96
+			navy_ratio = 1
+			air_ratio = 0.98
+			keep_all_characters = yes
+			set_country_flag = ctc_prc_old_government
+			set_cosmetic_tag = CTC_PRC_GOV
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 85
+				democratic = 10
+				neutrality = 5
+				fascism = 0
+			}
+			retire_country_leader = yes
+			create_country_leader = {
+				name = CTC_LI_PENG
+				picture = "gfx/leaders/ctc/CTC_LI_PENG.dds"
+				expire = "2035.1.1"
+				ideology = marxism
+				traits = {
+
+				}
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = CTC_GOVERNMENT_PARTY
+				name = CTC_GOVERNMENT_PARTY
+			}
+			remove_ideas = ctc_prc_revolutionary_coalition
+			clr_country_flag = ctc_revolution_started
+			clr_country_flag = ctc_outcome_revolution
+			log = "[CTC] Old government retains 96 percent of prewar land formations, the navy and 98 percent of the air force."
+		}
+		set_cosmetic_tag = CTC_PRC_REV
+		set_party_name = {
+			ideology = communism
+			long_name = CTC_REVOLUTION_PARTY
+			name = CTC_REVOLUTION_PARTY
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = CTC_REVOLUTION_COUNCIL
+			picture = "gfx/leaders/ctc/CTC_REVOLUTION_COUNCIL.dds"
+			expire = "2035.1.1"
+			ideology = marxism
+			traits = {
+
+			}
+		}
+		ctc_mobilize_revolution_forces = yes
+	}
+}

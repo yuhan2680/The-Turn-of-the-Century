@@ -1,0 +1,1 @@
+ctc_cp_government = { icon = generic_political_discourse visible = { has_country_flag = ctc_cp_initialized } }

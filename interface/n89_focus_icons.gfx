@@ -1,0 +1,508 @@
+spriteTypes = {
+spriteType = { name = "GFX_ctc_focus_N89_PRC_opening" texturefile = "gfx/interface/ctc/focus/N89_PRC_opening.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_opening_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_opening.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_opening.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_opening.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_adjustment" texturefile = "gfx/interface/ctc/focus/N89_PRC_adjustment.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_adjustment_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_adjustment.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_adjustment.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_adjustment.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_prices" texturefile = "gfx/interface/ctc/focus/N89_PRC_prices.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_prices_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_prices.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_prices.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_prices.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_employment" texturefile = "gfx/interface/ctc/focus/N89_PRC_employment.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_employment_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_employment.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_employment.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_employment.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_supply" texturefile = "gfx/interface/ctc/focus/N89_PRC_supply.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_supply_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_supply.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_supply.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_supply.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_rural" texturefile = "gfx/interface/ctc/focus/N89_PRC_rural.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_rural_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_rural.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_rural.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_rural.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_political" texturefile = "gfx/interface/ctc/focus/N89_PRC_political.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_political_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_political.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_political.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_political.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_discipline" texturefile = "gfx/interface/ctc/focus/N89_PRC_discipline.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_discipline_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_discipline.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_discipline.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_discipline.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_oversight" texturefile = "gfx/interface/ctc/focus/N89_PRC_oversight.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_oversight_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_oversight.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_oversight.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_oversight.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_voices" texturefile = "gfx/interface/ctc/focus/N89_PRC_voices.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_voices_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_voices.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_voices.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_voices.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_channels" texturefile = "gfx/interface/ctc/focus/N89_PRC_channels.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_channels_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_channels.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_channels.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_channels.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_education" texturefile = "gfx/interface/ctc/focus/N89_PRC_education.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_education_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_education.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_education.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_education.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_budget" texturefile = "gfx/interface/ctc/focus/N89_PRC_budget.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_budget_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_budget.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_budget.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_budget.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_summit" texturefile = "gfx/interface/ctc/focus/N89_PRC_summit.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_summit_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_summit.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_summit.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_summit.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_contacts" texturefile = "gfx/interface/ctc/focus/N89_PRC_contacts.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_contacts_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_contacts.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_contacts.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_contacts.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_review" texturefile = "gfx/interface/ctc/focus/N89_PRC_review.dds" }
+spriteType = { name = "GFX_ctc_focus_N89_PRC_review_shine"
+                    texturefile = "gfx/interface/ctc/focus/N89_PRC_review.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_review.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/N89_PRC_review.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_crisis" texturefile = "gfx/interface/ctc/focus/CTC_PRC_crisis.dds" }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_crisis_shine"
+                    texturefile = "gfx/interface/ctc/focus/CTC_PRC_crisis.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_crisis.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_crisis.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_stability" texturefile = "gfx/interface/ctc/focus/CTC_PRC_stability.dds" }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_stability_shine"
+                    texturefile = "gfx/interface/ctc/focus/CTC_PRC_stability.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_stability.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_stability.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_democracy" texturefile = "gfx/interface/ctc/focus/CTC_PRC_democracy.dds" }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_democracy_shine"
+                    texturefile = "gfx/interface/ctc/focus/CTC_PRC_democracy.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_democracy.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_democracy.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_workers_equality" texturefile = "gfx/interface/ctc/focus/CTC_PRC_workers_equality.dds" }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_workers_equality_shine"
+                    texturefile = "gfx/interface/ctc/focus/CTC_PRC_workers_equality.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_workers_equality.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_workers_equality.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_second_revolution" texturefile = "gfx/interface/ctc/focus/CTC_PRC_second_revolution.dds" }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_second_revolution_shine"
+                    texturefile = "gfx/interface/ctc/focus/CTC_PRC_second_revolution.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_second_revolution.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_second_revolution.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_worker_student_alliance" texturefile = "gfx/interface/ctc/focus/CTC_PRC_worker_student_alliance.dds" }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_worker_student_alliance_shine"
+                    texturefile = "gfx/interface/ctc/focus/CTC_PRC_worker_student_alliance.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_worker_student_alliance.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_worker_student_alliance.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_continuing_revolution" texturefile = "gfx/interface/ctc/focus/CTC_PRC_continuing_revolution.dds" }
+spriteType = { name = "GFX_ctc_focus_CTC_PRC_continuing_revolution_shine"
+                    texturefile = "gfx/interface/ctc/focus/CTC_PRC_continuing_revolution.dds"
+                    effectFile = "gfx/FX/buttonstate.lua"
+                    animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_continuing_revolution.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = -90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                }animation = {
+                    animationmaskfile = "gfx/interface/ctc/focus/CTC_PRC_continuing_revolution.dds"
+                    animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+                    animationrotation = 90 animationlooping = no
+                    animationtime = 0.75 animationdelay = 0
+                    animationblendmode = "add" animationtype = "scrolling"
+                    animationrotationoffset = { x = 0 y = 0 }
+                    animationtexturescale = { x = 1 y = 1 }
+                } legacy_lazy_load = no
+                }
+}

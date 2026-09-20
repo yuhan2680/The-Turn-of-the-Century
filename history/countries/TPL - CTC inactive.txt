@@ -1,0 +1,9 @@
+create_country_leader = {
+	name = N89_LEADER_TPL
+	picture = "gfx/leaders/ctc/N89_LEADER_TPL.dds"
+	expire = "2035.1.1"
+	ideology = marxism
+	traits = {
+
+	}
+}

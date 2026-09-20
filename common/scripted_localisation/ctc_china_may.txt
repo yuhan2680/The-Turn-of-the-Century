@@ -1,0 +1,12 @@
+defined_text = {
+    name = CTCMayEditorialContext
+    text = { trigger = { has_country_flag = ctc_editorial_retracted } localization_key = CTC_MAY_EDITORIAL_REVISED }
+    text = { trigger = { has_country_flag = n89_hard_editorial } localization_key = CTC_MAY_EDITORIAL_HARD }
+    text = { localization_key = CTC_MAY_EDITORIAL_OPEN }
+}
+defined_text = {
+    name = CTCMayCityContext
+    text = { trigger = { has_country_flag = ctc_martial_law } localization_key = CTC_MAY_CITY_MARTIAL }
+    text = { trigger = { has_country_flag = ctc_labour_mandate } localization_key = CTC_MAY_CITY_LABOUR }
+    text = { localization_key = CTC_MAY_CITY_REFORM }
+}

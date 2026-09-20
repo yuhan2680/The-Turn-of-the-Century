@@ -1,0 +1,21 @@
+state = {
+	id = 1078
+	name = "STATE_1078"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = KIA
+		add_core_of = KIA
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4996
+			3
+		}
+	}
+	provinces = {
+		4996
+	}
+}

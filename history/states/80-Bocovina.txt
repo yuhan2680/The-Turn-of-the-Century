@@ -1,0 +1,26 @@
+state = {
+	id = 80
+	name = "STATE_80"
+	manpower = 474600
+	resources = {
+		coal = 1
+	}
+	state_category = rural
+	provinces = {
+		577
+		9548
+	}
+	local_supplies = 0.0
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		victory_points = {
+			577
+			1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+}

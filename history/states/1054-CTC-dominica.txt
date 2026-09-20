@@ -1,0 +1,19 @@
+state = {
+	id = 1054
+	name = "STATE_1054"
+	manpower = 72000
+	state_category = town
+	history = {
+		buildings = {
+			infrastructure = 2
+			7123 = {
+				naval_base = 1
+			}
+		}
+		owner = DMA
+		add_core_of = DMA
+	}
+	provinces = {
+		7123
+	}
+}

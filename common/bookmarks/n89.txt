@@ -1,0 +1,33 @@
+bookmarks = { bookmark = {
+        name = N89_BOOKMARK desc = N89_BOOKMARK_DESC date = 1989.1.1.12
+        picture = GFX_select_date_1936 default_country = PRC default = yes
+        PRC = { history = N89_COUNTRY_DESC ideology = communism minor = no focuses = { N89_PRC_opening N89_PRC_adjustment N89_PRC_voices } ideas = { ctc_prc_governance_adjustment ctc_prc_dual_prices ctc_prc_army_reorganization } }
+SOV = { history = CTC_START_SOV_DESC ideology = communism minor = no focuses = { CTC_CP_SOV_common_1_administration_1 CTC_CP_SOV_common_1_industry_1 CTC_CP_SOV_common_1_diplomacy_1 } ideas = {  } }
+USA = { history = CTC_START_USA_DESC ideology = democratic minor = no focuses = { CTC_CP_USA_common_1_administration_1 CTC_CP_USA_common_1_industry_1 CTC_CP_USA_common_1_diplomacy_1 } ideas = {  } }
+WGR = { history = CTC_START_WGR_DESC ideology = democratic minor = no focuses = { CTC_CP_GER_common_1_administration_1 CTC_CP_GER_common_1_industry_1 CTC_CP_GER_common_1_diplomacy_1 } ideas = {  } }
+DDR = { history = CTC_START_DDR_DESC ideology = communism minor = no focuses = { CTC_CP_DDR_common_1_administration_1 CTC_CP_DDR_common_1_industry_1 CTC_CP_DDR_common_1_diplomacy_1 } ideas = {  } }
+ENG = { history = CTC_START_ENG_DESC ideology = democratic minor = no focuses = { CTC_CP_ENG_common_1_administration_1 CTC_CP_ENG_common_1_industry_1 CTC_CP_ENG_common_1_diplomacy_1 } ideas = {  } }
+FRA = { history = CTC_START_FRA_DESC ideology = democratic minor = no focuses = { CTC_CP_FRA_common_1_administration_1 CTC_CP_FRA_common_1_industry_1 CTC_CP_FRA_common_1_diplomacy_1 } ideas = {  } }
+JAP = { history = CTC_START_JAP_DESC ideology = democratic minor = no focuses = { CTC_CP_JAP_common_1_administration_1 CTC_CP_JAP_common_1_industry_1 CTC_CP_JAP_common_1_diplomacy_1 } ideas = {  } }
+ITA = { history = CTC_START_ITA_DESC ideology = democratic minor = no focuses = { CTC_CP_ITA_common_1_administration_1 CTC_CP_ITA_common_1_industry_1 CTC_CP_ITA_common_1_diplomacy_1 } ideas = {  } }
+POL = { history = CTC_START_POL_DESC ideology = communism minor = no focuses = { CTC_CP_POL_common_1_administration_1 CTC_CP_POL_common_1_industry_1 CTC_CP_POL_common_1_diplomacy_1 } ideas = {  } }
+SPR = { history = CTC_START_SPR_DESC ideology = democratic minor = no focuses = { CTC_CP_SPR_common_1_administration_1 CTC_CP_SPR_common_1_industry_1 CTC_CP_SPR_common_1_diplomacy_1 } ideas = {  } }
+YUG = { history = CTC_START_YUG_DESC ideology = communism minor = no focuses = { CTC_CP_YUG_common_1_administration_1 CTC_CP_YUG_common_1_industry_1 CTC_CP_YUG_common_1_diplomacy_1 } ideas = {  } }
+CAN = { history = CTC_START_CAN_DESC ideology = democratic minor = no focuses = { CTC_CP_CAN_common_1_administration_1 CTC_CP_CAN_common_1_industry_1 CTC_CP_CAN_common_1_diplomacy_1 } ideas = {  } }
+AST = { history = CTC_START_AST_DESC ideology = democratic minor = no focuses = { CTC_CP_AST_common_1_administration_1 CTC_CP_AST_common_1_industry_1 CTC_CP_AST_common_1_diplomacy_1 } ideas = {  } }
+RAJ = { history = CTC_START_RAJ_DESC ideology = democratic minor = no focuses = { CTC_CP_RAJ_common_1_administration_1 CTC_CP_RAJ_common_1_industry_1 CTC_CP_RAJ_common_1_diplomacy_1 } ideas = {  } }
+PAK = { history = CTC_START_PAK_DESC ideology = democratic minor = no focuses = { CTC_CP_PAK_common_1_administration_1 CTC_CP_PAK_common_1_industry_1 CTC_CP_PAK_common_1_diplomacy_1 } ideas = {  } }
+KOR = { history = CTC_START_KOR_DESC ideology = democratic minor = no focuses = { CTC_CP_KOR_common_1_administration_1 CTC_CP_KOR_common_1_industry_1 CTC_CP_KOR_common_1_diplomacy_1 } ideas = {  } }
+PRK = { history = CTC_START_PRK_DESC ideology = communism minor = no focuses = { CTC_CP_PRK_common_1_administration_1 CTC_CP_PRK_common_1_industry_1 CTC_CP_PRK_common_1_diplomacy_1 } ideas = {  } }
+CHI = { history = CTC_START_CHI_DESC ideology = neutrality minor = no focuses = { CTC_CP_TWN_common_1_administration_1 CTC_CP_TWN_common_1_industry_1 CTC_CP_TWN_common_1_diplomacy_1 } ideas = {  } }
+VIN = { history = CTC_START_VIN_DESC ideology = communism minor = no focuses = { CTC_CP_VIN_common_1_administration_1 CTC_CP_VIN_common_1_industry_1 CTC_CP_VIN_common_1_diplomacy_1 } ideas = {  } }
+INS = { history = CTC_START_INS_DESC ideology = neutrality minor = no focuses = { CTC_CP_INS_common_1_administration_1 CTC_CP_INS_common_1_industry_1 CTC_CP_INS_common_1_diplomacy_1 } ideas = {  } }
+SIA = { history = CTC_START_SIA_DESC ideology = democratic minor = no focuses = { CTC_CP_SIA_common_1_administration_1 CTC_CP_SIA_common_1_industry_1 CTC_CP_SIA_common_1_diplomacy_1 } ideas = {  } }
+PER = { history = CTC_START_PER_DESC ideology = neutrality minor = no focuses = { CTC_CP_PER_common_1_administration_1 CTC_CP_PER_common_1_industry_1 CTC_CP_PER_common_1_diplomacy_1 } ideas = {  } }
+IRQ = { history = CTC_START_IRQ_DESC ideology = neutrality minor = no focuses = { CTC_CP_IRQ_common_1_administration_1 CTC_CP_IRQ_common_1_industry_1 CTC_CP_IRQ_common_1_diplomacy_1 } ideas = {  } }
+TUR = { history = CTC_START_TUR_DESC ideology = democratic minor = no focuses = { CTC_CP_TUR_common_1_administration_1 CTC_CP_TUR_common_1_industry_1 CTC_CP_TUR_common_1_diplomacy_1 } ideas = {  } }
+ISR = { history = CTC_START_ISR_DESC ideology = democratic minor = no focuses = { CTC_CP_ISR_common_1_administration_1 CTC_CP_ISR_common_1_industry_1 CTC_CP_ISR_common_1_diplomacy_1 } ideas = {  } }
+SAF = { history = CTC_START_SAF_DESC ideology = neutrality minor = no focuses = { CTC_CP_SAF_common_1_administration_1 CTC_CP_SAF_common_1_industry_1 CTC_CP_SAF_common_1_diplomacy_1 } ideas = {  } }
+BRA = { history = CTC_START_BRA_DESC ideology = democratic minor = no focuses = { CTC_CP_BRA_common_1_administration_1 CTC_CP_BRA_common_1_industry_1 CTC_CP_BRA_common_1_diplomacy_1 } ideas = {  } }
+ARG = { history = CTC_START_ARG_DESC ideology = democratic minor = no focuses = { CTC_CP_ARG_common_1_administration_1 CTC_CP_ARG_common_1_industry_1 CTC_CP_ARG_common_1_diplomacy_1 } ideas = {  } }
+} }

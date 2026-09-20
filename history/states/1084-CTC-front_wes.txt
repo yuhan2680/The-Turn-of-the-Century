@@ -1,0 +1,23 @@
+state = {
+	id = 1084
+	name = "STATE_1084"
+	manpower = 21055
+	state_category = town
+	history = {
+		owner = WES
+		add_core_of = WES
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13421
+			3
+		}
+	}
+	provinces = {
+		13421
+		13422
+		13423
+	}
+}

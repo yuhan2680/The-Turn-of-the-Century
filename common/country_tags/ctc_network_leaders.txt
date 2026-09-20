@@ -1,0 +1,3 @@
+TPL = "countries/CTC_TPL.txt"
+KPN = "countries/CTC_KPN.txt"
+FUN = "countries/CTC_FUN.txt"

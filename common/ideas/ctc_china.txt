@@ -1,0 +1,14 @@
+ideas = { country = {
+ctc_prc_governance_adjustment = { picture = generic_central_management allowed = { always = yes } removal_cost = -1 modifier = { production_speed_buildings_factor = -0.05 consumer_goods_factor = 0.03 } }
+ctc_prc_dual_prices = { picture = generic_production_bonus allowed = { always = yes } removal_cost = -1 modifier = { production_factory_max_efficiency_factor = -0.03 stability_factor = -0.03 } }
+ctc_prc_army_reorganization = { picture = generic_army_war_college allowed = { always = yes } removal_cost = -1 modifier = { training_time_army_factor = 0.05 army_org_factor = -0.03 } }
+ctc_prc_supply_guarantees = { picture = generic_build_infrastructure allowed = { always = yes } removal_cost = -1 modifier = { stability_factor = 0.02 } }
+ctc_prc_june_aftermath = { picture = generic_oppression allowed = { always = yes } removal_cost = -1 modifier = { political_power_factor = 0.05 stability_factor = -0.10 } }
+ctc_prc_reform_agreement = { picture = generic_constitutional_guarantees allowed = { always = yes } removal_cost = -1 modifier = { political_power_factor = -0.05 stability_factor = 0.05 } }
+ctc_prc_labour_compact = { picture = generic_local_self_management allowed = { always = yes } removal_cost = -1 modifier = { stability_factor = 0.05 consumer_goods_factor = 0.03 } }
+ctc_prc_general_strike = { picture = generic_disjointed_gov allowed = { always = yes } removal_cost = -1 modifier = { industrial_capacity_factory = -0.10 stability_factor = -0.05 } }
+ctc_prc_revolutionary_coalition = { picture = generic_disjointed_gov allowed = { always = yes } removal_cost = -1 modifier = { army_org_factor = -0.15 political_power_factor = -0.10 } }
+ctc_prc_reconstruction_mobilization = { picture = generic_build_infrastructure allowed = { always = yes } removal_cost = -1 modifier = { production_speed_buildings_factor = 0.30 industry_repair_factor = 0.75 army_org_factor = 0.10 supply_consumption_factor = -0.15 } }
+ctc_prc_social_democratic_settlement = { picture = generic_constitutional_guarantees allowed = { always = yes } removal_cost = -1 modifier = { stability_factor = 0.10 research_speed_factor = 0.12 industrial_capacity_factory = 0.15 consumer_goods_factor = -0.05 political_power_factor = 0.10 } }
+ctc_prc_maoist_settlement = { picture = generic_communist_army allowed = { always = yes } removal_cost = -1 modifier = { industrial_capacity_factory = 0.25 industrial_capacity_dockyard = 0.10 production_factory_efficiency_gain_factor = 0.20 army_org_factor = 0.15 recruitable_population = 0.01 consumer_goods_factor = -0.04 } }
+} }

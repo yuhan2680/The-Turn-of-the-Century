@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 12766
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 12766
+			ship = {
+				name = "护卫舰1号 / Frigate 1"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = ETH
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰2号 / Frigate 2"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = ETH
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 1064
+	name = "STATE_1064"
+	manpower = 230000
+	state_category = town
+	history = {
+		owner = PRK
+		add_core_of = PRK
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		13408
+		13409
+	}
+}

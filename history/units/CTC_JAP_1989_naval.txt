@@ -1,0 +1,792 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 9998
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 9998
+			ship = {
+				name = "驱逐舰1号 / Destroyer 1"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰2号 / Destroyer 2"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰3号 / Destroyer 3"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰4号 / Destroyer 4"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰5号 / Destroyer 5"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰6号 / Destroyer 6"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰7号 / Destroyer 7"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰8号 / Destroyer 8"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰9号 / Destroyer 9"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰10号 / Destroyer 10"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰11号 / Destroyer 11"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰12号 / Destroyer 12"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰13号 / Destroyer 13"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰14号 / Destroyer 14"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰15号 / Destroyer 15"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰16号 / Destroyer 16"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队2 / Fleet 2"
+		naval_base = 11932
+		task_force = {
+			name = "编队2 / Task Force 2"
+			location = 11932
+			ship = {
+				name = "驱逐舰17号 / Destroyer 17"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰18号 / Destroyer 18"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰19号 / Destroyer 19"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰20号 / Destroyer 20"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰21号 / Destroyer 21"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰22号 / Destroyer 22"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰23号 / Destroyer 23"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰24号 / Destroyer 24"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰25号 / Destroyer 25"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰26号 / Destroyer 26"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰27号 / Destroyer 27"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰28号 / Destroyer 28"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰29号 / Destroyer 29"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰30号 / Destroyer 30"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰31号 / Destroyer 31"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰32号 / Destroyer 32"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队3 / Fleet 3"
+		naval_base = 9950
+		task_force = {
+			name = "编队3 / Task Force 3"
+			location = 9950
+			ship = {
+				name = "驱逐舰33号 / Destroyer 33"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰34号 / Destroyer 34"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰35号 / Destroyer 35"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰36号 / Destroyer 36"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰1号 / Frigate 1"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰2号 / Frigate 2"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰3号 / Frigate 3"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰4号 / Frigate 4"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰5号 / Frigate 5"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰6号 / Frigate 6"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰7号 / Frigate 7"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰8号 / Frigate 8"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰9号 / Frigate 9"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰10号 / Frigate 10"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰11号 / Frigate 11"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰12号 / Frigate 12"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队4 / Fleet 4"
+		naval_base = 1092
+		task_force = {
+			name = "编队4 / Task Force 4"
+			location = 1092
+			ship = {
+				name = "护卫舰13号 / Frigate 13"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰14号 / Frigate 14"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰15号 / Frigate 15"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰16号 / Frigate 16"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰17号 / Frigate 17"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰18号 / Frigate 18"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰19号 / Frigate 19"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰20号 / Frigate 20"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰21号 / Frigate 21"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰22号 / Frigate 22"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰23号 / Frigate 23"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰24号 / Frigate 24"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰25号 / Frigate 25"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇1号 / Submarine 1"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇2号 / Submarine 2"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇3号 / Submarine 3"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队5 / Fleet 5"
+		naval_base = 4179
+		task_force = {
+			name = "编队5 / Task Force 5"
+			location = 4179
+			ship = {
+				name = "潜艇4号 / Submarine 4"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇5号 / Submarine 5"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇6号 / Submarine 6"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇7号 / Submarine 7"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇8号 / Submarine 8"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇9号 / Submarine 9"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇10号 / Submarine 10"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇11号 / Submarine 11"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇12号 / Submarine 12"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇13号 / Submarine 13"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+			ship = {
+				name = "潜艇14号 / Submarine 14"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = JAP
+					}
+				}
+			}
+		}
+	}
+}

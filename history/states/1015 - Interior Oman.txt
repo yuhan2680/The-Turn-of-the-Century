@@ -1,0 +1,25 @@
+state = {
+	id = 1015
+	name = "STATE_1015"
+	manpower = 129000
+	state_category = pastoral
+	resources = {
+		oil = 2
+	}
+	provinces = {
+		2018
+		5049
+	}
+	local_supplies = 0.0
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			5049
+			1
+		}
+	}
+}

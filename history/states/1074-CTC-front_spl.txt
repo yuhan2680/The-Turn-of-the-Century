@@ -1,0 +1,22 @@
+state = {
+	id = 1074
+	name = "STATE_1074"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = SPL
+		add_core_of = SPL
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13413
+			3
+		}
+	}
+	provinces = {
+		13413
+		13414
+	}
+}

@@ -1,0 +1,5 @@
+on_actions = {
+    on_daily = { effect = {
+        every_country = { ctc_unlock_completed_campaign_diplomacy = yes }
+    } }
+}

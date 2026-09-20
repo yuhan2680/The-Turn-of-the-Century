@@ -1,0 +1,328 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 9764
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 9764
+			ship = {
+				name = "航空母舰1号 / Aircraft Carrier 1"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "航空母舰2号 / Aircraft Carrier 2"
+				definition = carrier
+				equipment = {
+					ctc_carrier = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰1号 / Destroyer 1"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰2号 / Destroyer 2"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰3号 / Destroyer 3"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰4号 / Destroyer 4"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰5号 / Destroyer 5"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰6号 / Destroyer 6"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰7号 / Destroyer 7"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰1号 / Frigate 1"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰2号 / Frigate 2"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰3号 / Frigate 3"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰4号 / Frigate 4"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰5号 / Frigate 5"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰6号 / Frigate 6"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰7号 / Frigate 7"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+		}
+	}
+	fleet = {
+		name = "舰队2 / Fleet 2"
+		naval_base = 6906
+		task_force = {
+			name = "编队2 / Task Force 2"
+			location = 6906
+			ship = {
+				name = "护卫舰8号 / Frigate 8"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰9号 / Frigate 9"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰10号 / Frigate 10"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰11号 / Frigate 11"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰12号 / Frigate 12"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰13号 / Frigate 13"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "护卫舰14号 / Frigate 14"
+				definition = destroyer
+				equipment = {
+					ctc_frigate = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇1号 / Submarine 1"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇2号 / Submarine 2"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇3号 / Submarine 3"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇4号 / Submarine 4"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇5号 / Submarine 5"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇6号 / Submarine 6"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇7号 / Submarine 7"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇8号 / Submarine 8"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = SPR
+					}
+				}
+			}
+		}
+	}
+}

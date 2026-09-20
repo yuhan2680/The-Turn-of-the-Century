@@ -1,0 +1,8 @@
+air_wings = {
+	430 = {
+		ctc_combat_aircraft = {
+			owner = "BAN"
+			amount = 55
+		}
+	}
+}

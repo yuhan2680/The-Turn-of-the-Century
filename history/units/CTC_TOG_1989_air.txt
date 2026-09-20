@@ -1,0 +1,8 @@
+air_wings = {
+	777 = {
+		ctc_combat_aircraft = {
+			owner = "TOG"
+			amount = 13
+		}
+	}
+}

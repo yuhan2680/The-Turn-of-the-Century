@@ -1,0 +1,2 @@
+spriteTypes = { corneredTileSpriteType = { name = "GFX_n89_frontend" texturefile = "gfx/interface/n89/native/frontend.tga" borderSize = { x = 0 y = 0 } size = { x = 1920 y = 1440 } tilingCenter = no } spriteType = { name = "GFX_n89_blank" texturefile = "gfx/interface/n89/native/blank.tga" } }
+spriteTypes = { spriteType = { name = "GFX_n89_archive_small" texturefile = "gfx/interface/n89/native/frontend_small.tga" } }

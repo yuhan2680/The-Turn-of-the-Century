@@ -1,0 +1,49 @@
+ideas = {
+	naval_manufacturer = {
+		designer = yes
+		jiangnan_shipyard_group = {
+			picture = generic_naval_manufacturer_3
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = MAN
+					tag = MEN
+				}
+				has_dlc = "Waking the Tiger"
+			}
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			traits = {
+				coastal_defence_naval_manufacturer
+			}
+			available = {
+				owner = {
+					controls_state = 613
+				}
+			}
+		}
+		dagu_shipyard = {
+			picture = generic_naval_manufacturer_3
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = MAN
+					tag = MEN
+				}
+				has_dlc = "Waking the Tiger"
+			}
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			traits = {
+				raiding_fleet_naval_manufacturer
+			}
+			available = {
+				owner = {
+					controls_state = 608
+				}
+			}
+		}
+	}
+}

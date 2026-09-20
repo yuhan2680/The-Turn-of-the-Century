@@ -1,0 +1,59 @@
+add_namespace = n89_handover
+country_event = {
+	id = n89_handover.1
+	title = n89_handover.1.t
+	desc = n89_handover.1.d
+	picture = GFX_ctc_photo_hongkong1997
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		326 = {
+			is_owned_by = ENG
+			is_controlled_by = ENG
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag = n89_hong_kong_handover
+			transfer_state = 326
+			log = "N89_HANDOVER_HONG_KONG"
+		}
+	}
+	option = {
+		name = n89_handover.1.a
+		custom_effect_tooltip = CTC_EFFECT_n89_handover_1_a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = {
+	id = n89_handover.2
+	title = n89_handover.2.t
+	desc = n89_handover.2.d
+	picture = GFX_ctc_photo_macau1999
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = PRC
+		729 = {
+			is_owned_by = POR
+			is_controlled_by = POR
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag = n89_macau_handover
+			transfer_state = 729
+			log = "N89_HANDOVER_MACAU"
+		}
+	}
+	option = {
+		name = n89_handover.2.a
+		custom_effect_tooltip = CTC_EFFECT_n89_handover_2_a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

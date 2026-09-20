@@ -1,0 +1,36 @@
+air_wings = {
+	527 = {
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "PRK"
+			amount = 100
+		}
+	}
+}

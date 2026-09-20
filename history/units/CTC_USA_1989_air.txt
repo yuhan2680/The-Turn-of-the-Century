@@ -1,0 +1,258 @@
+air_wings = {
+	361 = {
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+	}
+	261 = {
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+	}
+	357 = {
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+	}
+	358 = {
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "USA"
+			amount = 1
+		}
+	}
+}

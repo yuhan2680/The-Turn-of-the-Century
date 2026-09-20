@@ -1,0 +1,410 @@
+ctc_cp_government = {
+ctc_cp_platform_ARG = { icon = generic_political_discourse
+ visible = { tag = ARG  has_country_flag = ctc_cp_initialized_ARG }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.101 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_ARG = { icon = generic_political_discourse
+ visible = { tag = ARG  has_country_flag = ctc_cp_initialized_ARG NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_ARG = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_AST = { icon = generic_political_discourse
+ visible = { tag = AST  has_country_flag = ctc_cp_initialized_AST }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.201 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_AST = { icon = generic_political_discourse
+ visible = { tag = AST  has_country_flag = ctc_cp_initialized_AST NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_AST = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_BOS = { icon = generic_political_discourse
+ visible = { tag = BOS  has_country_flag = ctc_cp_initialized_BOS }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.301 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_BOS = { icon = generic_political_discourse
+ visible = { tag = BOS  has_country_flag = ctc_cp_initialized_BOS NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_BOS = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_BRA = { icon = generic_political_discourse
+ visible = { tag = BRA  has_country_flag = ctc_cp_initialized_BRA }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.401 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_BRA = { icon = generic_political_discourse
+ visible = { tag = BRA  has_country_flag = ctc_cp_initialized_BRA NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_BRA = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_CAN = { icon = generic_political_discourse
+ visible = { tag = CAN  has_country_flag = ctc_cp_initialized_CAN }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.501 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_CAN = { icon = generic_political_discourse
+ visible = { tag = CAN  has_country_flag = ctc_cp_initialized_CAN NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_CAN = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_CRO = { icon = generic_political_discourse
+ visible = { tag = CRO  has_country_flag = ctc_cp_initialized_CRO }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.601 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_CRO = { icon = generic_political_discourse
+ visible = { tag = CRO  has_country_flag = ctc_cp_initialized_CRO NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_CRO = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_DDR = { icon = generic_political_discourse
+ visible = { tag = DDR  has_country_flag = ctc_cp_initialized_DDR }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.701 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_DDR = { icon = generic_political_discourse
+ visible = { tag = DDR  has_country_flag = ctc_cp_initialized_DDR NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_DDR = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_ENG = { icon = generic_political_discourse
+ visible = { tag = ENG  has_country_flag = ctc_cp_initialized_ENG }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.801 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_ENG = { icon = generic_political_discourse
+ visible = { tag = ENG  has_country_flag = ctc_cp_initialized_ENG NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_ENG = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_FRA = { icon = generic_political_discourse
+ visible = { tag = FRA  has_country_flag = ctc_cp_initialized_FRA }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.901 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_FRA = { icon = generic_political_discourse
+ visible = { tag = FRA  has_country_flag = ctc_cp_initialized_FRA NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_FRA = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_GER = { icon = generic_political_discourse
+ visible = { tag = WGR  has_country_flag = ctc_cp_initialized_GER }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1001 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_GER = { icon = generic_political_discourse
+ visible = { tag = WGR  has_country_flag = ctc_cp_initialized_GER NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_GER = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_INS = { icon = generic_political_discourse
+ visible = { tag = INS  has_country_flag = ctc_cp_initialized_INS }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1101 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_INS = { icon = generic_political_discourse
+ visible = { tag = INS  has_country_flag = ctc_cp_initialized_INS NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_INS = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_IRQ = { icon = generic_political_discourse
+ visible = { tag = IRQ  has_country_flag = ctc_cp_initialized_IRQ }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1201 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_IRQ = { icon = generic_political_discourse
+ visible = { tag = IRQ  has_country_flag = ctc_cp_initialized_IRQ NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_IRQ = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_ISR = { icon = generic_political_discourse
+ visible = { tag = ISR  has_country_flag = ctc_cp_initialized_ISR }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1301 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_ISR = { icon = generic_political_discourse
+ visible = { tag = ISR  has_country_flag = ctc_cp_initialized_ISR NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_ISR = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_ITA = { icon = generic_political_discourse
+ visible = { tag = ITA  has_country_flag = ctc_cp_initialized_ITA }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1401 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_ITA = { icon = generic_political_discourse
+ visible = { tag = ITA  has_country_flag = ctc_cp_initialized_ITA NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_ITA = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_JAP = { icon = generic_political_discourse
+ visible = { tag = JAP  has_country_flag = ctc_cp_initialized_JAP }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1501 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_JAP = { icon = generic_political_discourse
+ visible = { tag = JAP  has_country_flag = ctc_cp_initialized_JAP NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_JAP = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_KOR = { icon = generic_political_discourse
+ visible = { tag = KOR  has_country_flag = ctc_cp_initialized_KOR }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1601 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_KOR = { icon = generic_political_discourse
+ visible = { tag = KOR  has_country_flag = ctc_cp_initialized_KOR NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_KOR = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_PAK = { icon = generic_political_discourse
+ visible = { tag = PAK  has_country_flag = ctc_cp_initialized_PAK }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1701 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_PAK = { icon = generic_political_discourse
+ visible = { tag = PAK  has_country_flag = ctc_cp_initialized_PAK NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_PAK = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_PAL = { icon = generic_political_discourse
+ visible = { tag = PAL  has_country_flag = ctc_cp_initialized_PAL }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1801 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_PAL = { icon = generic_political_discourse
+ visible = { tag = PAL  has_country_flag = ctc_cp_initialized_PAL NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_PAL = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_PER = { icon = generic_political_discourse
+ visible = { tag = PER  has_country_flag = ctc_cp_initialized_PER }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.1901 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_PER = { icon = generic_political_discourse
+ visible = { tag = PER  has_country_flag = ctc_cp_initialized_PER NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_PER = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_POL = { icon = generic_political_discourse
+ visible = { tag = POL  has_country_flag = ctc_cp_initialized_POL }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2001 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_POL = { icon = generic_political_discourse
+ visible = { tag = POL  has_country_flag = ctc_cp_initialized_POL NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_POL = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_PRK = { icon = generic_political_discourse
+ visible = { tag = PRK  has_country_flag = ctc_cp_initialized_PRK }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2201 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_PRK = { icon = generic_political_discourse
+ visible = { tag = PRK  has_country_flag = ctc_cp_initialized_PRK NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_PRK = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_RAJ = { icon = generic_political_discourse
+ visible = { tag = RAJ  has_country_flag = ctc_cp_initialized_RAJ }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2301 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_RAJ = { icon = generic_political_discourse
+ visible = { tag = RAJ  has_country_flag = ctc_cp_initialized_RAJ NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_RAJ = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_RUS = { icon = generic_political_discourse
+ visible = { tag = SOV has_country_flag = ctc_cp_russian_successor has_country_flag = ctc_cp_initialized_RUS }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2401 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_RUS = { icon = generic_political_discourse
+ visible = { tag = SOV has_country_flag = ctc_cp_russian_successor has_country_flag = ctc_cp_initialized_RUS NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_RUS = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_SAF = { icon = generic_political_discourse
+ visible = { tag = SAF  has_country_flag = ctc_cp_initialized_SAF }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2501 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_SAF = { icon = generic_political_discourse
+ visible = { tag = SAF  has_country_flag = ctc_cp_initialized_SAF NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_SAF = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_SIA = { icon = generic_political_discourse
+ visible = { tag = SIA  has_country_flag = ctc_cp_initialized_SIA }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2601 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_SIA = { icon = generic_political_discourse
+ visible = { tag = SIA  has_country_flag = ctc_cp_initialized_SIA NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_SIA = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_SLO = { icon = generic_political_discourse
+ visible = { tag = SLV  has_country_flag = ctc_cp_initialized_SLO }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2701 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_SLO = { icon = generic_political_discourse
+ visible = { tag = SLV  has_country_flag = ctc_cp_initialized_SLO NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_SLO = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_SOV = { icon = generic_political_discourse
+ visible = { tag = SOV NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2801 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_SOV = { icon = generic_political_discourse
+ visible = { tag = SOV NOT = { has_country_flag = ctc_cp_russian_successor } has_country_flag = ctc_cp_initialized_SOV NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_SOV = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_SPR = { icon = generic_political_discourse
+ visible = { tag = SPR  has_country_flag = ctc_cp_initialized_SPR }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.2901 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_SPR = { icon = generic_political_discourse
+ visible = { tag = SPR  has_country_flag = ctc_cp_initialized_SPR NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_SPR = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_SRB = { icon = generic_political_discourse
+ visible = { tag = SER  has_country_flag = ctc_cp_initialized_SRB }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.3001 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_SRB = { icon = generic_political_discourse
+ visible = { tag = SER  has_country_flag = ctc_cp_initialized_SRB NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_SRB = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_TUR = { icon = generic_political_discourse
+ visible = { tag = TUR  has_country_flag = ctc_cp_initialized_TUR }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.3101 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_TUR = { icon = generic_political_discourse
+ visible = { tag = TUR  has_country_flag = ctc_cp_initialized_TUR NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_TUR = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_TWN = { icon = generic_political_discourse
+ visible = { tag = CHI  has_country_flag = ctc_cp_initialized_TWN }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.3201 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_TWN = { icon = generic_political_discourse
+ visible = { tag = CHI  has_country_flag = ctc_cp_initialized_TWN NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_TWN = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_USA = { icon = generic_political_discourse
+ visible = { tag = USA  has_country_flag = ctc_cp_initialized_USA }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.3301 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_USA = { icon = generic_political_discourse
+ visible = { tag = USA  has_country_flag = ctc_cp_initialized_USA NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_USA = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_VIN = { icon = generic_political_discourse
+ visible = { tag = VIN  has_country_flag = ctc_cp_initialized_VIN }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.3401 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_VIN = { icon = generic_political_discourse
+ visible = { tag = VIN  has_country_flag = ctc_cp_initialized_VIN NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_VIN = yes }
+ ai_will_do = { factor = 2 } }
+ctc_cp_platform_YUG = { icon = generic_political_discourse
+ visible = { tag = YUG  has_country_flag = ctc_cp_initialized_YUG }
+ available = { NOT = { has_country_flag = ctc_cp_event_open } OR = { NOT = { has_country_flag = ctc_cp_platform_presented } has_country_flag = { flag = ctc_cp_platform_presented days > 179 } } }
+ cost = 25 complete_effect = { custom_effect_tooltip = ctc_cp_switch_tt country_event = { id = ctc_cp_politics.3501 } } ai_will_do = { factor = 0 } }
+ctc_cp_vote_YUG = { icon = generic_political_discourse
+ visible = { tag = YUG  has_country_flag = ctc_cp_initialized_YUG NOT = { has_country_flag = ctc_cp_mandate } }
+ available = { ctc_cp_can_administer = yes has_war = no check_variable = { ctc_cp_backing > 44 }
+   has_country_flag = { flag = ctc_cp_authority_review days > 179 } NOT = { has_country_flag = ctc_cp_event_open } }
+ cost = 35 days_remove = 30
+ complete_effect = { set_country_flag = ctc_cp_vote_pending }
+ remove_effect = { clr_country_flag = ctc_cp_vote_pending ctc_cp_vote_result_YUG = yes }
+ ai_will_do = { factor = 2 } }
+}

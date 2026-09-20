@@ -1,0 +1,10 @@
+spriteTypes = {
+spriteType = { name = "GFX_ctc_hud_difficulty_civilian" texturefile = "gfx/interface/ctc/hud/difficulty_civilian.dds" noOfFrames = 2 }
+spriteType = { name = "GFX_ctc_hud_difficulty_recruit" texturefile = "gfx/interface/ctc/hud/difficulty_recruit.dds" noOfFrames = 2 }
+spriteType = { name = "GFX_ctc_hud_difficulty_regular" texturefile = "gfx/interface/ctc/hud/difficulty_regular.dds" noOfFrames = 2 }
+spriteType = { name = "GFX_ctc_hud_difficulty_veteran" texturefile = "gfx/interface/ctc/hud/difficulty_veteran.dds" noOfFrames = 2 }
+spriteType = { name = "GFX_ctc_hud_difficulty_elite" texturefile = "gfx/interface/ctc/hud/difficulty_elite.dds" noOfFrames = 2 }
+spriteType = { name = "GFX_ctc_hud_navigation_back" texturefile = "gfx/interface/ctc/hud/navigation_back.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_navigation_load" texturefile = "gfx/interface/ctc/hud/navigation_load.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_navigation_options" texturefile = "gfx/interface/ctc/hud/navigation_options.dds" noOfFrames = 3 }
+}

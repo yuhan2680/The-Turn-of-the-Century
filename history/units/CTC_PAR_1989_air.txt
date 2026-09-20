@@ -1,0 +1,8 @@
+air_wings = {
+	301 = {
+		ctc_combat_aircraft = {
+			owner = "PAR"
+			amount = 16
+		}
+	}
+}

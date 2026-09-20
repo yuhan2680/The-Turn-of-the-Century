@@ -1,0 +1,28 @@
+state = {
+	id = 1069
+	name = "STATE_1069"
+	state_category = town
+	history = {
+		owner = VAN
+		add_core_of = VAN
+		buildings = {
+			infrastructure = 2
+			1237 = {
+				naval_base = 1
+			}
+			4247 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12120
+			10
+		}
+	}
+	provinces = {
+		1237
+		4247
+		12120
+	}
+	manpower = 143000
+}

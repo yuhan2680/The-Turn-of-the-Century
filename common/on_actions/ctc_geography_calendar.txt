@@ -1,0 +1,17 @@
+on_actions = { on_daily_SOV = { effect = {
+if = {
+   limit = { NOT = { date < 1989.1.13 } NOT = { has_country_flag = ctc_city_6420_renamed } }
+   set_country_flag = ctc_city_6420_renamed
+   set_province_name = { id = 6420 name = CTC_CITY_6420_1989 }
+  }
+if = {
+   limit = { NOT = { date < 1989.3.21 } NOT = { has_country_flag = ctc_city_11312_renamed } }
+   set_country_flag = ctc_city_11312_renamed
+   set_province_name = { id = 11312 name = CTC_CITY_11312_1989 }
+  }
+if = {
+   limit = { NOT = { date < 1989.12.30 } NOT = { has_country_flag = ctc_city_11674_renamed } }
+   set_country_flag = ctc_city_11674_renamed
+   set_province_name = { id = 11674 name = CTC_CITY_11674_1989 }
+  }
+} } }

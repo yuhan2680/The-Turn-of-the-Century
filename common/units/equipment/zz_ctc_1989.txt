@@ -1,0 +1,262 @@
+# Load after all native equipment, including x_* variants.
+equipments = {
+	ctc_infantry_equipment = {
+		year = 1980
+		archetype = infantry_equipment
+		parent = infantry_equipment_3
+		priority = 3000
+		visual_level = 3
+		defense = 34
+		breakthrough = 5
+		soft_attack = 12
+		hard_attack = 2
+		ap_attack = 10
+		air_attack = 0
+		reliability = 0.8
+		build_cost_ic = 0.69
+		resources = {
+			steel = 4
+		}
+	}
+	ctc_tank_equipment = {
+		year = 1980
+		archetype = modern_tank_chassis
+		parent = modern_tank_equipment_1
+		priority = 3000
+		visual_level = 0
+		is_convertable = yes
+		maximum_speed = 10
+		reliability = 0.8
+		defense = 10
+		breakthrough = 84
+		hardness = 0.98
+		armor_value = 130
+		soft_attack = 40
+		hard_attack = 32
+		ap_attack = 131
+		air_attack = 0
+		lend_lease_cost = 14
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		build_cost_ic = 28
+		resources = {
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 5
+	}
+	ctc_combat_aircraft = {
+		year = 1980
+		archetype = jet_fighter_equipment
+		parent = jet_fighter_equipment_2
+		priority = 3000
+		air_range = 2200
+		maximum_speed = 1100
+		air_agility = 72
+		air_attack = 40
+		air_defence = 18
+		naval_strike_attack = 5
+		surface_detection = 15
+		sub_detection = 4
+		build_cost_ic = 32
+		resources = {
+			aluminium = 3
+			tungsten = 3
+			rubber = 1
+		}
+		manpower = 40
+		fuel_consumption = 0.42
+		air_superiority = 1
+		reliability = 0.8
+	}
+	ctc_destroyer = {
+		year = 1980
+		archetype = ship_hull_light
+		parent = destroyer_4
+		priority = 3000
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_light_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_4
+			fixed_ship_torpedo_slot = ship_torpedo_4
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_4
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		sub_attack = 1
+		anti_air_attack = 5
+		armor_value = 0
+		surface_detection = 40
+		sub_detection = 10
+		surface_visibility = 10
+		naval_speed = 30
+		reliability = 0.92
+		naval_range = 2500
+		max_strength = 60
+		type = {
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 500
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+		manpower = 500
+	}
+	ctc_frigate = {
+		year = 1980
+		archetype = ship_hull_light
+		parent = destroyer_3
+		priority = 3000
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_light_battery_3
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_torpedo_slot = ship_torpedo_3
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_3
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		sub_attack = 1
+		anti_air_attack = 0
+		armor_value = 0
+		surface_detection = 40
+		sub_detection = 10
+		surface_visibility = 10
+		naval_speed = 30
+		reliability = 0.90
+		naval_range = 2000
+		max_strength = 50
+		type = {
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 500
+		resources = {
+			steel = 3
+		}
+		manpower = 400
+	}
+	ctc_cruiser = {
+		year = 1980
+		archetype = ship_hull_cruiser
+		parent = heavy_cruiser_4
+		priority = 3000
+		visual_level = 1
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = ship_medium_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			front_1_custom_slot = ship_anti_air_4
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = dp_ship_secondaries_3
+			mid_2_custom_slot = dp_ship_secondaries_3
+			rear_1_custom_slot = ship_medium_battery_4
+			rear_2_custom_slot = ship_anti_air_4
+		}
+		hg_armor_piercing = 0
+		hg_attack = 0
+		torpedo_attack = 0
+		lg_armor_piercing = 0
+		lg_attack = 0
+		anti_air_attack = 0
+		armor_value = 13
+		surface_detection = 40
+		sub_detection = 5
+		surface_visibility = 15
+		naval_speed = 33
+		reliability = 0.92
+		naval_range = 5000
+		max_strength = 225
+		build_cost_ic = 3400
+		resources = {
+			steel = 5
+			chromium = 1
+		}
+		manpower = 2200
+	}
+	ctc_carrier = {
+		year = 1980
+		archetype = ship_hull_carrier
+		parent = carrier_4
+		priority = 3000
+		visual_level = 1
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_deck_space
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 0
+		carrier_size = 10
+		anti_air_attack = 10
+		armor_value = 13
+		surface_detection = 30
+		sub_detection = 5
+		surface_visibility = 30
+		naval_speed = 28.5
+		reliability = 0.90
+		naval_range = 6000
+		max_strength = 400
+		build_cost_ic = 6000
+		resources = {
+			steel = 5
+			chromium = 2
+		}
+		manpower = 6000
+	}
+	ctc_submarine = {
+		year = 1980
+		archetype = ship_hull_submarine
+		parent = submarine_4
+		priority = 3000
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 20
+		anti_air_attack = 0
+		armor_value = 0
+		surface_detection = 70
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 18
+		reliability = 0.80
+		naval_range = 3500
+		max_strength = 35
+		build_cost_ic = 400
+		resources = {
+			steel = 3
+			chromium = 1
+		}
+	}
+}

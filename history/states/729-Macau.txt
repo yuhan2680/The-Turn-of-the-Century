@@ -1,0 +1,25 @@
+state = {
+	id = 729
+	name = "STATE_729"
+	manpower = 157805
+	state_category = enclave
+	provinces = {
+		4189
+	}
+	local_supplies = 0.0
+	history = {
+		owner = POR
+		add_core_of = PRC
+		add_core_of = CHI
+		victory_points = {
+			4189
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			4189 = {
+				naval_base = 1
+			}
+		}
+	}
+}

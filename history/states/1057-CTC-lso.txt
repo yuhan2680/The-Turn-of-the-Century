@@ -1,0 +1,19 @@
+state = {
+	id = 1057
+	name = "STATE_1057"
+	manpower = 1650000
+	state_category = town
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+		owner = LSO
+		add_core_of = LSO
+	}
+	provinces = {
+		13392
+		13393
+		13394
+		13395
+	}
+}

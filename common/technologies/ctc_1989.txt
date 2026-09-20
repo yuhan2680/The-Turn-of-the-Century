@@ -1,0 +1,1 @@
+technologies = { ctc_1989_armed_forces = { research_cost = 1 start_year = 1980 enable_equipments = { ctc_infantry_equipment ctc_tank_equipment ctc_combat_aircraft ctc_destroyer ctc_frigate ctc_cruiser ctc_carrier ctc_submarine } } }

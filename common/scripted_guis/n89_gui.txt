@@ -1,0 +1,34 @@
+scripted_gui = {
+ n89_access = {
+  context_type = player_context window_name = n89_access_window parent_window_token = politics_tab
+  visible = { tag = PRC has_country_flag = n89_initialized }
+  effects = { open_click = { set_country_flag = n89_ui_open log = "N89_TRACE_UI_OPEN" } }
+ }
+ n89_politics_brief = {
+  context_type = player_context window_name = n89_politics_brief_window parent_window_token = politics_tab
+  visible = { tag = PRC has_country_flag = n89_initialized }
+ }
+ n89_desk = {
+  context_type = player_context window_name = n89_desk_window
+  visible = { tag = PRC has_country_flag = n89_ui_open NOT = { has_country_flag = n89_ui_chronicle } }
+  effects = {
+   close_click = { clr_country_flag = n89_ui_open log = "N89_TRACE_UI_CLOSE" }
+   overview_click = { clr_country_flag = n89_ui_chronicle log = "N89_TRACE_UI_OVERVIEW" }
+   chronicle_click = { set_country_flag = n89_ui_chronicle log = "N89_TRACE_UI_CHRONICLE" }
+  }
+  properties = {
+   r_bar = { frame = n89_r }
+   h_bar = { frame = n89_h }
+   trust_bar = { frame = n89_trust }
+  }
+ }
+ n89_chronicle = {
+  context_type = player_context window_name = n89_chronicle_window
+  visible = { tag = PRC has_country_flag = n89_ui_open has_country_flag = n89_ui_chronicle }
+  effects = {
+   close_click = { clr_country_flag = n89_ui_open log = "N89_TRACE_UI_CLOSE" }
+   overview_click = { clr_country_flag = n89_ui_chronicle log = "N89_TRACE_UI_OVERVIEW" }
+   chronicle_click = { set_country_flag = n89_ui_chronicle log = "N89_TRACE_UI_CHRONICLE" }
+  }
+ }
+}

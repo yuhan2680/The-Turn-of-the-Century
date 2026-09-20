@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 4206
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 4206
+			ship = {
+				name = "潜艇1号 / Submarine 1"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = ISR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇2号 / Submarine 2"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = ISR
+					}
+				}
+			}
+			ship = {
+				name = "潜艇3号 / Submarine 3"
+				definition = submarine
+				equipment = {
+					ctc_submarine = {
+						amount = 1
+						owner = ISR
+					}
+				}
+			}
+		}
+	}
+}

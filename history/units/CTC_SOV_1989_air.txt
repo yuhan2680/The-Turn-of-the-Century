@@ -1,0 +1,364 @@
+air_wings = {
+	219 = {
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+	}
+	11 = {
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+	}
+	12 = {
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+	}
+	13 = {
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+	}
+	40 = {
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 100
+		}
+		ctc_combat_aircraft = {
+			owner = "SOV"
+			amount = 20
+		}
+	}
+}

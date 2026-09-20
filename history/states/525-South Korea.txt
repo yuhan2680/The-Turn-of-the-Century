@@ -1,0 +1,29 @@
+state = {
+	id = 525
+	name = "STATE_525"
+	manpower = 6961368
+	state_category = town
+	resources = {
+
+	}
+	provinces = {
+		1100
+		7125
+		7221
+		10036
+	}
+	local_supplies = 0.0
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 3
+		}
+		victory_points = {
+			7125
+			3
+		}
+	}
+}

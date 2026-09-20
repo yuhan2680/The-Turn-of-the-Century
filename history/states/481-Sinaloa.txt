@@ -1,0 +1,36 @@
+state = {
+	id = 481
+	name = "STATE_481"
+	manpower = 1255094
+	resources = {
+		coal = 1
+	}
+	state_category = rural
+	provinces = {
+		1945
+		4946
+		7921
+		8003
+		8057
+		10853
+		10871
+		10895
+		12804
+	}
+	local_supplies = 6.0
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			8057 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			7921
+			10
+		}
+	}
+}

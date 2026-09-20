@@ -1,0 +1,6 @@
+n89_governance = {
+    allowed = { tag = PRC }
+    visible = { has_country_flag = n89_initialized }
+    priority = 100
+    visible_when_empty = yes
+}

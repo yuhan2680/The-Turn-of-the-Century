@@ -1,0 +1,89 @@
+ctc_conflicts = {
+ctc_actor_per_164 = { icon = generic_army_support allowed = { tag = PER } visible = { tag = PER } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_phi_169 = { icon = generic_army_support allowed = { tag = PHI } visible = { tag = PHI } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_phi_170 = { icon = generic_army_support allowed = { tag = PHI } visible = { tag = PHI } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_par_724 = { icon = generic_army_support allowed = { tag = PAR } visible = { tag = PAR date > 1989.02.03 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_gua_732 = { icon = generic_army_support allowed = { tag = GUA } visible = { tag = GUA } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_isr_204 = { icon = generic_army_support allowed = { tag = ISR } visible = { tag = ISR } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_isr_1067 = { icon = generic_army_support allowed = { tag = ISR } visible = { tag = ISR } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_isr_205 = { icon = generic_army_support allowed = { tag = ISR } visible = { tag = ISR } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_isr_206 = { icon = generic_army_support allowed = { tag = ISR } visible = { tag = ISR } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_leb_242 = { icon = generic_army_support allowed = { tag = LEB } visible = { tag = LEB } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_leb_243 = { icon = generic_army_support allowed = { tag = LEB } visible = { tag = LEB } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_lao_246 = { icon = generic_army_support allowed = { tag = LAO } visible = { tag = LAO } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_eth_410 = { icon = generic_army_support allowed = { tag = ETH } visible = { tag = ETH } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_eth_414 = { icon = generic_army_support allowed = { tag = ETH } visible = { tag = ETH } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_eth_413 = { icon = generic_army_support allowed = { tag = ETH } visible = { tag = ETH date > 1989.05.16 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_irq_260 = { icon = generic_army_support allowed = { tag = IRQ } visible = { tag = IRQ } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_irq_261 = { icon = generic_army_support allowed = { tag = IRQ } visible = { tag = IRQ } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_cha_442 = { icon = generic_army_support allowed = { tag = CHA } visible = { tag = CHA } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_cha_444 = { icon = generic_army_support allowed = { tag = CHA } visible = { tag = CHA } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_cha_443 = { icon = generic_army_support allowed = { tag = CHA } visible = { tag = CHA date > 1989.10.20 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_col_743 = { icon = generic_army_support allowed = { tag = COL } visible = { tag = COL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_col_744 = { icon = generic_army_support allowed = { tag = COL } visible = { tag = COL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_col_745 = { icon = generic_army_support allowed = { tag = COL } visible = { tag = COL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_col_746 = { icon = generic_army_support allowed = { tag = COL } visible = { tag = COL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_pru_750 = { icon = generic_army_support allowed = { tag = PRU } visible = { tag = PRU } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_pru_751 = { icon = generic_army_support allowed = { tag = PRU } visible = { tag = PRU } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_saf_461 = { icon = generic_army_support allowed = { tag = SAF } visible = { tag = SAF } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_cam_270 = { icon = generic_army_support allowed = { tag = CAM } visible = { tag = CAM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_cam_272 = { icon = generic_army_support allowed = { tag = CAM } visible = { tag = CAM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_cam_273 = { icon = generic_army_support allowed = { tag = CAM } visible = { tag = CAM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_phi_275 = { icon = generic_army_support allowed = { tag = PHI } visible = { tag = PHI } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_sud_466 = { icon = generic_army_support allowed = { tag = SUD } visible = { tag = SUD } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_srl_281 = { icon = generic_army_support allowed = { tag = SRL } visible = { tag = SRL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_uga_486 = { icon = generic_army_support allowed = { tag = UGA } visible = { tag = UGA } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_uga_487 = { icon = generic_army_support allowed = { tag = UGA } visible = { tag = UGA } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_uga_488 = { icon = generic_army_support allowed = { tag = UGA } visible = { tag = UGA } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_eng_282 = { icon = generic_army_support allowed = { tag = ENG } visible = { tag = ENG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_els_755 = { icon = generic_army_support allowed = { tag = ELS } visible = { tag = ELS } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_ban_285 = { icon = generic_army_support allowed = { tag = BAN } visible = { tag = BAN } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_ins_290 = { icon = generic_army_support allowed = { tag = INS } visible = { tag = INS } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_mor_563 = { icon = generic_army_support allowed = { tag = MOR } visible = { tag = MOR } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_afg_293 = { icon = generic_army_support allowed = { tag = AFG } visible = { tag = AFG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_afg_299 = { icon = generic_army_support allowed = { tag = AFG } visible = { tag = AFG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_afg_294 = { icon = generic_army_support allowed = { tag = AFG } visible = { tag = AFG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_afg_295 = { icon = generic_army_support allowed = { tag = AFG } visible = { tag = AFG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_afg_296 = { icon = generic_army_support allowed = { tag = AFG } visible = { tag = AFG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_afg_297 = { icon = generic_army_support allowed = { tag = AFG } visible = { tag = AFG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_afg_300 = { icon = generic_army_support allowed = { tag = AFG } visible = { tag = AFG date > 1989.07.12 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_raj_305 = { icon = generic_army_support allowed = { tag = RAJ } visible = { tag = RAJ } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_nic_759 = { icon = generic_army_support allowed = { tag = NIC } visible = { tag = NIC } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_som_501 = { icon = generic_army_support allowed = { tag = SOM } visible = { tag = SOM date > 1989.04.14 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_per_308 = { icon = generic_army_support allowed = { tag = PER } visible = { tag = PER } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_lib_507 = { icon = generic_army_support allowed = { tag = LIB } visible = { tag = LIB date > 1989.12.24 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_saf_513 = { icon = generic_army_support allowed = { tag = SAF } visible = { tag = SAF } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_raj_314 = { icon = generic_army_support allowed = { tag = RAJ } visible = { tag = RAJ } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_raj_319 = { icon = generic_army_support allowed = { tag = RAJ } visible = { tag = RAJ } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_srl_320 = { icon = generic_army_support allowed = { tag = SRL } visible = { tag = SRL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_srl_322 = { icon = generic_army_support allowed = { tag = SRL } visible = { tag = SRL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_tur_323 = { icon = generic_army_support allowed = { tag = TUR } visible = { tag = TUR } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_com_518 = { icon = generic_army_support allowed = { tag = COM } visible = { tag = COM date > 1989.11.27 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_pan_761 = { icon = generic_army_support allowed = { tag = PAN } visible = { tag = PAN date > 1989.10.03 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_rom_329 = { icon = generic_army_support allowed = { tag = ROM } visible = { tag = ROM date > 1989.12.17 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_hai_763 = { icon = generic_army_support allowed = { tag = HAI } visible = { tag = HAI date > 1989.04.03 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_eth_551 = { icon = generic_army_support allowed = { tag = ETH } visible = { tag = ETH } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_raj_362 = { icon = generic_army_support allowed = { tag = RAJ } visible = { tag = RAJ } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_rom_6137 = { icon = generic_army_support allowed = { tag = ROM } visible = { tag = ROM date > 1989.12.23 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_ang_fnla = { icon = generic_army_support allowed = { tag = ANG } visible = { tag = ANG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_ang_flec = { icon = generic_army_support allowed = { tag = ANG } visible = { tag = ANG } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_som_ssdf = { icon = generic_army_support allowed = { tag = SOM } visible = { tag = SOM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_som_usc = { icon = generic_army_support allowed = { tag = SOM } visible = { tag = SOM date > 1989.1.31 } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_brm_nmsp = { icon = generic_army_support allowed = { tag = BRM } visible = { tag = BRM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_brm_knpp = { icon = generic_army_support allowed = { tag = BRM } visible = { tag = BRM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_brm_ssa = { icon = generic_army_support allowed = { tag = BRM } visible = { tag = BRM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_brm_absdf = { icon = generic_army_support allowed = { tag = BRM } visible = { tag = BRM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_brm_cnf = { icon = generic_army_support allowed = { tag = BRM } visible = { tag = BRM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_brm_pno = { icon = generic_army_support allowed = { tag = BRM } visible = { tag = BRM } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_phi_milf = { icon = generic_army_support allowed = { tag = PHI } visible = { tag = PHI } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_leb_amal = { icon = generic_army_support allowed = { tag = LEB } visible = { tag = LEB } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_leb_hezbollah = { icon = generic_army_support allowed = { tag = LEB } visible = { tag = LEB } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_leb_psp = { icon = generic_army_support allowed = { tag = LEB } visible = { tag = LEB } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_leb_sla = { icon = generic_army_support allowed = { tag = LEB } visible = { tag = LEB } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_sur_junglecommando = { icon = generic_army_support allowed = { tag = SUR } visible = { tag = SUR } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_mal_cpm = { icon = generic_army_support allowed = { tag = MAL } visible = { tag = MAL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_mal_nkcp = { icon = generic_army_support allowed = { tag = MAL } visible = { tag = MAL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_srl_telo = { icon = generic_army_support allowed = { tag = SRL } visible = { tag = SRL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_srl_eros = { icon = generic_army_support allowed = { tag = SRL } visible = { tag = SRL } available = { always = no } cost = 0 complete_effect = { } }
+ctc_actor_eth_wslf = { icon = generic_army_support allowed = { tag = ETH } visible = { tag = ETH } available = { always = no } cost = 0 complete_effect = { } }
+}

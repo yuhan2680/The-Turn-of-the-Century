@@ -1,0 +1,21 @@
+state = {
+	id = 1072
+	name = "STATE_1072"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = UNA
+		add_core_of = UNA
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4735
+			3
+		}
+	}
+	provinces = {
+		4735
+	}
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 692
+	name = "STATE_692"
+	manpower = 76485
+	state_category = small_island
+	local_supplies = 4.0
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+		owner = GRD
+		add_core_of = GRD
+	}
+	provinces = {
+		11106
+	}
+}

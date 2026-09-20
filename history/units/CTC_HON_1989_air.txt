@@ -1,0 +1,8 @@
+air_wings = {
+	312 = {
+		ctc_combat_aircraft = {
+			owner = "HON"
+			amount = 27
+		}
+	}
+}

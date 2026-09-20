@@ -1,0 +1,2 @@
+# CTC: dormant engine tag; no 1936 setup is loaded in the 1989 bookmark.
+set_country_flag = ctc_dormant_country_history

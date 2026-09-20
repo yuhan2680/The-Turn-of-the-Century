@@ -1,0 +1,11 @@
+# The final authored chapter must set ctc_all_playable_content_complete.
+# No opening or 1989 route event sets it. A route choice is not campaign completion.
+ctc_unlock_completed_campaign_diplomacy = {
+    if = {
+        limit = {
+            has_country_flag = ctc_all_playable_content_complete
+            NOT = { has_country_flag = ctc_sandbox_diplomacy_unlocked }
+        }
+        set_country_flag = ctc_sandbox_diplomacy_unlocked
+    }
+}

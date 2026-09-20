@@ -1,0 +1,41 @@
+state = {
+	id = 58
+	name = "STATE_58"
+	state_category = large_city
+	provinces = {
+		3368
+		6257
+		6389
+		9320
+		9347
+		11331
+		11305
+	}
+	local_supplies = 0.0
+	history = {
+		owner = WGR
+		add_core_of = WGR
+		victory_points = {
+			6389
+			10
+		}
+		victory_points = {
+			9347
+			20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 6
+			air_base = 5
+			6389 = {
+				naval_base = 8
+			}
+		}
+		victory_points = {
+			11305
+			3
+		}
+	}
+	manpower = 3235022
+}

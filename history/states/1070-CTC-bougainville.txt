@@ -1,0 +1,29 @@
+state = {
+	id = 1070
+	name = "STATE_1070"
+	state_category = town
+	history = {
+		owner = PNG
+		add_core_of = PNG
+		victory_points = {
+			4226
+			1
+		}
+		buildings = {
+			infrastructure = 2
+			4226 = {
+				naval_base = 1
+			}
+			10234 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1358
+		4226
+		4378
+		10234
+	}
+	manpower = 155000
+}

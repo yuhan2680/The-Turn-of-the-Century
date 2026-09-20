@@ -1,0 +1,104 @@
+n89_governance = {
+	n89_supply_decision = {
+		visible = {
+			n89_opening_active = yes
+		}
+		cost = 25
+		days_re_enable = 30
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			log = "N89_DECISION n89_supply_decision"
+			add_stability = 0.01
+			n89_clamp = yes
+		}
+	}
+	n89_education_budget = {
+		visible = {
+			n89_opening_active = yes
+			has_country_flag = n89_annual_report_presented
+		}
+		cost = 20
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			log = "N89_DECISION n89_education_budget"
+			add_to_variable = {
+				var = n89_trust
+				value = 2
+			}
+			set_country_flag = n89_education_budget_checked
+			n89_clamp = yes
+		}
+	}
+	n89_audit = {
+		visible = {
+			n89_opening_active = yes
+		}
+		available = {
+
+		}
+		cost = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			log = "N89_DECISION n89_audit"
+			add_to_variable = {
+				var = n89_trust
+				value = 2
+			}
+			n89_clamp = yes
+		}
+	}
+	n89_worker_contact = {
+		visible = {
+			n89_opening_active = yes
+		}
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			log = "N89_DECISION n89_worker_contact"
+			add_to_variable = {
+				var = n89_trust
+				value = 2
+			}
+			set_country_flag = n89_union_feedback
+			n89_clamp = yes
+		}
+	}
+	n89_coordination = {
+		visible = {
+			n89_opening_active = yes
+			NOT = {
+				date < 1989.4.15
+			}
+			has_country_flag = n89_done_16
+		}
+		available = {
+			NOT = {
+				date < 1989.4.15
+			}
+			has_country_flag = n89_done_16
+		}
+		cost = 35
+		days_re_enable = 45
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			log = "N89_DECISION n89_coordination"
+			country_event = {
+				id = n89_china.30
+			}
+			n89_clamp = yes
+		}
+	}
+}

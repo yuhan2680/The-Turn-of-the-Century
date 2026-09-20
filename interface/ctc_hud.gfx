@@ -1,0 +1,21 @@
+spriteTypes = {
+spriteType = { name = "GFX_ctc_hud_minus" texturefile = "gfx/interface/ctc/hud/minus.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_plus" texturefile = "gfx/interface/ctc/hud/plus.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_menu" texturefile = "gfx/interface/ctc/hud/menu.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_alerts" texturefile = "gfx/interface/ctc/hud/alerts.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_clock_running" texturefile = "gfx/interface/ctc/hud/clock_running.dds" noOfFrames = 1 }
+spriteType = { name = "GFX_ctc_hud_speed" texturefile = "gfx/interface/ctc/hud/speed.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_country_card" texturefile = "gfx/interface/ctc/hud/country_card.dds" noOfFrames = 3 }
+spriteType = { name = "GFX_ctc_hud_country_selected" texturefile = "gfx/interface/ctc/hud/country_selected.dds" noOfFrames = 1 }
+spriteType = { name = "GFX_ctc_hud_radar_base" texturefile = "gfx/interface/ctc/hud/radar_base.dds" noOfFrames = 10 }
+frameAnimatedSpriteType = {
+            name = "GFX_ctc_hud_radar_sweep" texturefile = "gfx/interface/ctc/hud/radar_sweep.dds"
+            noOfFrames = 72 animation_rate_fps = 18
+            looping = yes play_on_show = yes pause_on_loop = 0.0
+        }
+frameAnimatedSpriteType = {
+            name = "GFX_ctc_hud_clock_paused" texturefile = "gfx/interface/ctc/hud/clock_paused.dds"
+            noOfFrames = 2 animation_rate_fps = 1
+            looping = yes play_on_show = yes pause_on_loop = 0.0
+        }
+}

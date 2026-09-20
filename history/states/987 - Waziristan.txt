@@ -1,0 +1,26 @@
+state = {
+	id = 987
+	name = "STATE_987"
+	manpower = 217974
+	state_category = rural
+	resources = {
+
+	}
+	provinces = {
+		1107
+		1978
+		4998
+		7975
+	}
+	local_supplies = 0.0
+	history = {
+		owner = PAK
+		add_core_of = PAK
+		buildings = {
+
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

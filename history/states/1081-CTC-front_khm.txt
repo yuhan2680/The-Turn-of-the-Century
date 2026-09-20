@@ -1,0 +1,21 @@
+state = {
+	id = 1081
+	name = "STATE_1081"
+	manpower = 150000
+	state_category = town
+	history = {
+		owner = KHM
+		add_core_of = KHM
+		add_core_of = CAM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1353
+			3
+		}
+	}
+	provinces = {
+		1353
+	}
+}

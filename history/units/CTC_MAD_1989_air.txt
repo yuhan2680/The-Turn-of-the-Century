@@ -1,0 +1,8 @@
+air_wings = {
+	543 = {
+		ctc_combat_aircraft = {
+			owner = "MAD"
+			amount = 12
+		}
+	}
+}

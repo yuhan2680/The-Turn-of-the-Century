@@ -1,0 +1,28 @@
+state = {
+	id = 183
+	name = "STATE_183"
+	manpower = 347959
+	state_category = rural
+	resources = {
+		chromium = 3
+	}
+	local_supplies = 0.0
+	history = {
+		victory_points = {
+			7193
+			3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			7193 = {
+				naval_base = 2
+			}
+		}
+		owner = CYP
+		add_core_of = CYP
+	}
+	provinces = {
+		7193
+	}
+}

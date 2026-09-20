@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "舰队1 / Fleet 1"
+		naval_base = 4904
+		task_force = {
+			name = "编队1 / Task Force 1"
+			location = 4904
+			ship = {
+				name = "驱逐舰1号 / Destroyer 1"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = MEX
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰2号 / Destroyer 2"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = MEX
+					}
+				}
+			}
+			ship = {
+				name = "驱逐舰3号 / Destroyer 3"
+				definition = destroyer
+				equipment = {
+					ctc_destroyer = {
+						amount = 1
+						owner = MEX
+					}
+				}
+			}
+		}
+	}
+}
